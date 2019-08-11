@@ -1,0 +1,58 @@
+<b>AGContacts</b> - Telefonwählgerät und Manager für Kontakte, Favoriten und Anrufprotokoll mit der Unterstützung moderner Dual-SIM-Telefone. Vollständig anpassbare Benutzeroberfläche, Logik und Verhalten des Programms. Dies ist laut der Mehrheit der Benutzer, die es verwenden, der beste Dialer für Android! Versuchen und beitreten :)
+
+<b>Haupteigenschaften:</b>
+
+<b>1. Kernfunktionen</b>
+- Standardmäßig als "Telefon-App" eingestellt (Standard-Telefon-App)
+- eigene Bildschirme bei Anrufen (InCallUI)
+- Anzeige der Liste aller Kontakte (Kontaktmodus)
+- Anzeige der Liste aller Anrufe in der Anrufliste (Historienmodus)
+- Anzeige der Liste aller Favoritenkontakte (Favoritenmodus)
+- Anzeige der Liste aller Nummern des ausgewählten Kontakts (um die Nummer für den Anruf zu wählen)
+- Auswählen einer SIM-Karte, um die ausgewählte Nummer anzurufen (Dual-SIM-Geräte)
+- ausgehende Anrufe an die ausgewählte Nummer tätigen (mit der Möglichkeit, die Auswahl der SIM-Karte für DualSIM-Geräte zu speichern)
+- Suche nach Kontakten und Telefonnummern in den Listen (Volltextsuche, T9-Suche, Sprachsuche)
+- Schnelle Navigation in Listen (alphabetisch, nach Datum, nach Organisationen usw.)
+- Hinzufügen, Löschen und Bearbeiten von Kontakten (über die integrierte Kontakte-App)
+- Hinzufügen, Löschen und Bearbeiten von Kontaktgruppen
+- Hinzufügen und Löschen von Kontakten zu Favoriten
+- Anzeige von Kurzwahlnummern auf der Wähltastatur
+- Hinzufügen und Entfernen von Kurzwahlnummern (aus Listen oder manuell)
+- Hinzufügen von Nummern zur Anrufsperre (von Listen oder manuell)
+- Löschen ausgewählter Anrufe aus der Anrufliste
+- Löschen aller Anrufe aus der Anrufliste für die ausgewählte Nummer oder den ausgewählten Kontakt
+- Einstellung der Filterung der Kontaktliste (alle, aus Kontaktgruppen, aus ausgewählten Konten)
+- Einstellung der Filterung der Anrufliste (alle, entgangenen, eingehenden, ausgehenden)
+- Einstellung der Filterung der Liste der Favoritenkontakte (mit Stern, häufig kontaktiert usw.)
+- Einstellen der Sortierung in Listen (alphabetisch, nach Unternehmen, nach Tagen usw.)
+- Einstellen der angezeigten Kontaktfelder in den Listen (Name, Foto, Telefone usw.)
+- Einstellen der Listenansicht (direkte / umgekehrte Anzeigereihenfolge, Anzahl der Spalten usw.)
+- Festlegen von Kontaktsuchfeldern (Name, Handys, Notiz usw.)
+- Anzeigen detaillierter Informationen zum ausgewählten Kontakt (Kontaktinformationen)
+- Anzeigen des vollständigen Anrufverlaufs für den ausgewählten Kontakt oder die Nummer (Anrufinformationen)
+- Anzeige der eingebauten "Kontaktkarte" für den ausgewählten Kontakt (mit Messenger usw.)
+- Anzeigen von Benachrichtigungen über entgangene Anrufe (mit Rückrufmöglichkeit usw.)
+- Einrichten von Vibrationsmustern für verschiedene Arten von Anrufen (angenommen, abgelehnt, beantwortet usw.)
+- Eigene Homescreen-Widgets "Quick Call" unterstützen (bei Wahlkontakt oder manueller Einstellung der gewünschten Nummer)
+- Vollständige Sicherung und Wiederherstellung des Anrufprotokolls (einschließlich Informationen zu SIM-Karten)
+- Automatische Unterstützung des Talkback-Dienstes für Sehbehinderte
+
+<b>2. Zusatzfunktionen</b>
+- Blockieren eingehender Anrufe von ausgewählten Nummern (Blacklist für Spam-Blockierung)
+- Innovatives Subsystem "Direkter Anruf" zur Vereinfachung des Anrufens (automatische oder manuelle Auswahl von Nummern für Anrufe mit festen Tasten Anruf unten)
+- Wählregeln (Nummernkonvertierung, visuelle Formatierung der gewählten Nummer, Auswahl einer SIM-Karte für Dual-SIM-Geräte)
+- Formatierungsregeln (visuelle Formatierung der angezeigten Nummer, Nummernkonvertierung)
+- Erstellen und Anzeigen der heutigen Kontaktereignisse (Geburtstage, Jubiläen usw.)
+- Online-Kataloge von benutzerdefinierten Konfigurationen und Designs
+- Integrierter Katalog mit 100 Themen für die Standardkonfiguration
+
+<b>3. Einstellungen und Optionen</b>
+- Vollständig anpassbare Benutzeroberfläche (Layouts, Hintergründe, Farben, Schriftarten, Größen usw.)
+- Vollständig anpassbare Logik und Verhalten des Programms (Reaktion auf Ereignisse, Verhalten in verschiedenen Situationen, Aktionen für Gesten und Klicks usw.)
+- Insgesamt mehr als 3000 Einstellungen (!)
+
+<b>4. Sprachen und Geräte</b>
+- Unterstützung für alle Smartphones unter Android 4.0-9.0 mit beliebigen Auflösungen und Bildschirmausrichtungen
+- Unterstützung der meisten modernen Dual-SIM-Telefone mit 2 und 3 SIM-Karten
+- 5 Sprachen der Benutzeroberfläche: Englisch, Deutsch, Spanisch, Ukrainisch und Russisch
+- Mehr als 20 Sprachen für die intelligente T9-Suche

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="buttons_labels">
+        <item>абвг*abc#</item>
+        <item>дежз*def#</item>
+        <item>ийкл*ghi#</item>
+        <item>мноп*jkl#</item>
+        <item>рсту*mno#</item>
+        <item>фхцч*pqrs#</item>
+        <item>ШЩЪЬ*tuv#</item>
+        <item>юя*wxyz#</item>
+    </string-array>
+
+    
+</resources>

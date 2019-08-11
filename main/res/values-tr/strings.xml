@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string-array name="buttons_labels">
+        <item>ABCÇ*#</item>
+        <item>def*#</item>
+        <item>GĞHIİ*#</item>
+        <item>jkl*#</item>
+        <item>MNOÖ*#</item>
+        <item>PQRSŞ*#</item>
+        <item>TUÜV*#</item>
+        <item>wxyz*#</item>
+    </string-array>
+
+</resources>
