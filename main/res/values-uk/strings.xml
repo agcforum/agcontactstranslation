@@ -354,7 +354,7 @@
     <string name="notification_incoming_work_call_wifi" msgid="3248418394186803763">"Вхідний виклик на робочий телефон через Wi-Fi"</string>
     <string name="notification_incoming_video_call" msgid="7814873581838165772">"Вхідний відеодзвінок"</string>
     <string name="notification_requesting_video_call" msgid="4844596091477863245">"Запит на вхідний відеодзвінок"</string>
-    <string name="notification_voicemail_title" msgid="7595628197933709144">"Нові голосові повідомлення"</string>
+    <string name="notification_new_voicemail_title" msgid="7595628197933709144">"Нові голосові повідомлення"</string>
     <string name="notification_voicemail_title_count" msgid="1241573926817248239">"Нові голосові повідомлення (<xliff:g id="COUNT">%d</xliff:g>)"</string>
     <string name="notification_voicemail_text_format" msgid="6496440879085042069">"Набрати <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
     <string name="notification_voicemail_no_vm_number" msgid="5433652017869242375">"Невідомий номер голосової пошти"</string>
@@ -1917,15 +1917,14 @@
     <string name="pref_summury_unknown_dualsim_mode">Виберіть вручну режим для DualSIM-пристроїв, що невідомі додатку</string>
     <string name="pref_summury_use_custom_color">Формат: #RRGGBB або #AARRGGBB. Введення # - необов\'язкове.</string>
     <string name="pref_summury_use_mtk_sim_select_dialog">Використовувати системний діалог вибору SIM-карти для виклику (MTK-пристрої)</string>
-    <string name="pref_text_donate"><![CDATA[Якщо Вам сподобався додаток, ви можете висловити подяку і надати фінансову допомогу для подальшого розвитку проекту одним із таких способів:<br><br>
-1. Придбати платну редакцію <b>AGContacts</b> (<i>Google Play edition</i>) в магазині додатків Google Play:<br>- <a href="market://details?Id=ru.agc.acontactnext">Придбати AGContacts в Google Play </a><br><br>
-2. Перерахувати пожертвування будь-якої суми через PayPal для <b>2agcmail@gmail.com</b>:<br>- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AKZEEZ5CMVW8A">Пожертвувати через PayPal</a><br><br>
-3. Перерахувати пожертвування будь-якої суми через Яндекс.Деньги на гаманець <b>41001971282487</b> або через онлайн-форму прийому пожертвувань: <br> - <a href="https://money.yandex.ru/embed/donate.xml?account=41001971282487&quickpay=donate&payment-type-choice=on&default-sum=&targets=aContact%2B%2B%2B+Next&target-visibility=on&project-name=aContact%2B%2B%2B+Next&project-site=http%3A%2F%2Fmbagc.ru%2Fforum%2Fviewtopic.php%3Ff%3D15%26t%3D593&button-text=01&comment=on&hint=%D0%9F%D0%BE%D0%B6%D0%B5%D0%BB%D0%B0%D0%BD%D0%B8%D1%8F+(%D0%BD%D0%B5+%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE)&successURL=http%3A%2F%2Fmbagc.ru%2Fforum%2Fviewtopic.php%3Ff%3D15%26t%3D593">Пожертвувати через Яндекс.Гроші</a>]]></string>
     <string name="pref_text_donate_googleplay">Перерахувати пожертвування через Google Play:</string>
     <string name="pref_text_donate_header">Якщо Вам сподобалася програма, Ви можете висловити подяку і надати фінансову допомогу для подальшого розвитку проекту одним із таких способів:</string>
-    <string name="pref_text_donate_paypal"><![CDATA[Перерахувати пожертвування будь-якої суми через PayPal для <b>2agcmail@gmail.com</b>:<br>- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AKZEEZ5CMVW8A">Пожертвувати через PayPal</a>]]></string>
-    <string name="pref_text_donate_pro"><![CDATA[Придбати платну редакцію <b>AGContacts</b> (<i>Google Play edition</i>) в магазині додатків Google Play:<br>- <a href = "market://details?id=ru.agc.acontactnext">Придбати AGContacts в Google Play </a>]]></string>
-    <string name="pref_text_donate_yandex"><![CDATA[Перерахувати пожертвування будь-якої суми через Яндекс.Гроші на гаманець <b>41001971282487</b> або через онлайн-форму прийому пожертвувань:<br>- <a href="https://money.yandex.ru/embed/donate.xml?account=41001971282487&quickpay=donate&payment-type-choice=on&default-sum=&targets=aContact%2B%2B%2B+Next&target-visibility=on&project-name=aContact%2B%2B%2B+Next&project-site=http%3A%2F%2Fmbagc.ru%2Fforum%2Fviewtopic.php%3Ff%3D15%26t%3D593&button-text=01&comment=on&hint=%D0%9F%D0%BE%D0%B6%D0%B5%D0%BB%D0%B0%D0%BD%D0%B8%D1%8F+(%D0%BD%D0%B5+%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE)&successURL=http%3A%2F%2Fmbagc.ru%2Fforum%2Fviewtopic.php%3Ff%3D15%26t%3D593">Пожертвувати через Яндекс.Гроші</a>]]></string>
+    <string name="pref_text_donate_paypal"><![CDATA[Перерахувати пожертвування будь-якої суми через PayPal для <b>2agcmail@gmail.com</b>:]]></string>
+    <string name="pref_text_donate_paypal_link">Пожертвувати через PayPal</string>
+    <string name="pref_text_donate_pro"><![CDATA[Придбати платну редакцію <b>AGContacts</b> (<i>Google Play edition</i>) в магазині додатків Google Play:]]></string>
+    <string name="pref_text_donate_pro_link">Придбати AGContacts в Google Play</string>
+    <string name="pref_text_donate_yandex"><![CDATA[Перерахувати пожертвування будь-якої суми через Яндекс.Гроші на гаманець <b>41001971282487</b> або через онлайн-форму прийому пожертвувань:]]></string>
+    <string name="pref_text_donate_yandex_link">Пожертвувати через Яндекс.Гроші</string>
     <string name="pref_title_about">Про додаток</string>
     <string name="pref_title_about_author">Розробник</string>
     <string name="pref_title_about_name">Версія</string>
@@ -2495,121 +2494,11 @@
     <string name="zero_as_space_for_text_fields_summary">При пошуку T9 інтерпретувати \'0\' як пробіл для текстових полів</string>
     <string name="zero_as_space_for_text_fields_title">\'0\' як пробіл</string>
 
-    <string-array name="contact_photo_display_mode_entries">
-        <item>Смена режима кликом по фото</item>
-        <item>Оконный режим</item>
-        <item>Полноэкранный режим</item>
-    </string-array>
     <string name="invert_icons_color_for_main_screen_title">Інвертувати колір значків для Головного екрану</string>
     <string name="invert_icons_color_for_main_screen_summary">Інвертувати колір значків в Рядку стану для Головного екрану</string>
     <string name="invert_icons_color_for_other_screens_title">Інвертувати колір значків для інших екранів</string>
     <string name="invert_icons_color_for_other_screens_summary">Інвертувати колір значків в Рядку стану для інших екранів</string>
     <string name="invert_icons_color_for_call_screens_title">Інвертувати колір значків для екранів викликів</string>
     <string name="invert_icons_color_for_call_screens_summary">Інвертувати колір значків в Рядку стану для екранів викликів</string>
-    <string name="preference_screen_incallui_settings_title">Экраны во время звонков</string>
-    <string name="preference_screen_incallui_settings_summary">Интерфейс пользователя во время звонков (InCallUI)</string>
-    <string name="show_operator_name_for_devices_with_one_sim_card_title">Показать имя оператора для устройств с одной SIM-картой</string>
-    <string name="show_operator_name_for_devices_with_one_sim_card_summary">Показывать имя и значок оператора мобильной связи для устройств с одной SIM-картой</string>
-    <string name="contact_photo_display_mode_title">Режим отображения фотографии контакта</string>
-
-    <string-array name="incallui_priority_of_mobile_operator_icon_display_entries">
-        <item>Иконки кнопок вызова, Иконки Темы, Системные иконки</item>
-        <item>Иконки Темы, Иконки кнопок вызова, Системные иконки</item>
-        <item>Системные иконки, Иконки кнопок вызова, Иконки Темы</item>
-    </string-array>
-
-    <string-array name="button_gesture_swipes_entries">
-        <item>Нет жеста</item>
-        <item>Проведите пальцем влево</item>
-        <item>Проведите пальцем вправо</item>
-        <item>Проведите пальцем вверх</item>
-        <item>Проведите пальцем вниз</item>
-    </string-array>
-
-    <string name="set_font_and_sizes_for_textview">Настройка шрифта и размеров для \'%s\'</string>
-    <string name="set_margins_and_paddings_for_block">Настройка полей и отступов для \'%s\'</string>
-    <string name="end_call_keyboard_shown">Клавиатура показана</string>
-    <string name="end_call_normal_state">Клавиатура скрыта</string>
-    <string name="set_parameters_for_block">Настройка параметров для \'%s\'</string>
-    <string name="audio_incoming_call">Входящий аудиозвонок</string>
-    <string name="video_incoming_call">Входящий видеозвонок</string>
-    <string name="video_request">Запрос смены режима видеозвонка</string>
-    <string name="stroke_width">Ширина обводки</string>
-    <string name="stroke_color">Цвет обводки</string>
-    <string name="stroke_offset">Смещение обводки</string>
-    <string name="drawing_photos">Отрисовка фотографий</string>
-    <string name="current_value_value_dp">Текущее значение: %1$d dp</string>
-    <string name="current_value_value">Текущее значение: %1$d</string>
-    <string name="circle_radius">Радиус круга</string>
-    <string name="seed_color">Цвет зерна</string>
-    <string name="seeding_density">Плотность посева</string>
-    <string name="area_of_activation">Радиус активации</string>
-    <string name="trigger_radius">Радиус срабатывания</string>
-    <string name="background_color">Цвет фона</string>
-    <string name="call_card">Карточка звонка</string>
-    <string name="call_card_area">Область Карточки звонка</string>
-    <string name="display_area">Область отображения</string>
-    <string name="window_photo_mode">Оконный режим отображения фотографии</string>
-    <string name="call_subject">Тема звонка</string>
-    <string name="call_state">Состояние вызова</string>
-    <string name="phone_number">Номер телефона</string>
-    <string name="phone_label">Метка телефона</string>
-    <string name="elapsed_time">Время разговора</string>
-    <string name="photo_frame">Рамка фотографии</string>
-    <string name="call_type">Тип вызова</string>
-    <string name="switch_buttons">Блок кнопок</string>
-    <string name="fullscreen_photo_mode">Полноэкранный режим отображения фотографии</string>
-    <string name="incoming_call_state">Состояние входящего звонка</string>
-    <string name="handle_for_audio_incoming_call">Центральная кнопка для Круга с жестами при входящем аудиозвонке</string>
-    <string name="handle_for_video_incoming_call">Центральная кнопка для Круга с жестами при входящем видеозвонке</string>
-    <string name="handle_for_video_request">Центральная кнопка для Круга с жестами при запросе смены режима видеозвонка</string>
-    <string name="buttons_and_swipes">Кнопки та жести</string>
-    <string name="circle_with_gestures">Коло з жестами</string>
-    <string name="circle_settings">Настройки круга</string>
-    <string name="outgoing_call_and_conversation_state">Состояние исходящего вызова и разговора</string>
-    <string name="end_call_button">Кнопка завершения вызова</string>
-    <string name="always_full_screen_on_incoming_calls_title">Всегда полноэкранное окно при входящем вызове</string>
-    <string name="always_full_screen_on_incoming_calls_summary">Всегда использовать полноэкранный режим окна ответа при входящем вызове, даже если устройство активно</string>
-    <string name="incallui_priority_of_mobile_operator_icon_display_title">Приоритет отображения иконки SIM-карты</string>
-    <string name="enable_visual_hints_on_incoming_call_title">Входящий звонок</string>
-    <string name="enable_visual_hints_on_incoming_call_summary">Разрешить визуальные подсказки на экране входящего звонка</string>
-    <string name="about_check_for_updates_channel_title">Альфа- и бета-версии</string>
-    <string name="about_check_for_updates_channel_summary">Использовать альфа- и бета-версии программы</string>
-    <string name="check_for_updates">Проверить наличие обновлений</string>
-    <string name="about_check_for_updates_direct_summary">Проверка наличия и прямая загрузка альфа- и бета-версий обновлений программы</string>
-    <string name="about_check_for_updates_dm_summary">Проверка наличия и загрузка альфа- и бета-версий обновлений программы через Менеджер загрузок </string>
-    <string name="checking_for_updates">Проверка наличия обновлений…</string>
-    <string name="saved_to">Сохранено в </string>
-    <string name="cant_save">Невозможно сохранить</string>
-    <string name="update_installing_started">Начата установка обновления…</string>
-    <string name="error_during_update">Ошибка во время обновления…</string>
-    <string name="download_update_completed">Загрузка обновления завершена…</string>
-    <string name="app_installing">Инсталляция программы</string>
-    <string name="download_update_to">Загрузить обновление до версии</string>
-    <string name="you_are_using_the_latest_version_of_the_program">У Вас установлена последняя версия программы.</string>
-    <string name="a_new_version_of_the_program_is_available">Доступна новая версия программы:</string>
-    <string name="update">Обновить</string>
-    <string name="start_update_downloading">Начата загрузка обновления…</string>
-    <string name="error_during_update_check">Ошибка при проверке наличия обновления…</string>
-    <string name="cant_create_image_file">Невозможно создать файл картинки…</string>
-    <string name="change_icon">Изменение иконки</string>
-    <string name="change_default_icon">Изменение иконки по умолчанию</string>
-    <string name="icon_normal_state">Иконка: Нормальное состояние</string>
-    <string name="normal_icon_state">Нормальное состояние иконки</string>
-    <string name="icon_pressed_state">Иконка: Нажатое состояние</string>
-    <string name="pressed_icon_state">Нажатое состояние иконки</string>
-    <string name="background_normal_state">Фон: Нормальное состояние</string>
-    <string name="normal_background_state">Нормальное состояние фона</string>
-    <string name="background_pressed_state">Фон: Нажатое состояние</string>
-    <string name="pressed_background_state">Нажатое состояние фона</string>
-    <string name="associated_gesture">Связанный жест</string>
-    <string name="gesture">Жест</string>
-    <string name="change_gesture_icon">Изменение иконки жеста</string>
-    <string name="change_default_gesture_icon">Изменение иконки жеста по умолчанию</string>
-    <string name="gesture_icon_normal_state">Иконка жеста: Нормальное состояние</string>
-    <string name="gesture_icon_pressed_state">Иконка жеста: Нажатое состояние</string>
-    <string name="please_wait_language_changing">Пожалуйста, подождите, язык меняется…</string>
-    <string name="navigation_bar_above_content_title">Navigation bar above content</string>
-    <string name="navigation_bar_above_content_summary">Items are displayed under the navigation bar</string>
 
 </resources>

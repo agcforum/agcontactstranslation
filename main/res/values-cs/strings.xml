@@ -344,7 +344,7 @@
     <string name="notification_incoming_work_call_wifi" msgid="3248418394186803763">"Příchozí pracovní hovor přes Wi-Fi"</string>
     <string name="notification_incoming_video_call" msgid="7814873581838165772">"Příchozí videohovor"</string>
     <string name="notification_requesting_video_call" msgid="4844596091477863245">"Příchozí žádost o videohovor"</string>
-    <string name="notification_voicemail_title" msgid="7595628197933709144">"Nová hlasová zpráva"</string>
+    <string name="notification_new_voicemail_title" msgid="7595628197933709144">"Nová hlasová zpráva"</string>
     <string name="notification_voicemail_title_count" msgid="1241573926817248239">"Nové hlasové zprávy (<xliff:g id="COUNT">%d</xliff:g>)"</string>
     <string name="notification_voicemail_text_format" msgid="6496440879085042069">"Volat hlasovou schránku <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
     <string name="notification_voicemail_no_vm_number" msgid="5433652017869242375">"Číslo hlasové schránky není známé"</string>
@@ -498,7 +498,7 @@
     <string name="Cancel">Zrušit</string>
     <string name="circle">Kruh</string>
     <string name="classic">Klasický</string>
-    <string name="ok">Ok</string>
+    <string name="ok">Ano</string>
     <string name="PRIVATE_NUMBER">Soukromé</string>
     <string name="SIM1Name">SIM1</string>
     <string name="SIM2Name">SIM2</string>
@@ -1855,7 +1855,7 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="pref_summury_about_www">http://mbagc.ru/en_EN/</string>
     <string name="pref_summury_accounts">Nastavení účtů</string>
     <string name="pref_summury_backup_restore_settings">Nastavení zálohování a obnovení souborů</string>
-    <string name="pref_summury_backup_settings">Nastavení zálohovacího souboru</string>
+    <string name="pref_summury_backup_settings">Záloha nastavení</string>
     <string name="pref_summury_bottomui_land_align">Poloha klávesnice na obrazovce v orientaci na šířku</string>
     <string name="pref_summury_bottomui_port_align">Poloha klávesnice na obrazovce v orientaci na výšku</string>
     <string name="pref_summury_choose_colour">Vyberte barvu</string>
@@ -1898,14 +1898,14 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="pref_summury_unknown_dualsim_mode">Manuální výběr režimu DualSIM pro neznámá zařízení DualSIM</string>
     <string name="pref_summury_use_custom_color">Podporované formáty: #RRGGBB nebo #AARRGGBB. Zadejte také #.</string>
     <string name="pref_summury_use_mtk_sim_select_dialog">Použijte systémový dialog pro zařízení MTK pro výběr SIM-karty pro volání</string>
-    <string name="pref_text_donate"><![CDATA[Pokud chcete podpořit mou práci, můžete darovat:<br><br>
-1. Koupit placenou verzi <b>AGContacts</b> (<i>Google Play Edition</i>) ve službě Google Play:<br>- <a href="market://details?id=ru.agc.acontactnext">Koupit AGContacts v Google Play</a><br><br>
-2. Darujte přes PayPal (<b>2agcmail@gmail.com</b>):<br>- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AFDBE55Z9V2GC">Darujte přes PayPal</a>]]></string>
     <string name="pref_text_donate_googleplay">Darujte prostřednictvím služby Google Play:</string>
     <string name="pref_text_donate_header">Pokud chcete podpořit mou práci, můžete darovat:</string>
-    <string name="pref_text_donate_paypal"><![CDATA[Darujte přes PayPal (<b>2agcmail@gmail.com</b>):<br>- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AFDBE55Z9V2GC">Darujte přes PayPal</a>]]></string>
-    <string name="pref_text_donate_pro"><![CDATA[Koupit placenou verzi <b>AGContacts</b> (<i>Google Play Edition</i>) ve službě Google Play:<br>- <a href="market://details?id=ru.agc.acontactnext">Koupit AGContacts v Google Play</a>]]></string>
+    <string name="pref_text_donate_paypal"><![CDATA[Darujte přes PayPal (<b>2agcmail@gmail.com</b>):]]></string>
+    <string name="pref_text_donate_paypal_link">Darujte přes PayPal</string>
+    <string name="pref_text_donate_pro"><![CDATA[Koupit placenou verzi <b>AGContacts</b> (<i>Google Play Edition</i>) ve službě Google Play:]]></string>
+    <string name="pref_text_donate_pro_link">Koupit AGContacts v Google Play</string>
     <string name="pref_text_donate_yandex"/>
+    <string name="pref_text_donate_yandex_link"/>
     <string name="pref_title_about">O programu</string>
     <string name="pref_title_about_author">Copyright</string>
     <string name="pref_title_about_name">Verze</string>
@@ -1916,7 +1916,7 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="pref_title_action_on_doubletap">Dvojí poklepání</string>
     <string name="pref_title_action_on_longtap">Dlouhé stisknutí</string>
     <string name="pref_title_backup_restore_settings">Nastavení a obnovení souboru nastavení</string>
-    <string name="pref_title_backup_settings">Záloha nastavení do souboru</string>
+    <string name="pref_title_backup_settings">Záloha nastavení</string>
     <string name="pref_title_bottomui_land_align">Poloha v orientaci na šířku</string>
     <string name="pref_title_bottomui_land_width">Šířka v orientaci na šířku</string>
     <string name="pref_title_bottomui_port_align">Poloha v orientaci na výšku</string>
@@ -2144,7 +2144,7 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="scaling_type">Typ měřítka</string>
     <string-array name="screen_lock_on_incoming_call_entries">
         <item>Kruh s gesty</item>
-        <item>Tlačítka a ťuknutí</item>
+        <item>Tlačítka a gesta</item>
     </string-array>
     <string name="screen_lock_on_incoming_call_title">Zámek obrazovky při příchozím hovoru</string>
     <string name="sd_card">SD karta</string>
@@ -2508,7 +2508,7 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
 
     <string name="set_font_and_sizes_for_textview">Nastavit písmo a velikosti pro \'%s\'</string>
     <string name="set_margins_and_paddings_for_block">Nastavit výplně a okraje pro \'%s\'</string>
-    <string name="end_call_keyboard_shown">Zobrazí se klávesnice</string>
+    <string name="end_call_keyboard_shown">Zobrazená klávesnice</string>
     <string name="end_call_normal_state">Skrytá klávesnice</string>
     <string name="set_parameters_for_block">Nastavte parametry pro \'%s\'</string>
     <string name="audio_incoming_call">Zvukový příchozí hovor</string>
@@ -2520,9 +2520,9 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="drawing_photos">Kreslení fotografií</string>
     <string name="current_value_value_dp">Aktuální hodnoty: %1$d dp</string>
     <string name="current_value_value">Aktuální hodnoty: %1$d</string>
-    <string name="circle_radius">Poloměr kruhu</string>
-    <string name="seed_color">Seed color</string>
-    <string name="seeding_density">Seeding density</string>
+    <string name="circle_radius">Barva poloměru kruhu</string>
+    <string name="seed_color">Barva teček</string>
+    <string name="seeding_density">Hustota teček kruhu</string>
     <string name="area_of_activation">Oblast aktivace</string>
     <string name="trigger_radius">Poloměr spouštění</string>
     <string name="background_color">Barva pozadí</string>
@@ -2543,11 +2543,11 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="handle_for_audio_incoming_call">Ovládání pro audio příchozí hovor</string>
     <string name="handle_for_video_incoming_call">Ovládání pro Video příchozí hovor</string>
     <string name="handle_for_video_request">Ovládání pro příjem Video hovoru</string>
-    <string name="buttons_and_swipes">Tlačítka a ťuknutí</string>
+    <string name="buttons_and_swipes">Tlačítka a gesta</string>
     <string name="circle_with_gestures">Kruh s gesty</string>
     <string name="circle_settings">Nastavení kruhu s gesty</string>
     <string name="outgoing_call_and_conversation_state">Stav odchozího hovoru a konverzace</string>
-    <string name="end_call_button">Tlačítko Ukončit volání</string>
+    <string name="end_call_button">Tlačítko Ukončit hovor</string>
     <string name="always_full_screen_on_incoming_calls_title">Příchozí hovory vždy na celou obrazovku</string>
     <string name="always_full_screen_on_incoming_calls_summary">Příchozích hovor zobrazit vždy na celou obrazovku, i když je zařízení aktivní</string>
     <string name="incallui_priority_of_mobile_operator_icon_display_title">Zobrazí se ikona priority mobilního operátora</string>
