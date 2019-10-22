@@ -357,6 +357,7 @@
     <string name="notification_network_selection_title" msgid="6785177943238085441">"Sin servicio"</string>
     <string name="notification_network_selection_text" msgid="9097902390701009591">"La red seleccionada (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) no está disponible"</string>
     <string name="notification_action_answer" msgid="8418990052527593953">"Responder"</string>
+    <string name="notification_action_ignore">Ignorar</string>
     <string name="notification_action_end_call" msgid="2152010639043225860">"Colgar"</string>
     <string name="notification_action_answer_video" msgid="2400233093494856655">"Videollamada"</string>
     <string name="notification_action_answer_voice" msgid="3206168292649273866">"Voz"</string>
@@ -1101,6 +1102,8 @@
     <string name="deleted">Borrados</string>
     <string name="deleted_hide">Eliminado: Ocultar</string>
     <string name="deleted_show">Eliminado: Mostrar</string>
+    <string name="hide">Ocultar</string>
+    <string name="show">Mostrar</string>
     <string name="details_mode">Modo Detalles</string>
     <string name="detect_possible_missed_calls_columns_summary">Detectar posibles columnas para información adicional de llamadas perdidas</string>
     <string name="detect_possible_missed_calls_columns_title">Detectar posibles columnas para llamadas perdidas</string>
@@ -1150,6 +1153,7 @@
     <string name="dialogs_title">Diálogos</string>
     <string name="dialpad_buttons_title">Marcador: botones</string>
     <string name="dialpad_dialed_number_title">Marcador: número marcado</string>
+    <string name="dialed_number">Número marcado</string>
     <string name="dialpad_keyboard_show_action_icons_10_summary">Habilitar la visualización de los iconos de acción con pulsación prolongada de los botones \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_10_title">Iconos de acción para \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_29_summary">Habilitar la visualización de los iconos de acción con pulsación prolongada de los botones \'2\' - \'9\'</string>
@@ -1690,7 +1694,9 @@ Para buscar con un lenguaje de consulta puede utilizar los símbolos *, # y la b
     <string name="note_title">Nota</string>
     <string name="notification_access_query">¿Permitir el acceso a las notificaciones de \"AGContacts\" ahora?</string>
     <string name="notification_access_text">Para restablecer las notificaciones de llamadas perdidas por programa, debe permitir el acceso a las notificaciones en la configuración de su dispositivo....</string>
+    <string name="notification_access_android7plus_text">Para un funcionamiento estable de los controladores de eventos en segundo plano y los servicios del programa, se requiere acceso al servicio de notificación. El programa monitorea y reinicia automáticamente los procesos y servicios en segundo plano, si es necesario, cuando llegan nuevas notificaciones. Recomendamos que permita el acceso al servicio de notificación, pero esto no es un requisito.</string>
     <string name="notification_access_title">Acceso a los avisos</string>
+    <string name="enable_notification_service_access_title">Habilitar acceso a avisos</string>
     <string name="notification_app_launcher_widget1_settings_summary">Configurar datos y estilos visuales para Widget 1</string>
     <string name="notification_app_launcher_widget1_settings_title">Widget 1 Ajustes</string>
     <string name="notification_app_launcher_widget2_settings_summary">Configurar datos y estilos visuales para Widget 2</string>
@@ -1719,6 +1725,8 @@ Para buscar con un lenguaje de consulta puede utilizar los símbolos *, # y la b
     <string name="options">Opciones</string>
     <string name="order_of_elements_summary">Cambiar el orden de los elementos</string>
     <string name="order_of_elements_title">Orden de los elementos</string>
+    <string name="order_and_visiblity_of_elements_summary">Cambiar el orden y la visibilidad de los elementos</string>
+    <string name="order_and_visiblity_of_elements_title">Orden y visibilidad de los elementos</string>
     <string-array name="orientation_modes">
         <item>Orientación del sistema</item>
         <item>Retrato</item>
@@ -2490,5 +2498,139 @@ Para buscar con un lenguaje de consulta puede utilizar los símbolos *, # y la b
     <string name="invert_icons_color_for_other_screens_summary">Invertir el color de los iconos en la barra de estado para otras pantallas del programa</string>
     <string name="invert_icons_color_for_call_screens_title">Invertir el color de los iconos para las pantallas de llamadas</string>
     <string name="invert_icons_color_for_call_screens_summary">Invertir el color de los iconos en la barra de estado para las pantallas de llamadas</string>
+
+    <string-array name="contact_photo_display_mode_entries">
+        <item>Cambio de modo haciendo clic en la foto</item>
+        <item>Modo de ventana</item>
+        <item>Modo de pantalla completa</item>
+    </string-array>
+
+    <string name="preference_screen_incallui_settings_title">Pantallas durante las llamadas</string>
+    <string name="preference_screen_incallui_settings_summary">Interfaz de usuario durante las llamadas (InCallUI)</string>
+    <string name="show_operator_name_for_devices_with_one_sim_card_title">Mostrar nombre del operador para dispositivos con una tarjeta SIM</string>
+    <string name="show_operator_name_for_devices_with_one_sim_card_summary">Mostrar nombre e icono del operador móvil para dispositivos con una tarjeta SIM</string>
+    <string name="contact_photo_display_mode_title">Modo de visualización de fotos de contacto</string>
+
+    <string-array name="incallui_priority_of_mobile_operator_icon_display_entries">
+        <item>Iconos de botón de llamada, iconos de tema, iconos de sistema</item>
+        <item>Iconos de tema, iconos de botón de llamada, iconos de sistema</item>
+        <item>Iconos del sistema, iconos de botón de llamada, iconos de tema</item>
+    </string-array>
+
+    <string-array name="button_gesture_swipes_entries">
+        <item>Sin gesto</item>
+        <item>Deslizar hacia la izquierda</item>
+        <item>Deslizar hacia la derecha</item>
+        <item>Deslizar hacia arriba</item>
+        <item>Deslizar hacia abajo</item>
+    </string-array>
+
+    <string name="set_font_and_sizes_for_textview">Establecer fuentes y tamaños para \'%s\'</string>
+    <string name="set_margins_and_paddings_for_block">Establecer rellenos y márgenes para \'%s\'</string>
+    <string name="end_call_keyboard_shown">Se muestra el teclado</string>
+    <string name="end_call_normal_state">Teclado oculto</string>
+    <string name="set_parameters_for_block">Establecer parámetros para \'%s\'</string>
+    <string name="audio_incoming_call">Llamada entrante de audio</string>
+    <string name="video_incoming_call">Llamada entrante de video</string>
+    <string name="video_request">Solicitud de video</string>
+    <string name="stroke_width">Ancho del trazo</string>
+    <string name="stroke_color">Color de trazo</string>
+    <string name="stroke_offset">Desplazamiento de trazo</string>
+    <string name="drawing_photos">Representación de fotos</string>
+    <string name="current_value_value_dp">Valor actual: %1$d dp</string>
+    <string name="current_value_value">Valor actual: %1$d</string>
+    <string name="current_value_value_percent">Valor actual: %1$d %%</string>
+    <string name="circle_radius">Radio del círculo</string>
+    <string name="seed_color">Color de semilla</string>
+    <string name="seeding_density">Densidad de siembra</string>
+    <string name="area_of_activation">Área de activación</string>
+    <string name="trigger_radius">Radio de activación</string>
+    <string name="background_color">Color de fondo</string>
+    <string name="call_card">Tarjeta de llamada</string>
+    <string name="call_card_area">Área de tarjeta de llamada</string>
+    <string name="display_area">Área de visualización</string>
+    <string name="window_photo_mode">Modo de visualización de fotos de ventana</string>
+    <string name="call_subject">Asunto de la llamada</string>
+    <string name="call_state">Estado de la llamada</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="phone_label">Etiqueta del teléfono</string>
+    <string name="elapsed_time">Tiempo transcurrido</string>
+    <string name="photo_frame">Marco de fotos</string>
+    <string name="call_type">Tipo de llamada</string>
+    <string name="switch_buttons">Bloque de botones</string>
+    <string name="fullscreen_photo_mode">Modo de visualización de fotos de pantalla completa</string>
+    <string name="incoming_call_state">Estado de la llamada entrante</string>
+    <string name="handle_for_audio_incoming_call">Botón central para llamada de audio entrante</string>
+    <string name="handle_for_video_incoming_call">Botón central para videollamada entrante</string>
+    <string name="handle_for_video_request">Botón central para solicitud de video</string>
+    <string name="buttons_and_swipes">Botones y gestos</string>
+    <string name="circle_with_gestures">Circulo con gestos</string>
+    <string name="circle_settings">Configuración del círculo</string>
+    <string name="outgoing_call_and_conversation_state">Llamadas salientes y estado de conversación</string>
+    <string name="end_call_button">Botón de finalizar llamada</string>
+    <string name="always_full_screen_on_incoming_calls_title">Siempre pantalla completa en llamadas entrantes</string>
+    <string name="always_full_screen_on_incoming_calls_summary">Siempre pantalla completa en llamadas entrantes, incluso cuando el dispositivo está activo</string>
+    <string name="incallui_priority_of_mobile_operator_icon_display_title">Prioridad de la visualización del icono del operador móvil</string>
+    <string name="enable_visual_hints_on_incoming_call_title">Llamada entrante</string>
+    <string name="enable_visual_hints_on_incoming_call_summary">Habilitar sugerencias visuales en llamadas entrantes</string>
+    <string name="about_check_for_updates_channel_title">Habilitar actualizaciones alfa y beta</string>
+    <string name="about_check_for_updates_channel_summary">Habilitar actualizaciones de versión alfa y beta del programa</string>
+    <string name="check_for_updates">Buscar actualizaciones</string>
+    <string name="about_check_for_updates_direct_summary">Verificar y descargar actualizaciones directamente</string>
+    <string name="about_check_for_updates_dm_summary">Verificar y descargar actualizaciones a través del Administrador de descargas</string>
+    <string name="checking_for_updates">Buscando actualizaciones…</string>
+    <string name="saved_to">Guardado en</string>
+    <string name="cant_save">No se puede guardar</string>
+    <string name="update_installing_started">La instalación de la actualización comenzó…</string>
+    <string name="error_during_update">Error durante la actualización…</string>
+    <string name="download_update_completed">Descarga de actualización completada…</string>
+    <string name="app_installing">Instalación de la aplicación</string>
+    <string name="download_update_to">Descargar actualización</string>
+    <string name="you_are_using_the_latest_version_of_the_program">Está utilizando la última versión del programa</string>
+    <string name="a_new_version_of_the_program_is_available">Una nueva versión del programa está disponible:</string>
+    <string name="update">Actualizar</string>
+    <string name="start_update_downloading">Iniciar la descarga de actualizaciones…</string>
+    <string name="error_during_update_check">Error durante la verificación de actualización…</string>
+    <string name="cant_create_image_file">No se puede crear el archivo de imagen…</string>
+    <string name="change_icon">Cambiar icono</string>
+    <string name="change_default_icon">Cambiar icono predeterminado</string>
+    <string name="icon_normal_state">Icono: estado normal</string>
+    <string name="normal_icon_state"> Estado normal del icono</string>
+    <string name="icon_pressed_state">Icono: estado presionado</string>
+    <string name="pressed_icon_state">Estado del icono presionado</string>
+    <string name="background_normal_state">Fondo: estado normal</string>
+    <string name="normal_background_state">Estado de fondo normal</string>
+    <string name="background_pressed_state">Fondo: estado presionado</string>
+    <string name="pressed_background_state">Estado de fondo presionado</string>
+    <string name="associated_gesture">Gesto asociado</string>
+    <string name="gesture">Gesto</string>
+    <string name="change_gesture_icon">Cambiar icono de gesto</string>
+    <string name="change_default_gesture_icon">Cambiar icono de gesto predeterminado</string>
+    <string name="gesture_icon_normal_state">Icono de gesto: estado normal</string>
+    <string name="gesture_icon_pressed_state">Icono de gesto: estado presionado</string>
+    <string name="please_wait_language_changing">Espere, el idioma está cambiando…</string>
+    <string name="navigation_bar_above_content_title">Barra de navegación sobre el contenido</string>
+    <string name="navigation_bar_above_content_summary">Los elementos se muestran debajo de la barra de navegación</string>
+    <string name="incallui_play_system_ringtone_title">Reproducir tono de llamada del sistema</string>
+    <string name="incallui_play_system_ringtone_summary">Enciéndalo si el tono de llamada del sistema no se reproduce cuando hay una llamada entrante</string>
+    <string name="incallui_defer_blocking_calls_title">Ignorar en lugar de bloquear</string>
+    <string name="incallui_defer_blocking_calls_summary">Habilitar si hay problemas para bloquear las llamadas de spam</string>
+    <string name="incallui_enable_own_incallui_title">Usando la nativa interfaz InCallUI</string>
+    <string name="incallui_enable_own_incallui_summary">Cuando está deshabilitado, se utilizará la interfaz InCallUI del sistema</string>
+    <string name="dialpad_volume_level_title">Nivel de volumen</string>
+    <string name="subsection">Subsección</string>
+    <string name="option_search_key">Clave de búsqueda:</string>
+    <string name="geoinformation">Geoinformación</string>
+    <string name="offline_callerid">CallerID Fuera De Línea</string>
+    <string name="preference_screen_geoinformation_summary">Геоинформация и оператор по номеру телефона</string>
+    <string name="show_geo_descriptions_enable_summary">Reconocimiento sin conexión de información geográfica y operador por número de teléfono</string>
+    <string name="show_geo_descriptions_carrier_title">Solicitud adicional de nombre del operador</string>
+    <string name="show_geo_descriptions_carrier_summary">Deshabilitar si la información sobre el operador está duplicada</string>
+    <string name="show_geo_descriptions_homeland_title">Muestra tu pais</string>
+    <string name="show_geo_descriptions_homeland_summary">Mostrar el nombre de su país antes de la región y el operador</string>
+    <string name="show_geo_descriptions_unknown_numbers_title">Mostrando para números desconocidos</string>
+    <string name="show_geo_descriptions_unknown_numbers_summary">Mostrando geoinformación para números desconocidos</string>
+    <string name="show_geo_descriptions_communication_channels_title">Mostrando para canales de comunicación</string>
+    <string name="show_geo_descriptions_communication_channels_summary">Mostrando geoinformación para canales de comunicación</string>
 
 </resources>

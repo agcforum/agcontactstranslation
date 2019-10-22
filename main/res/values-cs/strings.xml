@@ -351,6 +351,7 @@
     <string name="notification_network_selection_title" msgid="6785177943238085441">"Žádný signál"</string>
     <string name="notification_network_selection_text" msgid="9097902390701009591">"Vybraná síť (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) není k dispozici"</string>
     <string name="notification_action_answer" msgid="8418990052527593953">"Přijmout"</string>
+    <string name="notification_action_ignore">Ignorovat</string>
     <string name="notification_action_end_call" msgid="2152010639043225860">"Zavěsit"</string>
     <string name="notification_action_answer_video" msgid="2400233093494856655">"Videohovor"</string>
     <string name="notification_action_answer_voice" msgid="3206168292649273866">"Hlas. hovor"</string>
@@ -1092,6 +1093,8 @@
     <string name="deleted">Smazáno</string>
     <string name="deleted_hide">Smazáno: Skrýt</string>
     <string name="deleted_show">Smazáno: Zobrazit</string>
+    <string name="hide">Skrýt</string>
+    <string name="show">Zobrazit</string>
     <string name="details_mode">Režim podrobnosti</string>
     <string name="detect_possible_missed_calls_columns_summary">Zjištění možných sloupců pro další informace o zmeškaných hovorech</string>
     <string name="detect_possible_missed_calls_columns_title">Zjištění možných sloupců pro zmeškané hovory</string>
@@ -1141,6 +1144,7 @@
     <string name="dialogs_title">Dialogy</string>
     <string name="dialpad_buttons_title">Číselník: tlačítka</string>
     <string name="dialpad_dialed_number_title">Číselník: vytočené číslo</string>
+    <string name="dialed_number">Vytočené číslo</string>
     <string name="dialpad_keyboard_show_action_icons_10_summary">Povolte zobrazení ikon akcí s dlouhým stiskem tlačítek \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_10_title">Akční ikony pro \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_29_summary">Povolte zobrazení ikon akcí s dlouhým stiskem tlačítek \'2\' - \'9\'</string>
@@ -1681,7 +1685,9 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="note_title">Poznámka</string>
     <string name="notification_access_query">Povolit přístup k upozorněním pro \"AGContacts\" nyní?</string>
     <string name="notification_access_text">Chcete-li resetovat oznámení o zmeškaných hovorech podle programu, musíte povolit přístup k upozorněním v nastaveních zařízení…</string>
+    <string name="notification_access_android7plus_text">Pro stabilní provoz obslužných programů na pozadí událostí a služeb je vyžadován přístup k oznamovací službě. Program monitoruje a automaticky restartuje procesy a služby na pozadí v případě potřeby, když dorazí nová oznámení. Doporučujeme povolit přístup k oznamovací službě, ale to není požadavek.</string>
     <string name="notification_access_title">Přístup k oznámení</string>
+    <string name="enable_notification_service_access_title">Povolit přístup k oznámení</string>
     <string name="notification_app_launcher_widget1_settings_summary">Nastavit data a vizuální styly pro Widget 1</string>
     <string name="notification_app_launcher_widget1_settings_title">Widget 1 Nastavení</string>
     <string name="notification_app_launcher_widget2_settings_summary">Nastavit data a vizuální styly pro Widget 2</string>
@@ -1710,6 +1716,8 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="options">Možnosti</string>
     <string name="order_of_elements_summary">Změňte pořadí prvků</string>
     <string name="order_of_elements_title">Pořadí prvků</string>
+    <string name="order_and_visiblity_of_elements_summary">Změňte pořadí a viditelnost prvků</string>
+    <string name="order_and_visiblity_of_elements_title">Pořadí a viditelnost prvků</string>
     <string-array name="orientation_modes">
         <item>Orientace systému</item>
         <item>Na výšku</item>
@@ -2475,17 +2483,19 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="zero_as_space_for_text_fields_summary">Interpretujte 0 jako mezerník pro textová pole při vyhledávání T9</string>
     <string name="zero_as_space_for_text_fields_title">\'0\' jako mezerník</string>
 
-    <string-array name="contact_photo_display_mode_entries">
-        <item>Změna režimu kliknutím na fotografii</item>
-        <item>Režim okna</item>
-        <item>Režim celé obrazovky</item>
-    </string-array>
     <string name="invert_icons_color_for_main_screen_title">Změnit barvu ikon pro hlavní obrazovku</string>
     <string name="invert_icons_color_for_main_screen_summary">Změňte barvu ikon ve stavovém řádku pro hlavní obrazovku programu</string>
     <string name="invert_icons_color_for_other_screens_title">Změnit barvu ikon pro další obrazovky</string>
     <string name="invert_icons_color_for_other_screens_summary">Změňte barvu ikon ve stavovém řádku pro ostatní obrazovky programu</string>
     <string name="invert_icons_color_for_call_screens_title">Změnit barvu ikon pro obrazovky volání</string>
     <string name="invert_icons_color_for_call_screens_summary">Změňte barvu ikon ve stavovém řádku pro obrazovky volání</string>
+
+    <string-array name="contact_photo_display_mode_entries">
+        <item>Změna režimu kliknutím na fotografii</item>
+        <item>Režim okna</item>
+        <item>Režim celé obrazovky</item>
+    </string-array>
+
     <string name="preference_screen_incallui_settings_title">Obrazovka během volání</string>
     <string name="preference_screen_incallui_settings_summary">V uživatelském rozhraní volání (InCallUI)</string>
     <string name="show_operator_name_for_devices_with_one_sim_card_title">Zobrazte jméno operátora pro zařízení s jednou SIM kartou</string>
@@ -2520,6 +2530,7 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="drawing_photos">Kreslení fotografií</string>
     <string name="current_value_value_dp">Aktuální hodnoty: %1$d dp</string>
     <string name="current_value_value">Aktuální hodnoty: %1$d</string>
+    <string name="current_value_value_percent">Aktuální hodnoty: %1$d %%</string>
     <string name="circle_radius">Barva poloměru kruhu</string>
     <string name="seed_color">Barva teček</string>
     <string name="seeding_density">Hustota teček kruhu</string>
@@ -2591,5 +2602,26 @@ Pro vyhledávání pomocí dotazovacího jazyka lze použít znaky *, # a mezern
     <string name="please_wait_language_changing">Čekejte prosím, jazyk se mění…</string>
     <string name="navigation_bar_above_content_title">Navigační lišta nad obsahem</string>
     <string name="navigation_bar_above_content_summary">Položky se zobrazují pod navigační lištou</string>
+    <string name="incallui_play_system_ringtone_title">Hrát systém vyzvánění</string>
+    <string name="incallui_play_system_ringtone_summary">Zapněte, pokud při příchozím hovoru nehraje systémový vyzváněcí tón</string>
+    <string name="incallui_defer_blocking_calls_title">Ignorování namísto blokování</string>
+    <string name="incallui_defer_blocking_calls_summary">Povolit, pokud problémy s blokováním spamových hovorů</string>
+    <string name="incallui_enable_own_incallui_title">Použití vlastního rozhraní InCallUI</string>
+    <string name="incallui_enable_own_incallui_summary">Pokud zakázáno, bude použito systémové rozhraní InCallUI</string>
+    <string name="dialpad_volume_level_title">Úroveň hlasitosti</string>
+    <string name="subsection">Subsekce</string>
+    <string name="option_search_key">Vyhledávací klíč:</string>
+    <string name="geoinformation">Geoinformace</string>
+    <string name="offline_callerid">Offline CallerID</string>
+    <string name="preference_screen_geoinformation_summary">Geoinformace a operátor podle telefonního čísla</string>
+    <string name="show_geo_descriptions_enable_summary">Offline rozpoznávání geografických informací a operátora podle telefonního čísla</string>
+    <string name="show_geo_descriptions_carrier_title">Další žádost o jméno operátora</string>
+    <string name="show_geo_descriptions_carrier_summary">Zakázat, pokud jsou informace o operátorovi duplikovány</string>
+    <string name="show_geo_descriptions_homeland_title">Ukažte svou zemi</string>
+    <string name="show_geo_descriptions_homeland_summary">Zobrazuje název vaší země před regionem a operátorem</string>
+    <string name="show_geo_descriptions_unknown_numbers_title">Zobrazit pro neznámá čísla</string>
+    <string name="show_geo_descriptions_unknown_numbers_summary">Zobrazování geoinformací pro neznámá čísla</string>
+    <string name="show_geo_descriptions_communication_channels_title">Zobrazit pro komunikační kanály</string>
+    <string name="show_geo_descriptions_communication_channels_summary">Zobrazování geoinformací pro komunikační kanály</string>
 
 </resources>

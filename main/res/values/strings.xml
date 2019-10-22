@@ -1270,6 +1270,7 @@
     <!-- Label for the "Answer call" action. This is the displayed label for the action that answers
          an incoming call. [CHAR LIMIT=12] -->
     <string name="notification_action_answer">Answer</string>
+    <string name="notification_action_ignore">Ignore</string>
     <!-- Label for "end call" Action.
          It is displayed in the "Ongoing call" notification, which is shown
          when the user is outside the in-call screen while the phone call is still
@@ -1646,11 +1647,12 @@
     -->
 
     <!--   Not translated   -->
-    <string name="app_name" translatable="false">AGContacts, Premium edition</string>
+    <string name="app_name" translatable="false">AGContacts</string>
+    <string name="app_edition" translatable="false">Premium</string>
     <string name="agcontacts" translatable="false">AGContacts</string>
     <string name="pref_summury_about_author" translatable="false">(с) 2011&#8211;2019 AGC</string>
     <string name="thanks_for_translation_users" translatable="false">dc.boy (Deutsch)\ncergor (українська мова)\nLuis Manuel Saiz (español)\nMarek.P (‎čeština)</string>
-    <string name="thanks_for_help_users" translatable="false">-dW@Rd-\nAl.Bizon\nAntarey\nAutobyesell\nAxelRose\nBlack_Shef\nDead master\nDezderella\nDmitrj_66\nJuFCK\nKreator-2\nLerik-Co\nLysikov\nMerlin Cori\nMr.Memo\nMukamol\nNaghual80\nSandr0\nTranser63\nViNNNtalik\nVladivid\naarrett\nandrewk-\nbabylon_5\nbooster75\nditz\ndrts\nexcalibur.live\ngeomod\ngraphElem\ngrimychka\nh13\nkornn\nlobaty2\nmak62621\nmasterar\nmitiok2002\nmshukhrat\nnopresent\nose-nt\npagpaha\npin1000\npires1\nqaz13\nromarior\nse7en\nser666\nsleeper_\nsysadma\ntabikus\ntaimen62\ntorro120157\nv_klad\nviter59\nvla41 \nvladsh2005\nvnsmirnv\nwanderbom\nГалыгин\nОЗЕРНЫЙ\nПавел Москва 2\n✪Mazzy88✪</string>
+    <string name="thanks_for_help_users" translatable="false">-dW@Rd-\nAl.Bizon\nAntarey\nAutobyesell\nAxelRose\nBlack_Shef\nDead master\nDezderella\nDmitrj_66\nJuFCK\nKreator-2\nLerik-Co\nLysikov\nMerlin Cori\nMr.Memo\nMukamol\nNaghual80\noc01\nSandr0\nTranser63\nViNNNtalik\nVladivid\naarrett\nandrewk-\nbabylon_5\nbooster75\nditz\ndrts\nexcalibur.live\ngeomod\ngraphElem\ngrimychka\nh13\nkornn\nlobaty2\nmak62621\nmasterar\nmitiok2002\nmshukhrat\nnopresent\nose-nt\npagpaha\npin1000\npires1\nqaz13\nromarior\nse7en\nser666\nsleeper_\nsysadma\ntabikus\ntaimen62\ntorro120157\nv_klad\nviter59\nvla41 \nvladsh2005\nvnsmirnv\nwanderbom\nГалыгин\nОЗЕРНЫЙ\nПавел Москва 2\n✪Mazzy88✪</string>
     <string name="select_language" translatable="false">Select Language</string>
     <string name="language" translatable="false">Language</string>
 
@@ -2254,6 +2256,8 @@
     <string name="deleted">Deleted</string>
     <string name="deleted_hide">Deleted: Hide</string>
     <string name="deleted_show">Deleted: Show</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
     <string name="details_mode">Details mode</string>
     <string name="detect_possible_missed_calls_columns_summary">Detect possible columns for additional information of missed calls</string>
     <string name="detect_possible_missed_calls_columns_title">Detect possible columns for Missed Calls</string>
@@ -2303,6 +2307,7 @@
     <string name="dialogs_title">Dialogs</string>
     <string name="dialpad_buttons_title">Dialpad: buttons</string>
     <string name="dialpad_dialed_number_title">Dialpad: dialed number</string>
+    <string name="dialed_number">Dialed number</string>
     <string name="dialpad_keyboard_show_action_icons_10_summary">Enable the display of action icons with long press for the buttons \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_10_title">Action icons for \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_29_summary">Enable the display of action icons with long press for the buttons \'2\' - \'9\'</string>
@@ -2843,7 +2848,9 @@ To search with a query language can use the symbols *, # and the space bar:<br>
     <string name="note_title">Note</string>
     <string name="notification_access_query">Allow access to notifications for \"AGContacts\" now?</string>
     <string name="notification_access_text">To reset a missed call notifications by program you must to allow access to notifications in your device settings…</string>
+    <string name="notification_access_android7plus_text">For stable operation of background event handlers and program services, access to the notification service is required. The program monitors and automatically restarts background processes and services, if necessary, when new notifications arrive. We recommend that you allow access to the notification service, but this is not a requirement.</string>
     <string name="notification_access_title">Notification access</string>
+    <string name="enable_notification_service_access_title">Enable notification access</string>
     <string name="notification_app_launcher_widget1_settings_summary">Set up data and visual styles for Widget 1</string>
     <string name="notification_app_launcher_widget1_settings_title">Widget 1 Settings</string>
     <string name="notification_app_launcher_widget2_settings_summary">Set up data and visual styles for Widget 2</string>
@@ -2870,8 +2877,10 @@ To search with a query language can use the symbols *, # and the space bar:<br>
     <string name="operation_completed">Operation completed</string>
     <string name="operation_failed">Operation failed</string>
     <string name="options">Options</string>
-    <string name="order_of_elements_summary">Change the order of the elements</string>
+    <string name="order_of_elements_summary">Change the order of elements</string>
     <string name="order_of_elements_title">Order of elements</string>
+    <string name="order_and_visiblity_of_elements_summary">Change the order and visibility of elements</string>
+    <string name="order_and_visiblity_of_elements_title">Order and visibility of elements</string>
     <string-array name="orientation_modes">
         <item>System orientation</item>
         <item>Portrait</item>
@@ -3306,7 +3315,7 @@ To search with a query language can use the symbols *, # and the space bar:<br>
     <string name="scaling_type">Scaling type</string>
     <string-array name="screen_lock_on_incoming_call_entries">
         <item>Circle with gestures</item>
-        <item>Buttons and swipes</item>
+        <item>Buttons and gestures</item>
     </string-array>
     <string name="screen_lock_on_incoming_call_title">Screen lock on Incoming call</string>
     <string name="sd_card">SD Card</string>
@@ -3637,17 +3646,19 @@ To search with a query language can use the symbols *, # and the space bar:<br>
     <string name="zero_as_space_for_text_fields_summary">Interpret \'0\' as a space bar for text fields when T9 searching</string>
     <string name="zero_as_space_for_text_fields_title">\'0\' as a space bar</string>
 
-    <string-array name="contact_photo_display_mode_entries">
-        <item>Changing mode by click on photo</item>
-        <item>Windowed mode</item>
-        <item>Full-screen mode</item>
-    </string-array>
     <string name="invert_icons_color_for_main_screen_title">Invert the icons color for the Main screen</string>
     <string name="invert_icons_color_for_main_screen_summary">Invert the icons color in the Status Bar for the Main screen of the program</string>
     <string name="invert_icons_color_for_other_screens_title">Invert the icons color for other screens</string>
     <string name="invert_icons_color_for_other_screens_summary">Invert the icons color in the Status Bar for other screens of the program</string>
     <string name="invert_icons_color_for_call_screens_title">Invert the icons color for call screens</string>
     <string name="invert_icons_color_for_call_screens_summary">Invert the icons color in the Status Bar for call screens</string>
+
+    <string-array name="contact_photo_display_mode_entries">
+        <item>Changing mode by click on photo</item>
+        <item>Windowed mode</item>
+        <item>Full-screen mode</item>
+    </string-array>
+
     <string name="preference_screen_incallui_settings_title">Screens during calls</string>
     <string name="preference_screen_incallui_settings_summary">In Call User Interface (InCallUI)</string>
     <string name="show_operator_name_for_devices_with_one_sim_card_title">Show operator name for devices with one SIM card</string>
@@ -3682,6 +3693,7 @@ To search with a query language can use the symbols *, # and the space bar:<br>
     <string name="drawing_photos">Drawing photos</string>
     <string name="current_value_value_dp">Current value: %1$d dp</string>
     <string name="current_value_value">Current value: %1$d</string>
+    <string name="current_value_value_percent">Current value: %1$d %%</string>
     <string name="circle_radius">Circle radius</string>
     <string name="seed_color">Seed color</string>
     <string name="seeding_density">Seeding density</string>
@@ -3699,13 +3711,13 @@ To search with a query language can use the symbols *, # and the space bar:<br>
     <string name="elapsed_time">Elapsed Time</string>
     <string name="photo_frame">Photo frame</string>
     <string name="call_type">Call Type</string>
-    <string name="switch_buttons">Button block</string>
+    <string name="switch_buttons">Button group</string>
     <string name="fullscreen_photo_mode">Fullscreen photo mode</string>
     <string name="incoming_call_state">Incoming call state</string>
-    <string name="handle_for_audio_incoming_call">Handle for Audio incoming call</string>
-    <string name="handle_for_video_incoming_call">Handle for Video incoming call</string>
-    <string name="handle_for_video_request">Handle for Video request</string>
-    <string name="buttons_and_swipes">Buttons and swipes</string>
+    <string name="handle_for_audio_incoming_call">Center button for Audio incoming call</string>
+    <string name="handle_for_video_incoming_call">Center button for Video incoming call</string>
+    <string name="handle_for_video_request">Center button for Video request</string>
+    <string name="buttons_and_swipes">Buttons and gestures</string>
     <string name="circle_with_gestures">Circle with gestures</string>
     <string name="circle_settings">Circle settings</string>
     <string name="outgoing_call_and_conversation_state">Outgoing call and conversation state</string>
@@ -3728,7 +3740,7 @@ To search with a query language can use the symbols *, # and the space bar:<br>
     <string name="download_update_completed">Download update completed…</string>
     <string name="app_installing">App Installing</string>
     <string name="download_update_to">Download update to</string>
-    <string name="you_are_using_the_latest_version_of_the_program">You are using the latest version of the program.</string>
+    <string name="you_are_using_the_latest_version_of_the_program">You are using the latest version of the program</string>
     <string name="a_new_version_of_the_program_is_available">A new version of the program is available:</string>
     <string name="update">Update</string>
     <string name="start_update_downloading">Start update downloading…</string>
@@ -3753,5 +3765,26 @@ To search with a query language can use the symbols *, # and the space bar:<br>
     <string name="please_wait_language_changing">Please wait, language is changing…</string>
     <string name="navigation_bar_above_content_title">Navigation bar above content</string>
     <string name="navigation_bar_above_content_summary">Items are displayed under the navigation bar</string>
+    <string name="incallui_play_system_ringtone_title">Play system ringtone</string>
+    <string name="incallui_play_system_ringtone_summary">Turn on if the system ringtone does not play when an incoming call</string>
+    <string name="incallui_defer_blocking_calls_title">Ignoring instead of blocking</string>
+    <string name="incallui_defer_blocking_calls_summary">Enable if problems with blocking spam calls</string>
+    <string name="incallui_enable_own_incallui_title">Using own InCallUI interface</string>
+    <string name="incallui_enable_own_incallui_summary">When disabled, system InCallUI interface will be used</string>
+    <string name="dialpad_volume_level_title">Volume level</string>
+    <string name="subsection">Subsection</string>
+    <string name="option_search_key">Search key:</string>
+    <string name="geoinformation">Geoinformation</string>
+    <string name="offline_callerid">Offline CallerID</string>
+    <string name="preference_screen_geoinformation_summary">Geoinformation and operator by phone number</string>
+    <string name="show_geo_descriptions_enable_summary">Offline recognition of geographic information and operator by phone number</string>
+    <string name="show_geo_descriptions_carrier_title">Additional request of operator name</string>
+    <string name="show_geo_descriptions_carrier_summary">Disable if information about operator is duplicated</string>
+    <string name="show_geo_descriptions_homeland_title">Show your country</string>
+    <string name="show_geo_descriptions_homeland_summary">Showing your country name before region and operator</string>
+    <string name="show_geo_descriptions_unknown_numbers_title">Showing for unknown numbers</string>
+    <string name="show_geo_descriptions_unknown_numbers_summary">Showing geoinformation for unknown numbers</string>
+    <string name="show_geo_descriptions_communication_channels_title">Showing for communication channels</string>
+    <string name="show_geo_descriptions_communication_channels_summary">Showing geoinformation for communication channels</string>
 
 </resources>

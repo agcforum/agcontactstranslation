@@ -365,6 +365,7 @@
     <string name="notification_network_selection_title" msgid="6785177943238085441">"لا تتوفر خدمة"</string>
     <string name="notification_network_selection_text" msgid="9097902390701009591">"الشبكة المحددة (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) غير متاحة"</string>
     <string name="notification_action_answer" msgid="8418990052527593953">"رد"</string>
+    <string name="notification_action_ignore">تجاهل</string>
     <string name="notification_action_end_call" msgid="2152010639043225860">"قطع الاتصال"</string>
     <string name="notification_action_answer_video" msgid="2400233093494856655">"فيديو"</string>
     <string name="notification_action_answer_voice" msgid="3206168292649273866">"صوت"</string>
@@ -1120,6 +1121,8 @@
     <string name="deleted">تم الحذف</string>
     <string name="deleted_hide">محذوف: إخفاء</string>
     <string name="deleted_show">محذوف: إظهار</string>
+    <string name="hide">إخفاء</string>
+    <string name="show">إظهار</string>
     <string name="details_mode">وضع التفاصيل</string>
     <string name="detect_possible_missed_calls_columns_summary">الكشف عن الأعمدة الممكنة للحصول على معلومات إضافية من مكالمات فائتة</string>
     <string name="detect_possible_missed_calls_columns_title">الكشف عن الأعمدة ممكنة \"المكالمات الفائتة\"</string>
@@ -1168,7 +1171,8 @@
     <string name="dialogs_settings_screen_title">مربعات الحوار</string>
     <string name="dialogs_title">مربعات الحوار</string>
     <string name="dialpad_buttons_title">لوحة الاتصال: الازرار</string>
-    <string name="dialpad_dialed_number_title">لوحة الاتصال: ارقام الطلب</string>
+    <string name="dialpad_dialed_number_title">لوحة الاتصال: الرقم الذي تم الاتصال به</string>
+    <string name="dialed_number">الرقم الذي تم الاتصال به</string>
     <string name="dialpad_keyboard_show_action_icons_10_summary">تمكين عرض الاجراءات مع الضغط لمدة طويلة لأزرار \'1\'، \'*\', \'0\', \' #\'</string>
     <string name="dialpad_keyboard_show_action_icons_10_title">اجراءات ل \'1\'، \'*\', \'0\', \' #\'</string>
     <string name="dialpad_keyboard_show_action_icons_29_summary">تمكين الاجراءات مع الضغط لمدة طويلة لأزرار \'2\'-\'9\'</string>
@@ -1709,7 +1713,9 @@
     <string name="note_title">ملاحظة</string>
     <string name="notification_access_query">السماح بالوصول إلى الإخطارات للبرنامج الآن؟</string>
     <string name="notification_access_text">لإعادة ضبط إشعارات المكالمات الفائتة حسب البرنامج ، يجب السماح بالوصول إلى الإشعارات في إعدادات جهازك…</string>
+    <string name="notification_access_android7plus_text">للتشغيل المستقر لمعالجات الأحداث الخلفية وخدمات البرامج ، يلزم الوصول إلى خدمة الإعلام. يقوم البرنامج بمراقبة العمليات والخدمات الأساسية وإعادة تشغيلها تلقائيًا ، عند الضرورة ، عند وصول إعلامات جديدة. نوصي بأن تسمح بالوصول إلى خدمة الإخطار ، لكن هذا ليس مطلبا.</string>
     <string name="notification_access_title">وصول الإشعار</string>
+    <string name="enable_notification_service_access_title">تمكين وصول الإخطار</string>
     <string name="notification_app_launcher_widget1_settings_summary">قم بإعداد البيانات والأنماط المرئية للقطعة 1</string>
     <string name="notification_app_launcher_widget1_settings_title">إعدادات القطعة 1</string>
     <string name="notification_app_launcher_widget2_settings_summary">قم بإعداد البيانات والأنماط المرئية للقطعة 2</string>
@@ -1738,6 +1744,8 @@
     <string name="options">خيارات</string>
     <string name="order_of_elements_summary">تغيير ترتيب العناصر</string>
     <string name="order_of_elements_title">ترتيب العناصر</string>
+    <string name="order_and_visiblity_of_elements_summary">تغيير ترتيب العناصر ورؤيتها</string>
+    <string name="order_and_visiblity_of_elements_title">ترتيب العناصر ورؤيتها</string>
     <string-array name="orientation_modes">
         <item>اتجاه النظام</item>
         <item>صورة</item>
@@ -2502,21 +2510,146 @@
     <string name="you_wont_receive_calls_from_blocked_numbers">لن تتلقى مكالمات من الأرقام المحظورة</string>
     <string name="zero_as_space_for_text_fields_summary">قم بتفسير \"0\" على شكل شريط مسافة لحقول النص عند البحث في T9</string>
     <string name="zero_as_space_for_text_fields_title">\'0\' كمسافة</string>
-    <string-array name="contact_photo_display_mode_entries">
-        <item>تغيير الوضع عن طريق النقر على الصورة</item>
-        <item>وضع الإطارات</item>
-        <item>وضع ملء الشاشة</item>
-    </string-array>
+
     <string name="invert_icons_color_for_main_screen_title">عكس لون الرموز على الشاشة الرئيسية</string>
     <string name="invert_icons_color_for_main_screen_summary">عكس لون الرموز في شريط الحالة للشاشة الرئيسية للبرنامج</string>
     <string name="invert_icons_color_for_other_screens_title">عكس لون الرموز للشاشات الأخرى</string>
     <string name="invert_icons_color_for_other_screens_summary">عكس لون الرموز في شريط الحالة لشاشات أخرى للبرنامج</string>
     <string name="invert_icons_color_for_call_screens_title">عكس لون الرموز  شريط لـ نداء الشاشات</string>
     <string name="invert_icons_color_for_call_screens_summary">عكس لون الرموز في شريط الحالة  شريط لـ نداء الشاشات</string>
+
+    <string-array name="contact_photo_display_mode_entries">
+        <item>تغيير الوضع عن طريق النقر على الصورة</item>
+        <item>نمط عرض النافذة</item>
+        <item>وضع ملء الشاشة</item>
+    </string-array>
+
     <string name="preference_screen_incallui_settings_title">الشاشات أثناء المكالمات</string>
     <string name="preference_screen_incallui_settings_summary">في اتصال واجهة المستخدم</string>
     <string name="show_operator_name_for_devices_with_one_sim_card_title">عرض اسم المشغل للأجهزة التي تحتوي على شريحة اتصال واحدة</string>
     <string name="show_operator_name_for_devices_with_one_sim_card_summary">عرض اسم مشغل الجوال ورمزه للأجهزة التي تحتوي على شريحة اتصال واحدة</string>
     <string name="contact_photo_display_mode_title">صور جهات اتصال وضع العرض</string>
+
+    <string-array name="incallui_priority_of_mobile_operator_icon_display_entries">
+        <item>أيقونات زر الاتصال وأيقونات السمات وأيقونات النظام</item>
+        <item>أيقونات السمة ، أيقونات زر الاتصال ، أيقونات النظام</item>
+        <item>أيقونات النظام ، أيقونات زر الاتصال ، أيقونات السمة</item>
+    </string-array>
+
+    <string-array name="button_gesture_swipes_entries">
+        <item>لا لفتة</item>
+        <item>حركة لليسار</item>
+        <item>حركة لليمين</item>
+        <item>حركة للاعلى</item>
+        <item>حركة للاسفل</item>
+    </string-array>
+
+    <string name="set_font_and_sizes_for_textview">تعيين الخط والأحجام لـ \'%s\'</string>
+    <string name="set_margins_and_paddings_for_block">تعيين الهوامش \'%s\'</string>
+    <string name="end_call_keyboard_shown">لوحة المفاتيح معروضة</string>
+    <string name="end_call_normal_state">لوحة المفاتيح مخفية</string>
+    <string name="set_parameters_for_block">تعيين المعلمات لـ \'%s\'</string>
+    <string name="audio_incoming_call">مكالمة صوتية واردة</string>
+    <string name="video_incoming_call">مكالمة واردة فيديو</string>
+    <string name="video_request">طلب الفيديو</string>
+    <string name="stroke_width">عرض الحد</string>
+    <string name="stroke_color">لون الحد</string>
+    <string name="stroke_offset">إزاحة الحد</string>
+    <string name="drawing_photos">رسم الصور</string>
+    <string name="current_value_value_dp">القيمة الحالية: %1$d dp</string>
+    <string name="current_value_value">القيمة الحالية: %1$d</string>
+    <string name="current_value_value_percent">القيمة الحالية: %1$d %%</string>
+    <string name="circle_radius">دائرة نصف قطرها</string>
+    <string name="seed_color">لون البذور</string>
+    <string name="seeding_density">كثافة البذر</string>
+    <string name="area_of_activation">منطقة التنشيط</string>
+    <string name="trigger_radius">دائرة نصف قطرها الزناد</string>
+    <string name="background_color">لون الخلفية</string>
+    <string name="call_card">نداء البطاقة</string>
+    <string name="call_card_area">سطح بطاقة العمل</string>
+    <string name="display_area">منطقة العرض</string>
+    <string name="window_photo_mode">نمط عرض النافذة</string>
+    <string name="call_subject">موضوع الاتصال</string>
+    <string name="call_state">حالة الاتصال</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="phone_label">تسمية الهاتف</string>
+    <string name="elapsed_time">الوقت المنقضي</string>
+    <string name="photo_frame">إطار الصورة</string>
+    <string name="call_type">نوع الاتصال</string>
+    <string name="switch_buttons">مجموعة أزرار</string>
+    <string name="fullscreen_photo_mode">وضع ملء الشاشة للصورة</string>
+    <string name="incoming_call_state">حالة المكالمة الواردة</string>
+    <string name="handle_for_audio_incoming_call">زر الوسط للمكالمة الصوتية الواردة</string>
+    <string name="handle_for_video_incoming_call">زر الوسط للمكالمة الواردة للفيديو</string>
+    <string name="handle_for_video_request">زر الوسط لطلب الفيديو</string>
+    <string name="buttons_and_swipes">الأزرار والإيماءات</string>
+    <string name="circle_with_gestures">الدائرة مع الإيماءات</string>
+    <string name="circle_settings">إعدادات الدائرة</string>
+    <string name="outgoing_call_and_conversation_state">حالة المكالمات الصادرة ووقت الكلام</string>
+    <string name="end_call_button">زر إنهاء المكالمة</string>
+    <string name="always_full_screen_on_incoming_calls_title">ملء الشاشة دائمًا على المكالمات الواردة</string>
+    <string name="always_full_screen_on_incoming_calls_summary">ملء الشاشة دائمًا على المكالمات الواردة ، حتى عندما يكون الجهاز نشطًا</string>
+    <string name="incallui_priority_of_mobile_operator_icon_display_title">أولوية عرض رمز مشغل الهاتف المحمول</string>
+    <string name="enable_visual_hints_on_incoming_call_title">مكالمة واردة</string>
+    <string name="enable_visual_hints_on_incoming_call_summary">تمكين تلميحات مرئية على المكالمات الواردة</string>
+    <string name="about_check_for_updates_channel_title">تمكين تحديثات alpha و beta</string>
+    <string name="about_check_for_updates_channel_summary">تمكين تحديثات إصدار ألفا وإصدار تجريبي للبرنامج</string>
+    <string name="check_for_updates">التحقق من وجود تحديثات</string>
+    <string name="about_check_for_updates_direct_summary">التحقق من تحديثات التنزيل وتوجيهها</string>
+    <string name="about_check_for_updates_dm_summary">التحقق من التحديثات وتنزيلها عبر Download Manager</string>
+    <string name="checking_for_updates">جارٍ التحقق من التحديثات…</string>
+    <string name="saved_to">تم الحفظ إلى</string>
+    <string name="cant_save">لا يمكن الحفظ</string>
+    <string name="update_installing_started">بدأ تحديث التثبيت…</string>
+    <string name="error_during_update">خطأ أثناء التحديث…</string>
+    <string name="download_update_completed">اكتمل تنزيل التحديث…</string>
+    <string name="app_installing">تثبيت التطبيق</string>
+    <string name="download_update_to">تنزيل التحديث إلى</string>
+    <string name="you_are_using_the_latest_version_of_the_program">أنت تستخدم أحدث إصدار من البرنامج</string>
+    <string name="a_new_version_of_the_program_is_available">يتوفر إصدار جديد من البرنامج:</string>
+    <string name="update">التحديث</string>
+    <string name="start_update_downloading">ابدأ تحديث التنزيل…</string>
+    <string name="error_during_update_check">خطأ أثناء التحقق من التحديث…</string>
+    <string name="cant_create_image_file">لا يمكن إنشاء ملف صورة…</string>
+    <string name="change_icon">تغيير الرمز</string>
+    <string name="change_default_icon">تغيير الرمز الافتراضي</string>
+    <string name="icon_normal_state">الرمز: الحالة العادية</string>
+    <string name="normal_icon_state">حالة الرمز العادي</string>
+    <string name="icon_pressed_state">الرمز: حالة الضغط</string>
+    <string name="pressed_icon_state">حالة الرمز المضغوط</string>
+    <string name="background_normal_state">الخلفية: الحالة العادية</string>
+    <string name="normal_background_state">حالة الخلفية العادية</string>
+    <string name="background_pressed_state">الخلفية: حالة الضغط</string>
+    <string name="pressed_background_state">حالة الخلفية المضغوطة</string>
+    <string name="associated_gesture">الإيماءة المرتبطة</string>
+    <string name="gesture">الإيماءة</string>
+    <string name="change_gesture_icon">تغيير رمز الإيماءة</string>
+    <string name="change_default_gesture_icon">تغيير رمز الإيماءة الافتراضي</string>
+    <string name="gesture_icon_normal_state">رمز الإيماءات: الحالة العادية</string>
+    <string name="gesture_icon_pressed_state">رمز الإيماءات: حالة الضغط</string>
+    <string name="please_wait_language_changing">يرجى الانتظار ، اللغة تتغير…</string>
+    <string name="navigation_bar_above_content_title">شريط التنقل أعلى المحتوى</string>
+    <string name="navigation_bar_above_content_summary">يتم عرض العناصر أسفل شريط التنقل</string>
+    <string name="incallui_play_system_ringtone_title">تشغيل نغمة الرنين</string>
+    <string name="incallui_play_system_ringtone_summary">قم بتشغيل إذا لم يتم تشغيل نغمة رنين النظام عند مكالمة واردة</string>
+    <string name="incallui_defer_blocking_calls_title">التجاهل بدلاً من حظر الاتصال</string>
+    <string name="incallui_defer_blocking_calls_summary">تمكين إذا كانت هناك مشكلات في حظر مكالمات البريد العشوائي</string>
+    <string name="incallui_enable_own_incallui_title">استخدام واجهة InCallUI الخاصة</string>
+    <string name="incallui_enable_own_incallui_summary">عند التعطيل ، سيتم استخدام واجهة InCallUI للنظام</string>
+    <string name="dialpad_volume_level_title">مستوى الصوت</string>
+    <string name="subsection">القسم الفرعي</string>
+    <string name="option_search_key">مفتاح البحث:</string>
+    <string name="geoinformation">المعلومات الجغرافية</string>
+    <string name="offline_callerid">متصل CallerID</string>
+    <string name="preference_screen_geoinformation_summary">المعلومات الجغرافية والمشغل عن طريق رقم الهاتف</string>
+    <string name="show_geo_descriptions_enable_summary">حاليا التعرف على المعلومات الجغرافية والمشغل عن طريق رقم الهاتف</string>
+    <string name="show_geo_descriptions_carrier_title">طلب إضافي من اسم المشغل</string>
+    <string name="show_geo_descriptions_carrier_summary">تعطيل إذا كانت المعلومات حول المشغل مكررة</string>
+    <string name="show_geo_descriptions_homeland_title">أظهر بلدك</string>
+    <string name="show_geo_descriptions_homeland_summary">عرض اسم بلدك قبل المنطقة والمشغل</string>
+    <string name="show_geo_descriptions_unknown_numbers_title">عرض لأرقام غير معروفة</string>
+    <string name="show_geo_descriptions_unknown_numbers_summary">إظهار المعلومات الجغرافية لأرقام غير معروفة</string>
+    <string name="show_geo_descriptions_communication_channels_title">عرض لقنوات الاتصال</string>
+    <string name="show_geo_descriptions_communication_channels_summary">إظهار المعلومات الجغرافية لقنوات الاتصال</string>
 
 </resources>

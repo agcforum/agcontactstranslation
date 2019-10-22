@@ -361,6 +361,7 @@
     <string name="notification_network_selection_title" msgid="6785177943238085441">"Нет сигнала"</string>
     <string name="notification_network_selection_text" msgid="9097902390701009591">"Выбранная сеть (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) недоступна."</string>
     <string name="notification_action_answer" msgid="8418990052527593953">"Ответить"</string>
+    <string name="notification_action_ignore">Игнорировать</string>
     <string name="notification_action_end_call" msgid="2152010639043225860">"Завершить"</string>
     <string name="notification_action_answer_video" msgid="2400233093494856655">"Видео"</string>
     <string name="notification_action_answer_voice" msgid="3206168292649273866">"Голос"</string>
@@ -1111,6 +1112,8 @@
     <string name="deleted">Удалённая</string>
     <string name="deleted_hide">Удаленные: Скрыть</string>
     <string name="deleted_show">Удаленные: Показать</string>
+    <string name="hide">Скрыть</string>
+    <string name="show">Показать</string>
     <string name="details_mode">Режимы Детали</string>
     <string name="detect_possible_missed_calls_columns_summary">Определить возможный столбец с дополнительной информацией для пропущенных звонков</string>
     <string name="detect_possible_missed_calls_columns_title">Определить возможный столбец для пропущенных звонков</string>
@@ -1160,6 +1163,7 @@
     <string name="dialogs_title">Диалоги</string>
     <string name="dialpad_buttons_title">Номеронабиратель: кнопки</string>
     <string name="dialpad_dialed_number_title">Номеронабиратель: Набранный номер</string>
+    <string name="dialed_number">Набранный номер</string>
     <string name="dialpad_keyboard_show_action_icons_10_summary">Разрешить отображение иконок действий при долгом нажатии для кнопок \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_10_title">Иконки действий для \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_29_summary">Разрешить отображение иконок действий при долгом нажатии для кнопок \'2\' - \'9\'</string>
@@ -1700,7 +1704,9 @@
     <string name="note_title">Заметка</string>
     <string name="notification_access_query">Разрешить доступ для \"AGContacts\" к уведомлениям сейчас?</string>
     <string name="notification_access_text">Для снятия программой уведомлений о пропущенных вызовах необходимо разрешить ей доступ к уведомлениям в настройках устройства…</string>
+    <string name="notification_access_android7plus_text">Для стабильной работы фоновых обработчиков событий и сервисов программы требуется доступ к сервису уведомлений. Программа осуществляет мониторинг и автоматический перезапуск фоновых процессов и сервисов при необходимости, когда поступают новые уведомления. Мы рекомендуем разрешить доступ к сервису уведомлений, но это не является обязательным требованием.</string>
     <string name="notification_access_title">Доступ к уведомлениям</string>
+    <string name="enable_notification_service_access_title">Включить доступ к уведомлениям</string>
     <string name="notification_app_launcher_widget1_settings_summary">Настройки данных и визуальных стилей для Виджета 1</string>
     <string name="notification_app_launcher_widget1_settings_title">Настройки Виджета 1</string>
     <string name="notification_app_launcher_widget2_settings_summary">Настройки данных и визуальных стилей для Виджета 2</string>
@@ -1729,6 +1735,8 @@
     <string name="options">Опции</string>
     <string name="order_of_elements_summary">Изменение порядка элементов</string>
     <string name="order_of_elements_title">Порядок элементов</string>
+    <string name="order_and_visiblity_of_elements_summary">Изменение порядка и видимости элементов</string>
+    <string name="order_and_visiblity_of_elements_title">Порядок и видимость элементов</string>
     <string-array name="orientation_modes">
         <item>Системная ориентация</item>
         <item>Портретная</item>
@@ -2494,17 +2502,19 @@
     <string name="zero_as_space_for_text_fields_summary">При поиске T9 интерпретировать \'0\' как пробел для текстовых полей</string>
     <string name="zero_as_space_for_text_fields_title">\'0\' как пробел</string>
 
-    <string-array name="contact_photo_display_mode_entries">
-        <item>Смена режима кликом по фото</item>
-        <item>Оконный режим</item>
-        <item>Полноэкранный режим</item>
-    </string-array>
     <string name="invert_icons_color_for_main_screen_title">Инвертировать цвет значков для Главного экрана</string>
     <string name="invert_icons_color_for_main_screen_summary">Инвертировать цвет значков в Строке состояния для Главного экрана</string>
     <string name="invert_icons_color_for_other_screens_title">Инвертировать цвет значков для остальных экранов</string>
     <string name="invert_icons_color_for_other_screens_summary">Инвертировать цвет значков в Строке состояния для остальных экранов программы</string>
     <string name="invert_icons_color_for_call_screens_title">Инвертировать цвет значков для экранов вызовов</string>
     <string name="invert_icons_color_for_call_screens_summary">Инвертировать цвет значков в Строке состояния для экранов вызовов</string>
+
+    <string-array name="contact_photo_display_mode_entries">
+        <item>Смена режима кликом по фото</item>
+        <item>Оконный режим</item>
+        <item>Полноэкранный режим</item>
+    </string-array>
+
     <string name="preference_screen_incallui_settings_title">Экраны во время звонков</string>
     <string name="preference_screen_incallui_settings_summary">Интерфейс пользователя во время звонков (InCallUI)</string>
     <string name="show_operator_name_for_devices_with_one_sim_card_title">Показать имя оператора для устройств с одной SIM-картой</string>
@@ -2539,6 +2549,7 @@
     <string name="drawing_photos">Отрисовка фотографий</string>
     <string name="current_value_value_dp">Текущее значение: %1$d dp</string>
     <string name="current_value_value">Текущее значение: %1$d</string>
+    <string name="current_value_value_percent">Текущее значение: %1$d %%</string>
     <string name="circle_radius">Радиус круга</string>
     <string name="seed_color">Цвет зерна</string>
     <string name="seeding_density">Плотность посева</string>
@@ -2585,7 +2596,7 @@
     <string name="download_update_completed">Загрузка обновления завершена…</string>
     <string name="app_installing">Инсталляция программы</string>
     <string name="download_update_to">Загрузить обновление до версии</string>
-    <string name="you_are_using_the_latest_version_of_the_program">У Вас установлена последняя версия программы.</string>
+    <string name="you_are_using_the_latest_version_of_the_program">У Вас установлена последняя версия программы</string>
     <string name="a_new_version_of_the_program_is_available">Доступна новая версия программы:</string>
     <string name="update">Обновить</string>
     <string name="start_update_downloading">Начата загрузка обновления…</string>
@@ -2610,5 +2621,26 @@
     <string name="please_wait_language_changing">Пожалуйста, подождите, язык меняется…</string>
     <string name="navigation_bar_above_content_title">Панель навигации над контентом</string>
     <string name="navigation_bar_above_content_summary">Элементы отображаются под панелью навигации</string>
+    <string name="incallui_play_system_ringtone_title">Играть системный рингтон</string>
+    <string name="incallui_play_system_ringtone_summary">Включите, если системная мелодия звонка не проигрывается при входящем вызове</string>
+    <string name="incallui_defer_blocking_calls_title">Игнорирование вместо блокировки спам-вызовов</string>
+    <string name="incallui_defer_blocking_calls_summary">Включите, если есть проблемы с блокировкой спам вызовов</string>
+    <string name="incallui_enable_own_incallui_title">Использование собственного интерфейса InCallUI</string>
+    <string name="incallui_enable_own_incallui_summary">При отключении будет использоваться системный интерфейс InCallUI</string>
+    <string name="dialpad_volume_level_title">Уровень громкости</string>
+    <string name="subsection">Подраздел</string>
+    <string name="option_search_key">Ключ поиска опции:</string>
+    <string name="geoinformation">Геоинформация</string>
+    <string name="offline_callerid">Оффлайн CallerID</string>
+    <string name="preference_screen_geoinformation_summary">Геоинформация и оператор по номеру телефона</string>
+    <string name="show_geo_descriptions_enable_summary">Оффлайн распознавание географической информации и оператора по номеру телефона</string>
+    <string name="show_geo_descriptions_carrier_title">Дополнительный запрос имени оператора</string>
+    <string name="show_geo_descriptions_carrier_summary">Отключить, если дублируется информация об операторе</string>
+    <string name="show_geo_descriptions_homeland_title">Показать свою страну</string>
+    <string name="show_geo_descriptions_homeland_summary">Отображение названия Вашей страны перед регионом и оператором</string>
+    <string name="show_geo_descriptions_unknown_numbers_title">Показ для неизвестных номеров</string>
+    <string name="show_geo_descriptions_unknown_numbers_summary">Отображение геоинформации для неизвестных номеров</string>
+    <string name="show_geo_descriptions_communication_channels_title">Показ для каналов связи</string>
+    <string name="show_geo_descriptions_communication_channels_summary">Отображение геоинформации для каналов связи</string>
 
 </resources>

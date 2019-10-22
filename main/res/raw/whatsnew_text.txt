@@ -1,3 +1,53 @@
+- added Google library for offline recognition of additional information about numbers (geo-information and telecom operator)
+- added the settings section "Geoinformation" ("Settings" -> "Calls")
+- updated databases of Geoinformation and Operators for Russia and Kazakhstan (agcforum, Russian)
+- updated databases of Geoinformation and Operators for Georgia (geomod, Russian + English machine translation)
+- updated databases of Geoinformation and Operators for the Czech Republic (Marek.P, Czech + Russian and English machine translation)
+... a number of other changes ...
+
+
+v9.10.06.19480
+
+- now the target platform of the program Android 9.0
+- implemented delayed initialization backgrounds of theme (acceleration of cold start for configurations/themes with a large number of graphics)
+- improved recognition and linking of history slots with SIM cards for new Samsung devices (Android 8.0-9.0)
+- when the "Direct Call" subsystem is enabled, now the selected contact/number is automatically hidden when the element leaves the visibility zone, and is shown when the element again enters the visibility zone
+- when the "Direct Call" subsystem is enabled, the display of long contact names is improved
+- when the "Direct Call" subsystem is enabled, when dialing the emergency number (112, 911, etc.), automatic number substitution from the list is not performed
+- when the "Direct Call" subsystem is enabled, when you click on the dialed number, it is substituted as the selected number for the call
+- when the "Direct Call" subsystem is enabled, added the optional ability to displaying a photo of the selected contact in the dialing field
+- in Settings added the ability of copying to the clipboard the path to the option on a long tap on option
+- in Settings, when copying the option path to the clipboard, the search key is now also copied
+- in Settings, when an search key is inserted into the search string, the desired option is now immediately displayed
+- in Settings, the transition to the option from the search is slightly improved
+- in Settings added the "Apply" button (with checkmarks icon in the upper right corner), when clicked, the settings are applied, and the next time you enter the Settings, you return to the screen from which the "Apply" command was called
+- in Settings during the search, support has now been made for navigating up levels after moving to the found option (returning to the search start screen occurs when reaching the upper level)
+- added option "Vibration pattern ("Settings" -> "User Interface" -> "Dial pad")
+- added auto-hide input cursor in the number input field after 3 seconds of inactivity (Android 6+)
+- improved the initial installation of the default configuration when installing the program
+- unified installation procedures for configurations and themes
+- added Shortcuts for launching the program in the Contacts, History and Favorites modes for the main program shortcut
+- improved adding / deleting contacts to Favorites
+- for Android 7+, a request for access to notifications has been restored
+... a number of other changes ...
+
+
+v9.09.04.18790
+
+- N.B. (!): "If after updating the program there are problems with the screens of incoming or outgoing calls, uninstall the program and install it from scratch". If that doesn’t help, disable the option “Using own InCallUI interface”.
+- added the option "“Using own InCallUI interface" ("Settings" -> "User Interface" -> "Screens during calls"), when disabled, system InCallUI interface will be used
+- added the option "Volume level" ("Settings" -> "User Interface" -> "Dialpad") to adjust the volume level of pronunciation of numbers (or playing a tone sounds) when you press the dial pad buttons relative to the multimedia volume
+- in the "Filter by groups" window two filtering modes are supported: displaying contacts from selected contact groups ("Show" command) or hiding contacts from selected groups ("Hide" command)
+- added the option  "Play system ringtone" for Android 6.0 ("Settings" -> "User Interface" -> "Screens during calls"), enable if the system ringtone does not play when an incoming call
+- added the option  "Ignoring instead of blocking" for Android 6.0-7.1 ("Settings" -> "User Interface" -> "Screens during calls"), enable if problems with blocking spam calls
+- all font sizes for the number entry field are now applied in absolute units (dp), and not relative to the size of the system font (sp)
+- added caching of the names of the used theme graphic files to speed up the cold start, save and apply themes, etc.
+- updated translation of the user interface of the program for Russian, Ukrainian, German, Spanish, Czech and Arabic
+... a number of other changes ...
+
+
+v9.08.21.18584
+
 - own Screens during calls (InCallUI)
 - improved performance, stability and speed of launch of the program
 - for Huawei/Honor devices with EMUI 8.0-9.0, it is recommended to enable all options of the "Performance" subsection in the program Settings

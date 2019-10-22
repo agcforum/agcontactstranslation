@@ -357,6 +357,7 @@
     <string name="notification_network_selection_title" msgid="6785177943238085441">"Kein Service"</string>
     <string name="notification_network_selection_text" msgid="9097902390701009591">"Ausgewähltes Netzwerk (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) nicht verfügbar"</string>
     <string name="notification_action_answer" msgid="8418990052527593953">"Annehmen"</string>
+    <string name="notification_action_ignore">Ignorieren</string>
     <string name="notification_action_end_call" msgid="2152010639043225860">"Beenden"</string>
     <string name="notification_action_answer_video" msgid="2400233093494856655">"Videoanruf"</string>
     <string name="notification_action_answer_voice" msgid="3206168292649273866">"Sprachanruf"</string>
@@ -1100,6 +1101,8 @@
     <string name="deleted">Gelöschte</string>
     <string name="deleted_hide">Gelöscht: Ausblenden</string>
     <string name="deleted_show">Gelöscht: Anzeigen</string>
+    <string name="hide">Ausblenden</string>
+    <string name="show">Anzeigen</string>
     <string name="details_mode">Details-Modus</string>
     <string name="detect_possible_missed_calls_columns_summary">Erkennen Sie mögliche Spalten für zusätzliche Informationen über Anrufe in Abwesenheit</string>
     <string name="detect_possible_missed_calls_columns_title">Erkennen Sie mögliche Spalten für Verpasste Anrufe</string>
@@ -1149,6 +1152,7 @@
     <string name="dialogs_title">Dialoge</string>
     <string name="dialpad_buttons_title">Wähltastatur: Tasten</string>
     <string name="dialpad_dialed_number_title">Wähltastatur: Gewählte Nummer</string>
+    <string name="dialed_number">Gewählte Nummer</string>
     <string name="dialpad_keyboard_show_action_icons_10_summary">Aktivieren Sie die Anzeige der Aktionssymbole mit langem Drücken für die Tasten \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_10_title">Aktionssymbole für \'1\', \'*\', \'0\', \'#\'</string>
     <string name="dialpad_keyboard_show_action_icons_29_summary">Aktivieren Sie die Anzeige der Aktionssymbole mit langem Drücken für die Tasten \'2\' - \'9\'</string>
@@ -1688,7 +1692,9 @@ Um mit einer Abfragesprache zu suchen, können die Symbole *, # und die Leerzeic
     <string name="note_title">Notizen</string>
     <string name="notification_access_query">Zugriff auf Benachrichtigungen für \"AGContacts\" jetzt zulassen?</string>
     <string name="notification_access_text">Um eine Benachrichtigung über verpasste Anrufe per Programm zurückzusetzen müssen Sie den Zugriff auf Benachrichtigungen in den Geräteeinstellungen…</string>
+    <string name="notification_access_android7plus_text">Für einen stabilen Betrieb von Hintergrundereignishandlern und Programmdiensten ist der Zugriff auf den Benachrichtigungsdienst erforderlich. Das Programm überwacht und startet Hintergrundprozesse und -dienste bei Bedarf automatisch neu, wenn neue Benachrichtigungen eingehen. Es wird empfohlen, den Zugriff auf den Benachrichtigungsdienst zuzulassen, dies ist jedoch keine Voraussetzung.</string>
     <string name="notification_access_title">Benachrichtigungszugriff</string>
+    <string name="enable_notification_service_access_title">Aktivieren Sie den Benachrichtigungszugriff</string>
     <string name="notification_app_launcher_widget1_settings_summary">Richten Sie Daten und visuelle Stile für Widget 1 ein</string>
     <string name="notification_app_launcher_widget1_settings_title">Widget 1 Einstellungen</string>
     <string name="notification_app_launcher_widget2_settings_summary">Richten Sie Daten und visuelle Stile für Widget 2 ein</string>
@@ -1717,6 +1723,8 @@ Um mit einer Abfragesprache zu suchen, können die Symbole *, # und die Leerzeic
     <string name="options">Einstellungen</string>
     <string name="order_of_elements_summary">Ändern Sie die Reihenfolge der Elemente</string>
     <string name="order_of_elements_title">Reihenfolge der Elemente</string>
+    <string name="order_and_visiblity_of_elements_summary">Ändern Sie die Reihenfolge und Sichtbarkeit von Elementen</string>
+    <string name="order_and_visiblity_of_elements_title">Reihenfolge und Sichtbarkeit der Elemente</string>
     <string-array name="orientation_modes">
         <item>Systemorientierung</item>
         <item>Hochformat</item>
@@ -2487,7 +2495,139 @@ Um mit einer Abfragesprache zu suchen, können die Symbole *, # und die Leerzeic
     <string name="invert_icons_color_for_other_screens_summary">Invertieren Sie die Farbe der Symbole in der Statusleiste für andere Bildschirme des Programms</string>
     <string name="invert_icons_color_for_call_screens_title">Invertieren Sie die Farbe der Symbole für Anrufbildschirme</string>
     <string name="invert_icons_color_for_call_screens_summary">Invertieren Sie die Farbe der Symbole in der Statusleiste für Anrufbildschirme</string>
+
+    <string-array name="contact_photo_display_mode_entries">
+        <item>Ändern des Modus durch Klicken auf Foto</item>
+        <item>Fenstermodus</item>
+        <item>Vollbildmodus</item>
+    </string-array>
+
     <string name="preference_screen_incallui_settings_title">Bildschirme während der Anrufe</string>
     <string name="preference_screen_incallui_settings_summary">Benutzeroberfläche während Anrufe (InCallUI)</string>
+    <string name="show_operator_name_for_devices_with_one_sim_card_title">Betreibername für Geräte mit einer SIM-Karte anzeigen</string>
+    <string name="show_operator_name_for_devices_with_one_sim_card_summary">Name und Symbol des Mobilfunkanbieters für Geräte mit einer SIM-Karte anzeigen</string>
+    <string name="contact_photo_display_mode_title">Anzeigemodus für Kontaktfotos</string>
+
+    <string-array name="incallui_priority_of_mobile_operator_icon_display_entries">
+        <item>Ruftastensymbole, Themensymbole, Systemsymbole</item>
+        <item>Themensymbole, Ruftastensymbole, Systemsymbole</item>
+        <item>Systemsymbole, Ruftastensymbole, Themensymbole</item>
+    </string-array>
+
+    <string-array name="button_gesture_swipes_entries">
+        <item>Keine Geste</item>
+        <item>Streichen Sie nach links</item>
+        <item>Streichen Sie nach rechts</item>
+        <item>Wischen Sie nach oben</item>
+        <item>Wischen Sie nach unten</item>
+    </string-array>
+
+    <string name="set_font_and_sizes_for_textview">Legen Sie Schriftart und -größe für \'%s\'</string>
+    <string name="set_margins_and_paddings_for_block">Legen Sie die Abstände und Ränder für \'%s\'</string>
+    <string name="end_call_keyboard_shown">Tastatur angezeigt</string>
+    <string name="end_call_normal_state">Tastatur ausgeblendet</string>
+    <string name="set_parameters_for_block">Legen Sie die Parameter für \'%s\'</string>
+    <string name="audio_incoming_call">Eingehender Audioanruf</string>
+    <string name="video_incoming_call">Eingehender Videoanruf</string>
+    <string name="video_request">Videoanforderung</string>
+    <string name="stroke_width">Strichbreite</string>
+    <string name="stroke_color">Strichfarbe</string>
+    <string name="stroke_offset">Strichversatz</string>
+    <string name="drawing_photos">Zeichnen von Fotos</string>
+    <string name="current_value_value_dp">Aktueller Wert: %1$d dp</string>
+    <string name="current_value_value">Aktueller Wert: %1$d</string>
+    <string name="current_value_value_percent">Aktueller Wert: %1$d %%</string>
+    <string name="circle_radius">Kreisradius</string>
+    <string name="seed_color">Samenfarbe</string>
+    <string name="seeding_density">Aussaatdichte</string>
+    <string name="area_of_activation">Aktivierungsbereich</string>
+    <string name="trigger_radius">Auslöseradius</string>
+    <string name="background_color">Hintergrundfarbe</string>
+    <string name="call_card">Anruf-Visitenkarte</string>
+    <string name="call_card_area">Anruf-Visitenkartenbereich</string>
+    <string name="display_area">Anzeigebereich</string>
+    <string name="window_photo_mode">Fensterfotomodus</string>
+    <string name="call_subject">Thema des Anrufs</string>
+    <string name="call_state">Anrufstatus</string>
+    <string name="phone_number">Telefonnummer</string>
+    <string name="phone_label">Telefonbezeichnung</string>
+    <string name="elapsed_time">Verstrichene Zeit</string>
+    <string name="photo_frame">Fotorahmen</string>
+    <string name="call_type">Anruftyp</string>
+    <string name="switch_buttons">Schaltflächenblock</string>
+    <string name="fullscreen_photo_mode">Vollbild-Fotomodus</string>
+    <string name="incoming_call_state">Status eingehender Anrufe</string>
+    <string name="handle_for_audio_incoming_call">Taste für eingehenden Audioanruf</string>
+    <string name="handle_for_video_incoming_call">Taste für eingehenden Videoanrufe</string>
+    <string name="handle_for_video_request">Taste für Videoanforderung</string>
+    <string name="buttons_and_swipes">Schaltflächen und Gesten</string>
+    <string name="circle_with_gestures">Kreis mit Gesten</string>
+    <string name="circle_settings">Kreiseinstellungen</string>
+    <string name="outgoing_call_and_conversation_state">Status für ausgehende Anrufe und Konversationen</string>
+    <string name="end_call_button">Anruf beenden</string>
+    <string name="always_full_screen_on_incoming_calls_title">Immer Vollbild bei eingehenden Anrufen</string>
+    <string name="always_full_screen_on_incoming_calls_summary">Immer Vollbild bei eingehenden Anrufen, auch wenn das Gerät aktiv ist</string>
+    <string name="incallui_priority_of_mobile_operator_icon_display_title">Priorität der Anzeige des Mobilfunkbetreibersymbols</string>
+    <string name="enable_visual_hints_on_incoming_call_title">Eingehender Anruf</string>
+    <string name="enable_visual_hints_on_incoming_call_summary">Visuelle Hinweise für eingehende Anrufe aktivieren</string>
+    <string name="about_check_for_updates_channel_title">Alpha- und Beta-Updates aktivieren</string>
+    <string name="about_check_for_updates_channel_summary">Aktivieren Sie Alpha- und Betaversionsaktualisierungen des Programms</string>
+    <string name="check_for_updates">Nach Updates suchen</string>
+    <string name="about_check_for_updates_direct_summary">Überprüfe und lade Updates direkt herunter</string>
+    <string name="about_check_for_updates_dm_summary">Überprüfe und lade Updates über den Download-Manager herunter</string>
+    <string name="checking_for_updates">Nach Updates suchen…</string>
+    <string name="saved_to">Gespeichert unter</string>
+    <string name="cant_save">Kann nicht speichern</string>
+    <string name="update_installing_started">Update-Installation gestartet…</string>
+    <string name="error_during_update">Fehler beim Update…</string>
+    <string name="download_update_completed">Download-Update abgeschlossen…</string>
+    <string name="app_installing">App-Installation</string>
+    <string name="download_update_to">Update herunterladen</string>
+    <string name="you_are_using_the_latest_version_of_the_program">Sie verwenden die neueste Version des Programms</string>
+    <string name="a_new_version_of_the_program_is_available">Eine neue Version des Programms ist verfügbar:</string>
+    <string name="update">Aktualisieren</string>
+    <string name="start_update_downloading">Update-Download starten…</string>
+    <string name="error_during_update_check">Fehler beim Update-Check…</string>
+    <string name="cant_create_image_file">Image-Datei kann nicht erstellt werden…</string>
+    <string name="change_icon">Symbol ändern</string>
+    <string name="change_default_icon">Standard-Symbol ändern</string>
+    <string name="icon_normal_state">Symbol: Normaler Status</string>
+    <string name="normal_icon_state">Normaler Symbolstatus</string>
+    <string name="icon_pressed_state">Symbol: Status gedrückt</string>
+    <string name="pressed_icon_state">Symbolstatus gedrückt</string>
+    <string name="background_normal_state">Hintergrund: Normaler Status</string>
+    <string name="normal_background_state">Normaler Hintergrundstatus</string>
+    <string name="background_pressed_state">Hintergrund: Status gedrückt</string>
+    <string name="pressed_background_state">Hintergrundstatus gedrückt</string>
+    <string name="associated_gesture">Zugeordnete Geste</string>
+    <string name="gesture">Geste</string>
+    <string name="change_gesture_icon">Symbol für Geste ändern</string>
+    <string name="change_default_gesture_icon">Standardgestensymbol ändern</string>
+    <string name="gesture_icon_normal_state">Gesten-Symbol: Normaler Status</string>
+    <string name="gesture_icon_pressed_state">Gestensymbol: Status gedrückt</string>
+    <string name="please_wait_language_changing">Bitte warten Sie, die Sprache ändert sich…</string>
+    <string name="navigation_bar_above_content_title">Navigationsleiste über dem Inhalt</string>
+    <string name="navigation_bar_above_content_summary">Elemente werden unter der Navigationsleiste angezeigt</string>
+    <string name="incallui_play_system_ringtone_title">System-Klingelton abspielen</string>
+    <string name="incallui_play_system_ringtone_summary">Aktivieren, wenn der Systemklingelton bei einem eingehenden Anruf nicht abgespielt wird</string>
+    <string name="incallui_defer_blocking_calls_title">Ignorieren statt blockieren</string>
+    <string name="incallui_defer_blocking_calls_summary">Aktivieren Sie diese Option, wenn Probleme beim Blockieren von Spam-Anrufen auftreten</string>
+    <string name="incallui_enable_own_incallui_title">Eigene InCallUI-Schnittstelle verwenden</string>
+    <string name="incallui_enable_own_incallui_summary">Wenn deaktiviert, wird die InCallUI-Systemschnittstelle verwendet</string>
+    <string name="dialpad_volume_level_title">Lautstärkepegel</string>
+    <string name="subsection">Unterabschnitt</string>
+    <string name="option_search_key">Suchschlüssel:</string>
+    <string name="geoinformation">Geoinformation</string>
+    <string name="offline_callerid">Offline CallerID</string>
+    <string name="preference_screen_geoinformation_summary">Geoinformation und Betreiber per Telefonnummer</string>
+    <string name="show_geo_descriptions_enable_summary">Offline-Erkennung der geografischen Informationen und des Betreibers anhand der Telefonnummer</string>
+    <string name="show_geo_descriptions_carrier_title">Zusätzliche Abfrage des Betreibernamens</string>
+    <string name="show_geo_descriptions_carrier_summary">Deaktivieren Sie diese Option, wenn die Informationen zum Bediener doppelt vorhanden sind</string>
+    <string name="show_geo_descriptions_homeland_title">Zeigen Sie Ihr Land</string>
+    <string name="show_geo_descriptions_homeland_summary">Zeigen Sie Ihren Ländernamen vor der Region und dem Betreiber an</string>
+    <string name="show_geo_descriptions_unknown_numbers_title">Zeigen Sie für unbekannte Nummern</string>
+    <string name="show_geo_descriptions_unknown_numbers_summary">Geoinformationen für unbekannte Nummern anzeigen</string>
+    <string name="show_geo_descriptions_communication_channels_title">Zeigen Sie für Kommunikationskanäle</string>
+    <string name="show_geo_descriptions_communication_channels_summary">Geoinformationen für Kommunikationskanäle anzeigen</string>
 
 </resources>
