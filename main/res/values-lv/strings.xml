@@ -1,5 +1,854 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <!--
+    ****
+    ****
+
+
+    Contacts 7.1 (AOSP)
+
+    Resources String
+
+    Main Sources
+
+
+    ****
+    ****
+    -->
+
+    <string name="quickContactActivityLabel" msgid="7985456650689347268">"Kontaktpersonas datu skatīšana"</string>
+    <string name="editContactActivityLabel" msgid="1129944572070802839">"Kontaktpersonas datu rediģēšana"</string>
+    <string name="contactsList" msgid="8661624236494819731">"Kontaktpersonas"</string>
+    <string name="shortcutContact" msgid="749243779392912958">"Kontaktpersona"</string>
+    <string name="shortcutDialContact" msgid="746622101599186779">"Tiešais zvans"</string>
+    <string name="shortcutMessageContact" msgid="2460337253595976198">"Tiešais ziņojums"</string>
+    <string name="shortcutActivityTitle" msgid="6642877210643565436">"Izvēlieties kontaktpersonas saīsni"</string>
+    <string name="callShortcutActivityTitle" msgid="6065749861423648991">"Izvēlieties numuru, uz kuru zvanīt"</string>
+    <string name="messageShortcutActivityTitle" msgid="3084542316620335911">"Izvēlieties numuru, uz kuru sūtīt īsziņu"</string>
+    <string name="contactInsertOrEditActivityTitle" msgid="6527505405325862674">"Pievienot kontaktpersonai"</string>
+    <string name="contactPickerActivityTitle" msgid="4301062192337417640">"Kontaktpersonas izvēle"</string>
+    <string name="header_entry_contact_list_adapter_header_title" msgid="2436981165830115659">"Izveidojiet jaunu kontaktpersonu"</string>
+    <string name="starredList" msgid="4817256136413959463">"Atzīmēti ar zvaigznīti"</string>
+    <string name="frequentList" msgid="7154768136473953056">"Bieži"</string>
+    <string name="strequentList" msgid="5640192862059373511">"Izlase"</string>
+    <string name="viewContactTitle" msgid="7989394521836644384">"Informācija par kontaktpersonu"</string>
+    <string name="editContactDescription" msgid="2947202828256214947">"Rediģēt kontaktpersonu"</string>
+    <string name="insertContactDescription" msgid="4709878105452681987">"Izveidot kontaktpersonu"</string>
+    <string name="editGroupDescription" msgid="6321161304201540561">"Rediģēt grupu"</string>
+    <string name="insertGroupDescription" msgid="5658512271662210139">"Izveidot grupu"</string>
+    <string name="contactDetailAbout" msgid="5430408883907061400">"Par"</string>
+    <string name="contactDetailUpdates" msgid="3780588624763446941">"Atjaunināj."</string>
+    <string name="searchHint" msgid="8482945356247760701">"Meklēt kontaktpersonas"</string>
+    <string name="menu_viewContact" msgid="2795575601596468581">"Skatīt kontaktpersonu"</string>
+    <string name="menu_addStar" msgid="2908478235715404876">"Pievienot izlasei"</string>
+    <string name="menu_removeStar" msgid="5844227078364227030">"Noņemt no izlases"</string>
+    <string name="description_action_menu_remove_star" msgid="4699640108012265178">"Noņemts no izlases"</string>
+    <string name="description_action_menu_add_star" msgid="3327186327234177456">"Pievienots izlasei"</string>
+    <string name="menu_editContact" msgid="9042415603857662633">"Rediģēt"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Dzēst"</string>
+    <string name="menu_change_photo" msgid="7769177631511496210">"Mainīt fotoattēlu"</string>
+    <string name="menu_create_contact_shortcut" msgid="1217971915748509640">"Novietot sākuma ekrānā"</string>
+    <string name="menu_call" msgid="3992595586042260618">"Zvanīt kontaktpersonai"</string>
+    <string name="menu_sendSMS" msgid="5535886767547006515">"Sūtīt īsziņu kontaktpersonai"</string>
+    <string name="menu_splitAggregate" msgid="2627252205317945563">"Atsaistīt"</string>
+    <string name="menu_editGroup" msgid="5062005185370983720">"Rediģēt"</string>
+    <string name="menu_deleteGroup" msgid="3486380004411482874">"Dzēst"</string>
+    <string name="menu_new_contact_action_bar" msgid="7263362129442119188">"Pievienot kontaktpersonu"</string>
+    <string name="menu_new_group_action_bar" msgid="3520232877587377175">"Pievienot grupu"</string>
+    <string name="splitConfirmation" msgid="7342030840130187290">"Vai atsaistīt šo kontaktpersonu un sadalīt vairākās kontaktpersonās?"</string>
+    <string name="splitConfirmation_positive_button" msgid="9129409098807939699">"Atsaistīt"</string>
+    <string name="splitConfirmationWithPendingChanges" msgid="7719062163511895696">"Vai vēlaties saglabāt veiktās izmaiņas, atsaistīt šo kontaktpersonu un sadalīt vairākās kontaktpersonās?"</string>
+    <string name="splitConfirmationWithPendingChanges_positive_button" msgid="9073444264887244032">"Saglabāt un atsaistīt"</string>
+    <string name="joinConfirmation" msgid="8262614843581924365">"Vai vēlaties saglabāt veiktās izmaiņas un saistīt ar atlasīto kontaktpersonu?"</string>
+    <string name="joinConfirmation_positive_button" msgid="4573092849769149516">"Saglabāt un saistīt"</string>
+    <string name="menu_joinAggregate" msgid="3599512127797513606">"Saistīt"</string>
+    <string name="menu_save" msgid="1727844363591825909">"Saglabāt"</string>
+    <string name="titleJoinContactDataWith" msgid="6825255752748313944">"Kontaktu saistīšana"</string>
+    <string name="blurbJoinContactDataWith" msgid="5864256698061641841">"Izvēlieties kontaktpersonu, kuru vēlaties saistīt ar vārdu <xliff:g id="NAME">%s</xliff:g>:"</string>
+    <string name="showAllContactsJoinItem" msgid="2189695051430392383">"Rādīt visas kontaktpersonas"</string>
+    <string name="separatorJoinAggregateSuggestions" msgid="2831414448851313345">"Ieteiktās kontaktpersonas"</string>
+    <string name="separatorJoinAggregateAll" msgid="7939932265026181043">"Visas kontaktpersonas"</string>
+    <string name="contactsJoinedMessage" msgid="3343535986195643136">"Kontaktpersonas tika saistītas."</string>
+    <plurals name="contacts_deleted_toast" formatted="false" msgid="1477708624197262295">
+        <item quantity="zero">Kontaktpersonas ir izdzēstas</item>
+        <item quantity="one">Kontaktpersonas ir izdzēstas</item>
+        <item quantity="other">Kontaktpersonas ir izdzēstas</item>
+    </plurals>
+    <string name="menu_set_ring_tone" msgid="8728345772068064946">"Iestatīt zv. signālu"</string>
+    <string name="menu_redirect_calls_to_vm" msgid="4181789196416396656">"Visi zvani uz balss pastu"</string>
+    <string name="readOnlyContactWarning" msgid="5526727661978307833">"Kontaktpersonas no tikai lasāmiem kontiem nevar dzēst, taču tās var paslēpt."</string>
+    <string name="readOnlyContactWarning_positive_button" msgid="6541862607313811926">"Paslēpt"</string>
+    <string name="readOnlyContactDeleteConfirmation" msgid="8782086424739664753">"Dzēšamajā kontaktpersonā ir ietverta informācija no vairākiem kontiem. Informācija no tikai lasāmiem kontiem tiks paslēpta, nevis izdzēsta."</string>
+    <string name="batch_link_single_contact_warning" msgid="1346058571502058767">"Lai veiktu saistīšanu, ir jāatlasa vismaz divas kontaktpersonas."</string>
+    <string name="batch_link_confirmation" msgid="5845237114309114908">"Vai saistīt atlasītās kontaktpersonas?"</string>
+    <string name="batch_link_confirmation_positive_button" msgid="5018899675473363525">"Saistīt"</string>
+    <string name="single_delete_confirmation" msgid="3106905986948679720">"Vai dzēst šo kontaktpersonu?"</string>
+    <string name="batch_delete_confirmation" msgid="3984346060324014108">"Vai dzēst atlasītās kontaktpersonas?"</string>
+    <string name="batch_delete_read_only_contact_confirmation" msgid="8411117621035639964">"Kontaktpersonas no tikai lasāmiem kontiem nevar dzēst, taču tās var paslēpt."</string>
+    <string name="batch_delete_multiple_accounts_confirmation" msgid="8207205649127030030">"Dzēšamajās kontaktpersonās ir ietverta informācija no vairākiem kontiem. Informācija no tikai lasāmiem kontiem tiks paslēpta, nevis izdzēsta."</string>
+    <string name="multipleContactDeleteConfirmation" msgid="5235324124905653550">"Dzēšot šo kontaktpersonu, tiks dzēsta informācija no vairākiem kontiem."</string>
+    <string name="deleteConfirmation" msgid="3512271779086656043">"Vai dzēst šo kontaktpersonu?"</string>
+    <string name="deleteConfirmation_positive_button" msgid="7857888845028586365">"Dzēst"</string>
+    <string name="menu_discard" msgid="6854657936970228164">"Atmest izmaiņas"</string>
+    <string name="invalidContactMessage" msgid="8215051456181842274">"Šāda kontaktpersona nepastāv."</string>
+    <string name="createContactShortcutSuccessful_NoName" msgid="8831303345367275472">"Kontaktpersona ir pievienota sākuma ekrānam."</string>
+    <string name="createContactShortcutSuccessful" msgid="953651153238790069">"Kontaktpersona <xliff:g id="NAME">%s</xliff:g> ir pievienota sākuma ekrānam."</string>
+    <string name="pickerNewContactHeader" msgid="7750705279843568147">"Izveidot jaunu kontaktpersonu"</string>
+    <string name="pickerNewContactText" msgid="6166997164401048211">"Izveidot jaunu kontaktpersonu"</string>
+    <string-array name="otherLabels">
+        <item msgid="8287841928119937597">"Organizācija"</item>
+        <item msgid="7196592230748086755">"Piezīme"</item>
+    </string-array>
+    <string name="photoPickerNotFoundText" msgid="431331662154342581">"Tālrunī nav pieejams neviens attēls."</string>
+    <string name="attach_photo_dialog_title" msgid="5599827035558557169">"Kontaktpersonas fotoattēls"</string>
+    <string name="customLabelPickerTitle" msgid="1081475101983255212">"Pielāgots iezīmes nosaukums"</string>
+    <string name="send_to_voicemail_checkbox" msgid="9001686764070676353">"Pāradresēt zvanus tieši uz balss pastu"</string>
+    <string name="removePhoto" msgid="4898105274130284565">"Noņemt fotoattēlu"</string>
+    <string name="noContacts" msgid="4955659076981974652">"Nav kontaktpersonu"</string>
+    <string name="noGroups" msgid="8614664663561385253">"Nav grupu."</string>
+    <string name="noAccounts" msgid="7768267764545265909">"Lai izveidotu grupas, ir nepieciešams konts."</string>
+    <string name="emptyGroup" msgid="7502116218697177370">"Šajā grupā nav personu."</string>
+    <string name="addPeopleToGroup" msgid="7879585947222263516">"Lai pievienotu personas, rediģējiet grupu."</string>
+    <string name="savingContact" msgid="4075751076741924939">"Notiek kontaktpersonas saglabāšana…"</string>
+    <string name="contactSavedToast" msgid="9171862279493213075">"Kontaktpersona ir saglabāta."</string>
+    <string name="contactUnlinkedToast" msgid="7122823195786012553">"Kontaktpersonas ir atsaistītas"</string>
+    <string name="contactSavedErrorToast" msgid="3207250533172944892">"Nevarēja saglabāt kontaktpersonas datu izmaiņas."</string>
+    <string name="contactUnlinkErrorToast" msgid="2758070702785994171">"Nevarēja atsaistīt kontaktpersonu."</string>
+    <string name="contactJoinErrorToast" msgid="3977932531264809035">"Nevarēja saistīt kontaktpersonu."</string>
+    <string name="contactGenericErrorToast" msgid="7774911165341591714">"Saglabājot kontaktpersonu, radās kļūda."</string>
+    <string name="contactPhotoSavedErrorToast" msgid="4079032272022979114">"Nevarēja saglabāt kontaktpersonas fotoattēla izmaiņas."</string>
+    <string name="groupSavedToast" msgid="1168756874239833756">"Grupa ir saglabāta."</string>
+    <string name="groupSavedErrorToast" msgid="7984466936615304740">"Nevarēja saglabāt grupas izmaiņas."</string>
+    <plurals name="listTotalPhoneContacts" formatted="false" msgid="3692277679143308755">
+        <item quantity="zero"><xliff:g id="COUNT">%d</xliff:g> kontaktpersonas ar tālruņa numuriem</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> kontaktpersona ar tālruņa numuriem</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> kontaktpersonas ar tālruņa numuriem</item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero" msgid="6968813857632984319">"Nav nevienas kontaktpersonas ar tālruņa numuru"</string>
+    <plurals name="listFoundAllContacts" formatted="false" msgid="4872115339963093220">
+        <item quantity="zero">Atrastas <xliff:g id="COUNT">%d</xliff:g> kontaktpersonas</item>
+        <item quantity="one">Atrasta <xliff:g id="COUNT">%d</xliff:g> kontaktpersona</item>
+        <item quantity="other">Atrastas <xliff:g id="COUNT">%d</xliff:g> kontaktpersonas</item>
+    </plurals>
+    <string name="listFoundAllContactsZero" msgid="922980883593159444">"Nav kontaktpersonu"</string>
+    <plurals name="searchFoundContacts" formatted="false" msgid="7223023725334884618">
+        <item quantity="zero">Atrastas <xliff:g id="COUNT">%d</xliff:g> kontaktpersonas</item>
+        <item quantity="one">Atrasta <xliff:g id="COUNT">%d</xliff:g> kontaktpersona</item>
+        <item quantity="other">Atrastas <xliff:g id="COUNT">%d</xliff:g> kontaktpersonas</item>
+    </plurals>
+    <string name="all_contacts_tab_label" msgid="5948889261993124839">"Visas"</string>
+    <string name="favorites_tab_label" msgid="1524869648904016414">"Izlase"</string>
+    <string name="callBack" msgid="5498224409038809224">"Atzvanīt"</string>
+    <string name="callAgain" msgid="3197312117049874778">"Zvanīt vēlreiz"</string>
+    <string name="returnCall" msgid="8171961914203617813">"Atzvanīt"</string>
+    <string name="add_contact_dlg_message_fmt" msgid="7986472669444326576">"Vai pievienot “<xliff:g id="EMAIL">%s</xliff:g>” kontaktpersonām?"</string>
+    <string name="description_contact_photo" msgid="3387458082667894062">"kontaktpersonas fotoattēls"</string>
+    <string name="description_plus_button" msgid="515164827856229880">"pluss"</string>
+    <string name="exporting_contact_list_progress" msgid="560522409559101193">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g> no <xliff:g id="TOTAL_NUMBER">%s</xliff:g> kontaktpersonas(-ām)"</string>
+    <string name="search_settings_description" msgid="2675223022992445813">"Kontaktpersonu vārdi"</string>
+    <string name="quickcontact_missing_app" msgid="358168575340921552">"Netika atrasta neviena lietotne šīs darbības veikšanai."</string>
+    <string name="quickcontact_transparent_view_description" msgid="987959416759562455">"Noklikšķiniet, lai atgrieztos iepriekšējā ekrānā."</string>
+    <string name="quickcontact_add_phone_number" msgid="731665835910658965">"Pievienojiet tālruņa numuru"</string>
+    <string name="quickcontact_add_email" msgid="739298028384348482">"Pievienojiet e-pasta adresi"</string>
+    <string name="missing_app" msgid="1466111003546611387">"Netika atrasta neviena lietotne šīs darbības veikšanai."</string>
+    <string name="menu_share" msgid="943789700636542260">"Kopīgot"</string>
+    <string name="menu_add_contact" msgid="3198704337220892684">"Pievienot kontaktpersonām"</string>
+    <string name="share_via" msgid="563121028023030093">"Kopīgot kontaktpersonu, izmantojot"</string>
+    <string name="dialog_new_group_account" msgid="2318032089273496830">"Izveidot grupu šajā kontā:"</string>
+    <string name="audio_chat" msgid="2535716629358298691">"Balss tērzēšana"</string>
+    <string name="video_chat" msgid="1872255818640336072">"Video tērzēšana"</string>
+    <string name="connections" msgid="8098440723172028350">"Savienojumi"</string>
+    <string name="add_connection_button" msgid="4861308615789601727">"Pievienot savienojumu"</string>
+    <string name="recent" msgid="2659189233141493004">"Jaunākās"</string>
+    <string name="recent_updates" msgid="4267258535615860710">"Nesen veiktie atj."</string>
+    <string name="account_type_format" msgid="718948015590343010">"<xliff:g id="SOURCE">%1$s</xliff:g> kontaktpersona"</string>
+    <string name="google_account_type_format" msgid="5283997303922067997">"<xliff:g id="SOURCE">%1$s</xliff:g> konts"</string>
+    <!-- no translation found for from_account_format (4469138575127580203) -->
+    <skip />
+    <string name="contact_read_only" msgid="7421346527289472273">"Nevar rediģēt šajā lietotnē."</string>
+    <string name="group_read_only" msgid="1061762906115697637">"Nevar rediģēt šajā ierīcē."</string>
+    <string name="take_photo" msgid="7496128293167402354">"Uzņemt fotoattēlu"</string>
+    <string name="take_new_photo" msgid="7341354729436576304">"Uzņemt jaunu fotoattēlu"</string>
+    <string name="pick_photo" msgid="2129509985223564942">"Izvēlēties fotoattēlu"</string>
+    <string name="pick_new_photo" msgid="9122450996263688237">"Atlasīt jaunu fotoattēlu"</string>
+    <string name="upgrade_in_progress" msgid="474511436863451061">"Kontaktpersonu saraksts tiek atjaunināts."</string>
+    <string name="search_results_searching" msgid="3984833028938569930">"Notiek meklēšana..."</string>
+    <string name="menu_display_selected" msgid="6470001164297969034">"Rādīt atlasi"</string>
+    <string name="menu_display_all" msgid="8887488642609786198">"Rādīt visus"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Atlasīt visas"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Noņemt atlasi visam"</string>
+    <string name="add_new_entry_for_section" msgid="5223080690667565044">"Pievienot jaunu"</string>
+    <string name="add_organization" msgid="7311893231158291197">"Pievienot organizāciju"</string>
+    <string name="event_edit_field_hint_text" msgid="5794424930242630477">"Datums"</string>
+    <string name="group_edit_field_hint_text" msgid="3966441850870457808">"Grupas nosaukums"</string>
+    <string name="change_photo" msgid="8530597935483526383">"Mainīt"</string>
+    <string name="primary_photo" msgid="8517942231868516999">"Galvenais foto"</string>
+    <string name="description_star" msgid="2605854427360036550">"izlase"</string>
+    <string name="edit_contact" msgid="7529281274005689512">"Kontaktpersonu rediģēšana"</string>
+    <string name="aggregation_suggestion_join_dialog_message" msgid="6786192560870357912">"Vai saistīt pašreizējo saturu ar atlasīto kontaktpersonu?"</string>
+    <string name="aggregation_suggestion_edit_dialog_message" msgid="6549585283910518095">"Vai pāriet uz atlasītās kontaktpersonas rediģēšanu? Līdz šim ievadītā informācija tiks kopēta."</string>
+    <string name="menu_copyContact" msgid="1573960845106822639">"Kopēt uz manām kontaktpersonām"</string>
+    <string name="add_to_my_contacts" msgid="1068274916793627723">"Pievienot mapē Manas kontaktpersonas"</string>
+    <string name="contact_directory_description" msgid="683398073603909119">"Katalogs <xliff:g id="TYPE">%1$s</xliff:g>"</string>
+    <string name="list_filter_custom" msgid="8910173055702057002">"Pielāgotas"</string>
+    <string name="activity_title_settings" msgid="5464130076132770781">"Iestatījumi"</string>
+    <string name="menu_settings" msgid="377929915873428211">"Iestatījumi"</string>
+    <string name="menu_help" msgid="1680178646764069976">"Palīdzība un atsauksmes"</string>
+    <string name="preference_displayOptions" msgid="1341720270148252393">"Attēlošanas opcijas"</string>
+    <string name="organization_company_and_title" msgid="6718207751363732025">"<xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g>"</string>
+    <string name="non_phone_caption" msgid="1541655052330027380">"Tālruņa numurs"</string>
+    <string name="non_phone_add_to_contacts" msgid="6590985286250471169">"Piev. kontaktpersonām"</string>
+    <string name="activity_title_confirm_add_detail" msgid="4065089866210730616">"Pievienot kontaktpersonai"</string>
+    <string name="non_phone_close" msgid="7608506439725515667">"Aizvērt"</string>
+    <string name="widget_name_and_phonetic" msgid="8739586586600099979">"<xliff:g id="DISPLAY_NAME">%1$s</xliff:g> (<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)"</string>
+    <string name="date_year_toggle" msgid="7122002148518724139">"Iekļaut gadu"</string>
+    <string name="social_widget_label" msgid="6378905543028924592">"Kontaktpersona"</string>
+    <string name="social_widget_loading" msgid="5327336597364074608">"Notiek ielāde..."</string>
+    <string name="contacts_unavailable_create_contact" msgid="7014525713871959208">"Izveidot jaunu kontaktpersonu"</string>
+    <string name="contacts_unavailable_add_account" msgid="4347232421410561500">"Pievienot kontu"</string>
+    <string name="contacts_unavailable_import_contacts" msgid="4957393255392437529">"Importēt kontaktpersonas"</string>
+    <string name="create_group_dialog_title" msgid="6874527142828424475">"Jaunas grupas izveide"</string>
+    <string name="create_group_item_label" msgid="4411981763169654825">"Izveidot jaunu grupu"</string>
+    <plurals name="num_groups_in_account" formatted="false" msgid="6189297639209663469">
+        <item quantity="zero"><xliff:g id="COUNT">%0$d</xliff:g> grupu</item>
+        <item quantity="one"><xliff:g id="COUNT">%0$d</xliff:g> grupa</item>
+        <item quantity="other"><xliff:g id="COUNT">%0$d</xliff:g> grupas</item>
+    </plurals>
+    <string name="delete_group_dialog_message" msgid="7586856514337560529">"Vai dzēst grupu <xliff:g id="GROUP_LABEL">%1$s</xliff:g>? (Kontaktpersonas netiks dzēstas.)"</string>
+    <plurals name="num_contacts_in_group" formatted="false" msgid="5520734553286350341">
+        <item quantity="zero"><xliff:g id="COUNT_2">%1$d</xliff:g> personu grupā <xliff:g id="ACCOUNT_TYPE_3">%2$s</xliff:g></item>
+        <item quantity="one"><xliff:g id="COUNT_2">%1$d</xliff:g> persona grupā <xliff:g id="ACCOUNT_TYPE_3">%2$s</xliff:g></item>
+        <item quantity="other"><xliff:g id="COUNT_2">%1$d</xliff:g> personas grupā <xliff:g id="ACCOUNT_TYPE_3">%2$s</xliff:g></item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group" formatted="false" msgid="8240460423614369023">
+        <item quantity="zero"><xliff:g id="COUNT_1">%1$d</xliff:g> personu</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> persona</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> personas</item>
+    </plurals>
+    <string name="toast_join_with_empty_contact" msgid="1215465657839085613">"Ievadiet kontaktpersonas vārdu, pirms saistāt to ar citu kontaktpersonu."</string>
+    <string name="copy_text" msgid="3257145021583508761">"Kopēt starpliktuvē"</string>
+    <string name="set_default" msgid="4417505153468300351">"Iestatīt kā noklusējumu"</string>
+    <string name="clear_default" msgid="7193185801596678067">"Notīrīt noklusējuma iestatījumus"</string>
+    <string name="toast_text_copied" msgid="5143776250008541719">"Teksts ir nokopēts"</string>
+    <string name="cancel_confirmation_dialog_message" msgid="5058226498605989285">"Vai atmest veiktās izmaiņas un beigt rediģēšanu?"</string>
+    <string name="cancel_confirmation_dialog_cancel_editing_button" msgid="3057023972074640671">"Atmest"</string>
+    <string name="cancel_confirmation_dialog_keep_editing_button" msgid="7737724111972855348">"Turpināt rediģēšanu"</string>
+    <string name="call_type_and_date" msgid="747163730039311423">"<xliff:g id="CALL_TYPE">%1$s</xliff:g> — <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g>"</string>
+    <string name="profile_display_name" msgid="4127389543625918771">"Iestatīt savu profilu"</string>
+    <string name="enter_contact_name" msgid="1738391320566349924">"Rakstiet personas vārdu."</string>
+    <string name="group_name_hint" msgid="238359485263401293">"Grupas nosaukums"</string>
+    <string name="local_profile_title" msgid="2021416826991393684">"Mans vietējais profils"</string>
+    <string name="external_profile_title" msgid="8034998767621359438">"Mans <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g> profils"</string>
+    <string name="toast_displaying_all_contacts" msgid="2737388783898593875">"Tiek attēlotas visas kontaktpersonas"</string>
+    <string name="generic_no_account_prompt" msgid="7218827704367325460">"Nodrošinieties pret kontaktpersonu zudumu pat tālruņa nozaudēšanas gadījumā — sinhronizējiet informāciju ar tiešsaistes pakalpojumu."</string>
+    <string name="generic_no_account_prompt_title" msgid="753783911899054860">"Konta pievienošana"</string>
+    <string name="contact_editor_prompt_zero_accounts" msgid="1785345895691886499">"Jaunā kontaktinformācija netiks dublēta. Vai pievienot kontu, kurā tiek tiešsaistē dublēta kontaktinformācija?"</string>
+    <string name="contact_editor_prompt_one_account" msgid="3087691056345099310">"Jaunas kontaktpersonas tiks saglabātas kontā <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g>."</string>
+    <string name="contact_editor_prompt_multiple_accounts" msgid="8565761674283473549">"Izvēlieties noklusējuma kontu, kurā saglabāt jaunās kontaktpersonas:"</string>
+    <string name="contact_editor_title_new_contact" msgid="7192223018128934940">"Pievienošana"</string>
+    <string name="contact_editor_title_existing_contact" msgid="4898475703683187798">"Rediģēšana"</string>
+    <string name="keep_local" msgid="1258761699192993322">"Saglabāt vietēji"</string>
+    <string name="add_account" msgid="8201790677994503186">"Pievienot kontu"</string>
+    <string name="add_new_account" msgid="5748627740680940264">"Pievienot jaunu kontu"</string>
+    <string name="menu_export_database" msgid="2659719297530170820">"Eksportēt datu bāzes failus"</string>
+    <string name="action_menu_add_new_contact_button" msgid="3180222523336380017">"pievienot jaunu kontaktpersonu"</string>
+    <string name="expanding_entry_card_view_see_more" msgid="3779194067124758079">"Skatīt vairāk"</string>
+    <string name="expanding_entry_card_view_see_less" msgid="5344160551629714168">"Skatīt mazāk"</string>
+    <string name="expanding_entry_card_view_see_all" msgid="3845258737661412627">"Skatīt visu"</string>
+    <string name="recent_card_title" msgid="8982782042698001695">"Nesenie"</string>
+    <string name="about_card_title" msgid="2920942314212825637">"Par"</string>
+    <string name="send_message" msgid="8938418965550543196">"Sūtīt ziņojumu"</string>
+    <string name="toast_making_personal_copy" msgid="6137651078366797938">"Notiek personīgās kopijas izveide…"</string>
+    <string name="yesterday" msgid="6840858548955018569">"Vakar"</string>
+    <string name="tomorrow" msgid="6241969467795308581">"Rīt"</string>
+    <string name="today" msgid="8041090779381781781">"Šodien"</string>
+    <string name="today_at_time_fmt" msgid="605665249491030460">"Šodien plkst. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt" msgid="4856497969617819421">"Rīt plkst. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt" msgid="5053178726906863812">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="untitled_event" msgid="3484859385405939366">"(Pasākums bez nosaukuma)"</string>
+    <string name="date_time_set" msgid="4761419824439606690">"Iestatīt"</string>
+    <string name="header_im_entry" msgid="3581720979640225615">"Tūlītējā ziņojumapmaiņa"</string>
+    <string name="header_organization_entry" msgid="8515394955666265406">"Organizācija"</string>
+    <string name="header_nickname_entry" msgid="6743561883967451485">"Segvārds"</string>
+    <string name="header_note_entry" msgid="4320190426480612344">"Piezīme"</string>
+    <string name="header_website_entry" msgid="1411467850000824745">"Vietne"</string>
+    <string name="header_event_entry" msgid="6738250422744401460">"Pasākums"</string>
+    <string name="header_relation_entry" msgid="1520292958088146460">"Saistība"</string>
+    <string name="header_account_entry" msgid="2684318506427891827">"Konts"</string>
+    <string name="header_name_entry" msgid="1592791008096288306">"Nosaukums"</string>
+    <string name="header_email_entry" msgid="8666093061171624478">"E-pasta adrese"</string>
+    <string name="header_phone_entry" msgid="8450980572274173570">"Tālrunis"</string>
+    <string name="header_photo_entry" msgid="4438023151411853238">"Fotoattēls"</string>
+    <string name="content_description_expand_editor" msgid="1111381475901897470">"Noklikšķiniet, lai izvērstu kontaktpersonu redaktoru."</string>
+    <string name="content_description_collapse_editor" msgid="7598061318022977825">"Noklikšķiniet, lai sakļautu kontaktpersonu redaktoru."</string>
+    <string name="content_description_directions" msgid="2686791825798189335">"norādes uz atrašanās vietu"</string>
+    <string name="content_description_recent_sms" msgid="1666389577263317445">"Nesen saņemta īsziņa. <xliff:g id="MESSAGE_BODY">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. Noklikšķiniet, lai atbildētu."</string>
+    <string name="content_description_recent_call_type_incoming" msgid="5210739096863511410">"ienākošs"</string>
+    <string name="content_description_recent_call_type_outgoing" msgid="5156553338985232744">"izejošs"</string>
+    <string name="content_description_recent_call_type_missed" msgid="7371810920196048204">"neatbildēts"</string>
+    <string name="content_description_recent_call" msgid="5183800406316723676">"Nesen saņemts zvans. <xliff:g id="CALL_TYPE">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. Noklikšķiniet, lai atzvanītu."</string>
+    <string name="message_from_you_prefix" msgid="7180706529908434482">"Jūs: <xliff:g id="SMS_BODY">%s</xliff:g>"</string>
+    <string name="contact_editor_hangouts_im_alert" msgid="114855385615225735">"Funkcija Hangouts darbojas precīzāk, ja e-pasta vai tālruņa laukā ievadāt personas Hangouts identifikatoru."</string>
+    <string name="compact_editor_more_fields" msgid="5987638193568699600">"Vairāk lauku"</string>
+    <string name="compact_editor_change_photo_content_description" msgid="5495487714301211540">"Mainīt fotoattēlu"</string>
+    <string name="compact_editor_failed_to_load" msgid="4557094426388044958">"Neizdevās atvērt redaktoru."</string>
+    <string name="compact_editor_account_selector_title" msgid="5119592614151786601">"Tiks saglabāts šajā kontā:"</string>
+    <string name="compact_editor_account_selector_description" msgid="2127184829759350507">"Pašlaik notiek saglabāšana kontā <xliff:g id="ACCOUNT_NAME">%s</xliff:g>. Veiciet dubultskārienu, lai izvēlētos citu kontu."</string>
+    <plurals name="compact_editor_linked_contacts_selector_title" formatted="false" msgid="9156207930915878316">
+        <item quantity="zero">Saistītas kontaktpersonas (<xliff:g id="COUNT">%d</xliff:g>)</item>
+        <item quantity="one">Saistītas kontaktpersonas (<xliff:g id="COUNT">%d</xliff:g>)</item>
+        <item quantity="other">Saistītas kontaktpersonas (<xliff:g id="COUNT">%d</xliff:g>)</item>
+    </plurals>
+    <string name="quickcontact_contacts_number" msgid="6036916944287597682">"<xliff:g id="COUNT">%d</xliff:g> saistītas kontaktpersonas"</string>
+    <string name="quick_contact_display_name_with_phonetic" msgid="3692038078718876610">"<xliff:g id="DISPLAY_NAME">%s</xliff:g> (<xliff:g id="PHONETIC_NAME">%s</xliff:g>)"</string>
+    <string name="quickcontact_suggestion_link_button" msgid="3244619714781727946">"SAISTĪT KONTAKTPERSONAS"</string>
+    <string name="quickcontact_suggestion_cancel_button" msgid="8236954313106630862">"ATCELT"</string>
+    <plurals name="quickcontact_suggestion_card_title" formatted="false" msgid="2660005966628746406">
+        <item quantity="zero"><xliff:g id="COUNT">%d</xliff:g> iespējami dublikāti</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> iespējams dublikāts</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> iespējami dublikāti</item>
+    </plurals>
+    <plurals name="quickcontact_suggestions_number" formatted="false" msgid="495992931510695330">
+        <item quantity="zero"><xliff:g id="COUNT">%d</xliff:g> saistītu kontaktpersonu</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> saistīta kontaktpersona</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> saistītas kontaktpersonas</item>
+    </plurals>
+    <plurals name="quickcontact_suggestion_account_type_number" formatted="false" msgid="3001681298924002373">
+        <item quantity="zero">(<xliff:g id="COUNT">%d</xliff:g>)</item>
+        <item quantity="one">(<xliff:g id="COUNT">%d</xliff:g>)</item>
+        <item quantity="other">(<xliff:g id="COUNT">%d</xliff:g>)</item>
+    </plurals>
+    <string name="quickcontact_suggestion_account_type" msgid="5878263654735376962">"<xliff:g id="ACCOUNT_TYPE_0">%s</xliff:g><xliff:g id="ACCOUNT_TYPE_NUMBER">%s</xliff:g>"</string>
+    <string name="suggestion_card_this_contact_title" msgid="3039457405374454914">"Šī kontaktpersona"</string>
+    <string name="suggestion_card_duplicates_title" msgid="9107788743178980902">"Iespējamie dublikāti"</string>
+    <string name="suggestion_card_help_message" msgid="4474061044387181093">"Iespējams, šīs kontaktpersonas ir viena un tā pati persona. Varat tās apvienot vienā kontaktpersonā."</string>
+    <string name="compact_editor_linked_contacts_title" msgid="4417919183651782674">"Saistītās kontaktpersonas"</string>
+    <string name="from_your_accounts" msgid="1746293107836889912">"No jūsu kontiem"</string>
+    <string name="take_a_photo_button" msgid="6268693854069113488">"Uzņemt fotoattēlu"</string>
+    <string name="all_photos_button" msgid="1943122929420111351">"Visi fotoattēli"</string>
+    <string name="photo_picker_title" msgid="5272832995550042801">"Fotoattēla izvēle"</string>
+    <string name="contact_from_account_name" msgid="2078526819634079406">"No: <xliff:g id="ACCOUNT_NAME">%s</xliff:g>"</string>
+    <string name="editor_delete_view_description" msgid="8583095381562991959">"Dzēst: <xliff:g id="DATA_TYPE">%s </xliff:g><xliff:g id="DATA_KIND">%s</xliff:g>"</string>
+    <string name="editor_delete_view_description_short" msgid="7335518371270844912">"Dzēst: <xliff:g id="DATA_KIND">%s</xliff:g>"</string>
+    <string name="photo_view_description_not_checked" msgid="8876314195990885177">"Fotoattēls no <xliff:g id="ACCOUNT_TYPE">%s </xliff:g><xliff:g id="USER_NAME">%s </xliff:g> nav atlasīts."</string>
+    <string name="photo_view_description_checked" msgid="3906597168607472795">"Fotoattēls no <xliff:g id="ACCOUNT_TYPE">%s </xliff:g><xliff:g id="USER_NAME">%s </xliff:g> ir atlasīts."</string>
+    <string name="photo_view_description_not_checked_no_info" msgid="2749154927006406981">"Nav atzīmēts fotoattēls no nezināma konta"</string>
+    <string name="photo_view_description_checked_no_info" msgid="4974335987092590591">"Atzīmēts fotoattēls no nezināma konta"</string>
+    <string name="locale_change_in_progress" msgid="1124266507671178413">"Kontaktpersonu saraksts tiek atjaunināts, lai atainotu valodas maiņu.\n\nLūdzu, uzgaidiet..."</string>
+    <string name="menu_blocked_numbers" msgid="5272951629083025995">"Bloķētie numuri"</string>
+
+
+
+
+    <!--
+    ****
+    ****
+
+
+    Dialer 7.1 (AOSP)
+
+    Resources String
+
+    Main Sources
+
+
+    ****
+    ****
+    -->
+
+
+    <string name="applicationLabel" msgid="7762561155467201526">"AGTālrunis"</string>
+    <string name="launcherActivityLabel" msgid="1129729740601172692">"Tālrunis"</string>
+    <string name="launcherDialpadActivityLabel" msgid="3959809805046059167">"Tālruņa numuru sastādīšanas tastatūra"</string>
+    <string name="dialerIconLabel" msgid="6500826552823403796">"Zvanīt"</string>
+    <string name="callHistoryIconLabel" msgid="3734413397291301223">"Zvanu vēsture"</string>
+    <string name="action_report_number" msgid="4635403959812186162">"Ziņot par nepareizu numuru"</string>
+    <string name="action_copy_number_text" msgid="588249522108594155">"Kopēt numuru"</string>
+    <string name="copy_transcript_text" msgid="5652787482893879382">"Kopēt transkripciju"</string>
+    <string name="action_block_number" msgid="1482657602262262134">"Bloķēt numuru"</string>
+    <string name="snackbar_number_blocked" msgid="939830142765936021">"<xliff:g id="NUMBER">%1$s</xliff:g> bloķēts"</string>
+    <string name="action_unblock_number" msgid="3043777622269776127">"Atbloķēt numuru"</string>
+    <string name="snackbar_number_unblocked" msgid="4854738171099045912">"<xliff:g id="NUMBER">%1$s</xliff:g> atbloķēts"</string>
+    <string name="block_number_undo" msgid="591338370336724156">"ATSAUKT"</string>
+    <string name="call_details_delete" msgid="1833359621896346955">"Dzēst"</string>
+    <string name="action_edit_number_before_call" msgid="3100221149873436485">"Rediģēt numuru pirms zvanīšanas"</string>
+    <string name="call_log_delete_all" msgid="4677609108288680411">"Dzēst zvanu vēsturi"</string>
+    <string name="call_log_trash_voicemail" msgid="1283948488625129019">"Dzēst balss pasta ziņojumu"</string>
+    <string name="call_log_archive_voicemail" msgid="9072936797223284265">"Arhivēt balss pasta ziņojumu"</string>
+    <string name="call_log_share_voicemail" msgid="7272635349055945546">"Kopīgot balss pasta ziņojumu"</string>
+    <string name="snackbar_voicemail_deleted" msgid="5098542835986188582">"Balss pasts dzēsts"</string>
+    <string name="snackbar_voicemail_archived" msgid="7442340403660554373">"Balss pasta ziņojums arhivēts"</string>
+    <string name="snackbar_voicemail_deleted_undo" msgid="3741811385891289167">"ATSAUKT"</string>
+    <string name="snackbar_voicemail_archived_goto" msgid="9186182602955185448">"UZ ARHĪVU"</string>
+    <string name="clearCallLogConfirmation_title" msgid="801753155679372984">"Vai dzēst zvanu vēsturi?"</string>
+    <string name="clearCallLogConfirmation" msgid="7899552396101432827">"Tiks dzēsti visi vēsturē saglabātie zvani."</string>
+    <string name="clearCallLogProgress_title" msgid="3372471156216306132">"Notiek zvanu vēstures dzēšana…"</string>
+    <string name="userCallActivityLabel" product="default" msgid="6652512551977445095">"Tālruņa zvans"</string>
+    <string name="notification_missedCallTitle" msgid="2078223183024451723">"Neatbildēts zvans"</string>
+    <string name="notification_missedWorkCallTitle" msgid="8418335304394771688">"Neatbildēts darba zvans"</string>
+    <string name="notification_missedCallsTitle" msgid="4948840634672742797">"Neatbildēti zvani"</string>
+    <string name="notification_missedCallsMsg" msgid="158790423221579961">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> neatbildēti zvani"</string>
+    <string name="notification_missedCall_call_back" msgid="1991552423738343203">"Atzvanīt"</string>
+    <string name="notification_missedCall_message" msgid="3042123733754151052">"Sūtīt ziņojumu"</string>
+    <plurals name="notification_voicemail_title" formatted="false" msgid="9088953961148324851">
+        <item quantity="zero"><xliff:g id="COUNT">%1$d</xliff:g> balss pasta ziņojumi </item>
+        <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> balss pasta ziņojums </item>
+        <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> balss pasta ziņojumi </item>
+    </plurals>
+    <string name="notification_action_voicemail_play" msgid="6113133136977996863">"Atskaņot"</string>
+    <string name="notification_voicemail_callers_list" msgid="1153954809339404149">"<xliff:g id="NEWER_CALLERS">%1$s</xliff:g>, <xliff:g id="OLDER_CALLER">%2$s</xliff:g>"</string>
+    <string name="notification_new_voicemail_ticker" msgid="895342132049452081">"Jauns b. pasta ziņ. no: <xliff:g id="CALLER">%1$s</xliff:g>"</string>
+    <string name="voicemail_playback_error" msgid="3356071912353297599">"Nevarēja atskaņot balss pasta ziņojumu."</string>
+    <string name="voicemail_fetching_content" msgid="1287895365599580842">"Notiek balss pasta ziņojumu ielāde…"</string>
+    <string name="voicemail_archiving_content" msgid="722322091690281157">"Tiek arhivēts balss pasta ziņojums…"</string>
+    <string name="voicemail_fetching_timout" msgid="3959428065511972176">"Nevarēja ielādēt balss pasta ziņojumu."</string>
+    <string name="call_log_voicemail_header" msgid="3945407886667089173">"Tikai balss pasta zvani"</string>
+    <string name="call_log_incoming_header" msgid="2787722299753674684">"Tikai ienākošie zvani"</string>
+    <string name="call_log_outgoing_header" msgid="761009180766735769">"Tikai izejošie zvani"</string>
+    <string name="call_log_missed_header" msgid="8017148056610855956">"Tikai neatbildētie zvani"</string>
+    <string name="visual_voicemail_title" msgid="4574199312906348905">"Vizuālais balss pasts"</string>
+    <string name="visual_voicemail_text" msgid="164967285234132509">"Skatiet un klausieties balss pasta ziņojumus, nezvanot uz numuru. Var tikt piemērota maksa par datu pārraidi."</string>
+    <string name="visual_voicemail_settings" msgid="8090338793118794741">"Iestatījumi"</string>
+    <string name="voicemail_status_voicemail_not_available" msgid="5222480147701456390">"Balss pasta atjauninājumi nav pieejami."</string>
+    <string name="voicemail_status_messages_waiting" msgid="6329544650250068650">"Saņemti jauni balss pasta ziņojumi. Pašlaik tos nevar ielādēt."</string>
+    <string name="voicemail_status_configure_voicemail" msgid="8300808991932816153">"Iestatiet balss pastu."</string>
+    <string name="voicemail_status_audio_not_available" msgid="2449801102560158082">"Audio nav pieejams."</string>
+    <string name="voicemail_status_action_configure" msgid="8671796489912239589">"Iestatīt"</string>
+    <string name="voicemail_status_action_call_server" msgid="1824816252288551794">"Zvanīt balss pastam"</string>
+    <string name="call_log_item_count_and_date" msgid="7641933305703520787">"(<xliff:g id="COUNT">%1$d</xliff:g>) <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="sms_disambig_title" msgid="5846266399240630846">"Numura izvēlēšanās"</string>
+    <string name="call_disambig_title" msgid="4392886850104795739">"Numura izvēlēšanās"</string>
+    <string name="make_primary" msgid="5829291915305113983">"Atcerēties šo izvēli"</string>
+    <string name="description_search_button" msgid="3660807558587384889">"meklēt"</string>
+    <string name="description_dial_button" msgid="1274091017188142646">"sastādīt numuru"</string>
+    <string name="description_digits_edittext" msgid="8760207516497016437">"sastādītais numurs"</string>
+    <string name="description_playback_start_stop" msgid="5060732345522492292">"Atskaņot vai apturēt atskaņošanu"</string>
+    <string name="description_playback_speakerphone" msgid="6008323900245707504">"Ieslēgt vai izslēgt mikrofonu ar skaļruni"</string>
+    <string name="description_playback_seek" msgid="4509404274968530055">"Meklēt atskaņošanas pozīciju"</string>
+    <string name="description_rate_decrease" msgid="3161652589401708284">"Samazināt atskaņošanas ātrumu"</string>
+    <string name="description_rate_increase" msgid="6324606574127052385">"Palielināt atskaņošanas ātrumu"</string>
+    <string name="action_menu_call_history_description" msgid="9018442816219748968">"Zvanu vēsture"</string>
+    <string name="action_menu_overflow_description" msgid="2303272250613084574">"Vairāk opciju"</string>
+    <string name="action_menu_dialpad_button" msgid="1425910318049008136">"numura sastādīšanas tastatūra"</string>
+    <string name="menu_show_outgoing_only" msgid="1965570298133301970">"Rādīt tikai izejošos zvanus"</string>
+    <string name="menu_show_incoming_only" msgid="7534206815238877417">"Rādīt tikai ienākošos zvanus"</string>
+    <string name="menu_show_missed_only" msgid="154473166059743996">"Rādīt tikai neatbildētos zvanus"</string>
+    <string name="menu_show_voicemails_only" msgid="1898421289561435703">"Rādīt tikai balss pasta ziņ."</string>
+    <string name="menu_show_all_calls" msgid="7560347482073345885">"Rādīt visus zvanus"</string>
+    <string name="add_2sec_pause" msgid="9214012315201040129">"Pievienot 2 sekundes ilgu pauzi"</string>
+    <string name="add_wait" msgid="3360818652790319634">"Pievienot gaidīšanu"</string>
+    <string name="dialer_settings_label" msgid="4305043242594150479">"Iestatījumi"</string>
+    <string name="menu_newContact" msgid="1209922412763274638">"Jauna kontaktpersona"</string>
+    <string name="menu_allContacts" msgid="6948308384034051670">"Visas kontaktpersonas"</string>
+    <string name="callDetailTitle" msgid="5340227785196217938">"Informācija par zvanu"</string>
+    <string name="toast_call_detail_error" msgid="6947041258280380832">"Detalizēta informācija nav pieejama."</string>
+    <string name="dialer_useDtmfDialpad" msgid="1707548397435075040">"Izmantot skārientoņu tastatūru"</string>
+    <string name="dialer_returnToInCallScreen" msgid="3719386377550913067">"Atgriezties pie pašreizējā zvana"</string>
+    <string name="dialer_addAnotherCall" msgid="4205688819890074468">"Pievienot zvanu"</string>
+    <string name="type_incoming" msgid="6502076603836088532">"Ienākošais zvans"</string>
+    <string name="type_outgoing" msgid="343108709599392641">"Izejošais zvans"</string>
+    <string name="type_missed" msgid="2720502601640509542">"Neatbildēts zvans"</string>
+    <string name="type_incoming_video" msgid="82323391702796181">"Ienākošs videozvans"</string>
+    <string name="type_outgoing_video" msgid="2858140021680755266">"Izejošs videozvans"</string>
+    <string name="type_missed_video" msgid="954396897034220545">"Neatbildēts videozvans"</string>
+    <string name="type_voicemail" msgid="5153139450668549908">"Balss pasts"</string>
+    <string name="type_rejected" msgid="7783201828312472691">"Noraidīts zvans"</string>
+    <string name="type_blocked" msgid="3521686227115330015">"Bloķēts zvans"</string>
+    <string name="actionIncomingCall" msgid="6028930669817038600">"Ienākošie zvani"</string>
+    <string name="description_call_log_play_button" msgid="651182125650429846">"Atskaņot balss pasta ziņojumu"</string>
+    <string name="description_view_contact" msgid="5205669345700598415">"Skatīt kontaktpersonu <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call" msgid="3443678121983852666">"Zvanīt šim: <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_contact_details" msgid="51229793651342809">"Kontaktpersonas informācija: <xliff:g id="NAMEORNUMBER">%1$s</xliff:g>"</string>
+    <string name="description_num_calls" msgid="1601505153694540074">"<xliff:g id="NUMBEROFCALLS">%1$s</xliff:g> zvani."</string>
+    <string name="description_video_call" msgid="2933838090743214204">"Videozvans"</string>
+    <string name="description_send_text_message" msgid="3118485319691414221">"Sūtīt īsziņu šai kontaktpersonai: <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call_log_unheard_voicemail" msgid="118101684236996786">"Nenoklausīti balss pasta ziņojumi"</string>
+    <string name="description_start_voice_search" msgid="520539488194946012">"Sākt meklēšanu ar balsi"</string>
+    <string name="menu_callNumber" msgid="997146291983360266">"Zvanīt: <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="unknown" msgid="740067747858270469">"Nezināms"</string>
+    <string name="voicemail" msgid="3851469869202611441">"Balss pasts"</string>
+    <string name="private_num" msgid="6374339738119166953">"Privāts numurs"</string>
+    <string name="payphone" msgid="7726415831153618726">"Maksas tālrunis"</string>
+    <string name="callDetailsShortDurationFormat" msgid="3988146235579303592">"<xliff:g id="SECONDS">%s</xliff:g> s"</string>
+    <string name="callDetailsDurationFormat" msgid="6061406028764382234">"<xliff:g id="MINUTES">%s</xliff:g> min <xliff:g id="SECONDS">%s</xliff:g> s"</string>
+    <!-- no translation found for voicemailCallLogToday (682363079840402849) -->
+    <skip />
+    <string name="voicemailCallLogDateTimeFormat" msgid="4388070029056487713">"<xliff:g id="DATE">%1$s</xliff:g> plkst. <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="voicemailDurationFormat" msgid="228211252076289564">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="voicemailCallLogDateTimeFormatWithDuration" msgid="5118563814451588397">"<xliff:g id="DATEANDTIME">%1$s</xliff:g> • <xliff:g id="DURATION">%2$s</xliff:g>"</string>
+    <string name="dialog_phone_call_prohibited_message" msgid="5730565540182492608">"Uz šo numuru nevar piezvanīt."</string>
+    <string name="dialog_voicemail_not_ready_message" msgid="4384716252789515378">"Lai iestatītu balss pastu, atveriet sadaļu Izvēlne &gt; Iestatījumi."</string>
+    <string name="dialog_voicemail_airplane_mode_message" msgid="530922773669546093">"Lai piezvanītu balss pastam, vispirms izslēdziet lidojuma režīmu."</string>
+    <string name="contact_list_loading" msgid="5488620820563977329">"Notiek ielāde..."</string>
+    <string name="imei" msgid="3045126336951684285">"IMEI"</string>
+    <string name="meid" msgid="6210568493746275750">"MEID"</string>
+    <string name="simContacts_emptyLoading" msgid="6700035985448642408">"Notiek ielāde no SIM kartes..."</string>
+    <string name="simContacts_title" msgid="27341688347689769">"Kontaktpersonas SIM kartē"</string>
+    <string name="add_contact_not_available" msgid="5547311613368004859">"Nav pieejama neviena kontaktpersonu lietotne."</string>
+    <string name="voice_search_not_available" msgid="2977719040254285301">"Meklēšana ar balsi nav pieejama."</string>
+    <string name="call_not_available" msgid="8941576511946492225">"Nevar veikt tālruņa zvanu, jo lietojumprogramma Tālrunis tika atspējota."</string>
+    <string name="activity_not_available" msgid="2287665636817987623">"Šajā ierīcē nav nevienas šai darbībai piemērotas lietotnes."</string>
+    <string name="dialer_hint_find_contact" msgid="3574350254520035364">"Meklēt kontaktpersonas"</string>
+    <string name="block_number_search_hint" msgid="5409571607043872758">"Pievienojiet numuru vai meklējiet kontaktpersonas"</string>
+    <string name="call_log_all_empty" msgid="8357417710416340920">"Jūsu zvanu vēsturē nav ierakstu."</string>
+    <string name="call_log_all_empty_action" msgid="9093210119068366147">"Zvanīt"</string>
+    <string name="call_log_missed_empty" msgid="3927274175205520135">"Jums nav neatbildētu zvanu."</string>
+    <string name="call_log_voicemail_empty" msgid="8383585074222277550">"Jūsu balss pasta iesūtne ir tukša."</string>
+    <string name="voicemail_archive_empty" msgid="1087408796679056787">"Jūsu balss pasta ziņojumu arhīvs ir tukšs."</string>
+    <string name="show_favorites_only" msgid="5520072531022614595">"Rādīt tikai izlasi"</string>
+    <string name="call_log_activity_title" msgid="7949633151371183580">"Zvanu vēsture"</string>
+    <string name="voicemail_archive_activity_title" msgid="2638669189424535229">"Balss pasta ziņojumu arhīvs"</string>
+    <string name="call_log_all_title" msgid="3566738938889333307">"Visi"</string>
+    <string name="call_log_missed_title" msgid="4541142293870638971">"Neatb."</string>
+    <string name="call_log_voicemail_title" msgid="940422274047025948">"Balss p."</string>
+    <string name="migrate_blocked_numbers_dialog_title" msgid="2039363199438872626">"Jauna, vienkāršota bloķēšanas funkcija"</string>
+    <string name="migrate_blocked_numbers_dialog_message" msgid="5598530398682662860">"Lai jūs labāk aizsargātu, lietotnē Tālrunis ir jāmaina bloķēšanas darbība. Turpmāk no bloķētajiem numuriem nevarēs saņemt zvanus un īsziņas, un bloķētos numurus varēs kopīgot ar citām lietotnēm."</string>
+    <string name="migrate_blocked_numbers_dialog_allow_button" msgid="3116140286537760629">"Atļaut"</string>
+    <string name="block_number_confirmation_title" msgid="6862219558186931304">"Vai bloķēt numuru <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="block_number_confirmation_message_vvm" msgid="5655646611437082611">"No šī numura saņemtie zvani tiks bloķēti, un balss pasta ziņojumi tiks automātiski dzēsti."</string>
+    <string name="block_number_confirmation_message_no_vvm" msgid="4511900601491718173">"No šī numura saņemtie zvani tiks bloķēti, taču zvanītājs joprojām varēs jums atstāt balss pasta ziņojumus."</string>
+    <string name="block_number_confirmation_message_new_filtering" msgid="4524854769790960179">"Jūs vairs nesaņemsiet zvanus un īsziņas no šī numura."</string>
+    <string name="block_number_ok" msgid="770551992296781873">"BLOĶĒT"</string>
+    <string name="unblock_number_confirmation_title" msgid="252824779504084354">"Vai atbloķēt numuru <xliff:g id="NUMBER">%1$s</xliff:g>?"</string>
+    <string name="unblock_number_ok" msgid="6449899182699684786">"ATBLOĶĒT"</string>
+    <string name="tab_speed_dial" msgid="7552166276545648893">"Ātrie zvani"</string>
+    <string name="tab_history" msgid="2563144697322434940">"Zvanu vēsture"</string>
+    <string name="tab_all_contacts" msgid="1410922767166533690">"Kontaktpersonas"</string>
+    <string name="tab_voicemail" msgid="155024725947496746">"Balss pasts"</string>
+    <string name="favorite_hidden" msgid="5011234945140912047">"Noņemts no izlases"</string>
+    <string name="favorite_hidden_undo" msgid="2508998611039406474">"Atsaukt"</string>
+    <string name="search_shortcut_call_number" msgid="7277194656832895870">"Zvanīt: <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="search_shortcut_create_new_contact" msgid="1679917465521554093">"Izveidot jaunu kontaktpersonu"</string>
+    <string name="search_shortcut_add_to_contact" msgid="4327842393369915751">"Pievienot kontaktpersonai"</string>
+    <string name="search_shortcut_send_sms_message" msgid="2569304043345025525">"Sūtīt īsziņu"</string>
+    <string name="search_shortcut_make_video_call" msgid="1265971685034465166">"Veikt videozvanu"</string>
+    <string name="search_shortcut_block_number" msgid="4787156645163436072">"Bloķēt numuru"</string>
+    <string name="num_missed_calls" msgid="8081736535604293886">"Jauni neatbildēti zvani: <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="speed_dial_empty" msgid="8838921693673366129">"Ātro zvanu sarakstā vēl nav nevienas kontaktpersonas."</string>
+    <string name="speed_dial_empty_add_favorite_action" msgid="7944893641496695770">"Pievienot izlasei"</string>
+    <string name="all_contacts_empty" msgid="471370638298229686">"Jums vēl nav nevienas kontaktpersonas."</string>
+    <string name="all_contacts_empty_add_contact_action" msgid="1515782853819374618">"Pievienot kontaktpersonu"</string>
+    <string name="contact_tooltip" msgid="2019777545923635266">"Pieskarieties attēlam, lai skatītu visus numurus, vai pieskarieties attēlam un turiet to, lai veiktu pārkārtošanu."</string>
+    <string name="remove_contact" msgid="1080555335283662961">"Noņemt"</string>
+    <string name="call_log_action_video_call" msgid="7724301709041128296">"Videozvans"</string>
+    <string name="call_log_action_send_message" msgid="5679719296905285131">"Sūtīt ziņojumu"</string>
+    <string name="call_log_action_details" msgid="701345508704970622">"Informācija par zvanu"</string>
+    <string name="call_log_action_call" msgid="463690849042459842">"Zvanīt: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_incoming_missed_call" msgid="2381085098795943627">"Neatbildēts zvans no: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_incoming_answered_call" msgid="7117665748428816544">"Atbildēts zvans no: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_unread_voicemail" msgid="5826351827625665597">"Nelasīts balss pasts no <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_read_voicemail" msgid="133974208364152610">"Balss pasts no <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_outgoing_call" msgid="6386364390619734734">"Izejošs zvans: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_phone_account" msgid="1767072759541443861">"kontā <xliff:g id="PHONEACCOUNT">^1</xliff:g>"</string>
+    <string name="description_via_number" msgid="3503311803959108316">"izmantojot numuru <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string name="call_log_via_number" msgid="8373282986443543296">"izmantojot numuru <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string name="description_via_number_phone_account" msgid="5426866894799626474">"kontā <xliff:g id="PHONEACCOUNT">%1$s</xliff:g>, izmantojot numuru <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="call_log_via_number_phone_account" msgid="4394943791173578941">"<xliff:g id="PHONEACCOUNT">%1$s</xliff:g>, izmantojot numuru <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="description_call_log_call_action" msgid="3682561657090693134">"Zvanīt"</string>
+    <string name="description_call_action" msgid="4000549004089776147">"Zvanīt: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_video_call_action" msgid="7386922428155062213">"Zvaniet kontaktpersonai <xliff:g id="NAMEORNUMBER">^1</xliff:g>, izmantojot videozvanu."</string>
+    <string name="description_voicemail_action" msgid="8054891873788903063">"Klausīties balss pasta ziņojumu no: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_voicemail_play" msgid="2689369874037785439">"Atskaņot balss pasta ziņojumu no: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_voicemail_pause" msgid="3905259748756919693">"Pārtraukt balss pasta ziņojuma atskaņošanu no: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="description_voicemail_delete" msgid="2025472770630153436">"Dzēst balss pasta ziņojumu no: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <plurals name="description_voicemail_unread" formatted="false" msgid="8708346053055570332">
+        <item quantity="zero"><xliff:g id="COUNT_1">%d</xliff:g> jauni balss pasta ziņojumi</item>
+        <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> jauns balss pasta ziņojums</item>
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> jauni balss pasta ziņojumi</item>
+    </plurals>
+    <string name="description_create_new_contact_action" msgid="818755978791008167">"Izveidojiet kontaktpersonu, izmantojot vienumu <xliff:g id="NAMEORNUMBER">^1</xliff:g>."</string>
+    <string name="description_add_to_existing_contact_action" msgid="6081200053494414351">"Pievienojiet vienumu <xliff:g id="NAMEORNUMBER">^1</xliff:g> esošai kontaktpersonai."</string>
+    <string name="description_details_action" msgid="2433827152749491785">"Zvanu informācija par šādu numuru: <xliff:g id="NAMEORNUMBER">^1</xliff:g>"</string>
+    <string name="toast_entry_removed" msgid="8010830299576311534">"Dzēsts no zvanu vēstures."</string>
+    <string name="call_log_header_today" msgid="3225248682434212981">"Šodien"</string>
+    <string name="call_log_header_yesterday" msgid="9139172458834033092">"Vakar"</string>
+    <string name="call_log_header_other" msgid="5769921959940709084">"Vecāki zvani"</string>
+    <string name="call_detail_list_header" msgid="3752717059699600861">"Zvanu saraksts"</string>
+    <string name="voicemail_speaker_on" msgid="209154030283487068">"Ieslēgt skaļruni."</string>
+    <string name="voicemail_speaker_off" msgid="7390530056413093958">"Izslēgt skaļruni."</string>
+    <string name="voicemail_play_faster" msgid="3444751008615323006">"Atskaņot ātrāk."</string>
+    <string name="voicemail_play_slower" msgid="4544796503902818832">"Atskaņot lēnāk."</string>
+    <string name="voicemail_play_start_pause" msgid="3687447935787768983">"Sākt vai apturēt atskaņošanu."</string>
+    <string name="list_delimeter" msgid="4571593167738725100">", "</string>
+    <string name="display_options_title" msgid="7812852361055667468">"Attēlojuma opcijas"</string>
+    <string name="sounds_and_vibration_title" msgid="1692290115642160845">"Skaņas un vibrācija"</string>
+    <string name="accessibility_settings_title" msgid="6068141142874046249">"Pieejamība"</string>
+    <string name="ringtone_title" msgid="760362035635084653">"Tālruņa zvana signāls"</string>
+    <string name="vibrate_on_ring_title" msgid="3362916460327555241">"Izmantot vibrozvanu zvaniem"</string>
+    <string name="dtmf_tone_enable_title" msgid="6571449695997521615">"Numura sast. tastatūras toņi"</string>
+    <string name="dtmf_tone_length_title" msgid="8581125689808919460">"Numuru tastatūras signāla ilgums"</string>
+    <string-array name="dtmf_tone_length_entries">
+        <item msgid="1036113889050195575">"Parasts"</item>
+        <item msgid="6177579030803486015">"Ilgs"</item>
+    </string-array>
+    <string name="respond_via_sms_setting_title" msgid="1318281521087951580">"Ātrās atbildes"</string>
+    <string name="call_settings_label" msgid="313434211353070209">"Zvani"</string>
+    <string name="manage_blocked_numbers_label" msgid="5959801428936629196">"Zvanu bloķēšana"</string>
+    <string name="blocked_numbers_disabled_emergency_header_label" msgid="7870947220238070418">"Zvanu bloķēšana ir īslaicīgi izslēgta"</string>
+    <string name="blocked_numbers_disabled_emergency_desc" msgid="7755803249073401381">"Zvanu bloķēšana ir atspējota, jo pēdējo 48 stundu laikā jūs sazinājāties ar ārkārtas palīdzības dienestiem, izmantojot šo tālruni. Zvanu bloķēšana tiks automātiski iespējota, tiklīdz beigsies 48 stundu periods."</string>
+    <string name="import_send_to_voicemail_numbers_label" msgid="1606601823746799926">"Importēt numurus"</string>
+    <string name="blocked_call_settings_import_description" msgid="8640906226815125906">"Jūs iepriekš atzīmējāt dažus zvanītājus, kuri automātiski jānovirza uz balss pastu, izmantojot citas lietotnes."</string>
+    <string name="blocked_call_settings_view_numbers_button" msgid="6698986720875955935">"Skatīt numurus"</string>
+    <string name="blocked_call_settings_import_button" msgid="178821255125295473">"Importēt"</string>
+    <string name="send_to_voicemail_import_failed" msgid="5547202002133560069">"Importēšana neizdevās"</string>
+    <string name="voicemail_archive_failed" msgid="6263467962738772223">"Neizdevās arhivēt balss pasta ziņojumu."</string>
+    <string name="description_blocked_number_list_delete" msgid="3240093199107796792">"Atbloķēt numuru"</string>
+    <string name="addBlockedNumber" msgid="6064812257482886526">"Pievienot numuru"</string>
+    <string name="block_number_footer_message_vvm" msgid="5387302253765439712">"No šiem numuriem saņemtie zvani tiks bloķēti, un balss pasta ziņojumi tiks automātiski dzēsti."</string>
+    <string name="block_number_footer_message_no_vvm" msgid="223238617533822381">"No šiem numuriem saņemtie zvani tiks bloķēti, taču zvanītāji joprojām varēs jums atstāt balss pasta ziņojumus."</string>
+    <string name="block_list" msgid="7760188925338078011">"Bloķētie numuri"</string>
+    <string name="invalidNumber" msgid="619058581062192851">"<xliff:g id="NUMBER">%1$s</xliff:g> nav derīgs."</string>
+    <string name="alreadyBlocked" msgid="282340105563646876">"<xliff:g id="NUMBER">%1$s</xliff:g> jau ir bloķēts."</string>
+    <string name="call_blocking_disabled_notification_title" msgid="8185193413377920194">"Zvanu bloķēšana atspējota uz 48 stundām"</string>
+    <string name="call_blocking_disabled_notification_text" msgid="5330772013626378526">"Zvanu bloķēšana atspējota, jo tika veikts ārkārtas zvans."</string>
+    <string name="phone_account_settings_label" msgid="5864322009841175294">"Zvanu konti"</string>
+    <string name="permission_single_turn_on" msgid="1543391076065465464">"Ieslēgt"</string>
+    <string name="permission_multiple_turn_on" msgid="2426278457455950554">"Iestatīt atļaujas"</string>
+    <string name="permission_no_speeddial" msgid="6882563445996184051">"Lai iespējotu ātros zvanus, ieslēdziet atļauju Kontaktpersonas."</string>
+    <string name="permission_no_calllog" msgid="555711464287041043">"Lai skatītu zvanu žurnālu, ieslēdziet atļauju Tālrunis."</string>
+    <string name="permission_no_contacts" msgid="6237980143178936279">"Lai skatītu kontaktpersonas, ieslēdziet atļauju Kontaktpersonas."</string>
+    <string name="permission_no_voicemail" msgid="8306280257799917574">"Lai piekļūtu balss pastam, ieslēdziet atļauju Tālrunis."</string>
+    <string name="permission_no_search" msgid="84152933267902056">"Lai meklētu savas kontaktpersonas, ieslēdziet atļauju Kontaktpersonas."</string>
+    <string name="permission_place_call" msgid="2101287782615887547">"Lai veiktu zvanu, ieslēdziet atļauju Tālrunis."</string>
+    <string name="toast_cannot_write_system_settings" msgid="5614246168296606709">"Tālruņa lietotnei nav atļaujas rakstīt sistēmas iestatījumos."</string>
+    <string name="blocked_number_call_log_label" msgid="8912042441473014712">"Bloķēts"</string>
+    <string name="accessibility_call_is_active" msgid="2297282583928508760">"<xliff:g id="NAMEORNUMBER">^1</xliff:g>: aktīvs"</string>
+
+
+
+
+
+    <!--
+    ****
+    ****
+
+
+    Dialer 7.1 (AOSP)
+
+    Resources String
+
+    InCallUI
+
+
+    ****
+    ****
+    -->
+
+
+    <string name="phoneAppLabel" product="default" msgid="4753450867264774000">"Tālrunis"</string>
+    <string name="onHold" msgid="527593602772521700">"Aizturēts"</string>
+<!--
+    <string name="unknown" msgid="3646075119047488748">"Nezināms"</string>
+    <string name="private_num" msgid="6081418498487514686">"Privāts numurs"</string>
+    <string name="payphone" msgid="5743050584468748607">"Maksas tālrunis"</string>
+-->
+    <string name="confCall" msgid="3181961445236675173">"Konferences zvans"</string>
+    <string name="call_lost" msgid="8208184291640961172">"Zvans tika pārtraukts."</string>
+    <string name="audio_mode_speaker" msgid="6160127758732918123">"Skaļrunis"</string>
+    <string name="audio_mode_earpiece" msgid="3138677187223932893">"Auss skaļrunis"</string>
+    <string name="audio_mode_wired_headset" msgid="583080366967943196">"Austiņas ar vadu"</string>
+    <string name="audio_mode_bluetooth" msgid="3188504589946495676">"Bluetooth"</string>
+    <string name="wait_prompt_str" msgid="3784275777844586675">"Vai sūtīt tālāk norādītos signālus?\n"</string>
+    <string name="pause_prompt_str" msgid="4507496811727697620">"Sūtīšanas signāli\n"</string>
+    <string name="send_button" msgid="4054398309483035794">"Sūtīt"</string>
+    <string name="pause_prompt_yes" msgid="6738588490007499118">"Jā"</string>
+    <string name="pause_prompt_no" msgid="417286529736964178">"Nē"</string>
+    <string name="wild_prompt_str" msgid="8178750766679617355">"Aizstāt aizstājējzīmi ar:"</string>
+    <string name="caller_manage_header" msgid="4036790479287738218">"Konferences zvans: <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="voicemail_settings_number_label" msgid="2951965862286532957">"Balss pasta numurs"</string>
+    <string name="card_title_dialing" msgid="5046026076417718916">"Notiek numura sastādīšana"</string>
+    <string name="card_title_redialing" msgid="8072468059192027844">"Notiek atkārtota zvanīšana"</string>
+    <string name="card_title_conf_call" msgid="1747835072739982104">"Konferences zvans"</string>
+    <string name="card_title_incoming_call" msgid="4138485434087223132">"Ienākošs zvans"</string>
+    <string name="card_title_incoming_work_call" msgid="7000583925426981712">"Ienākošs darba zvans"</string>
+    <string name="card_title_call_ended" msgid="5249815286629136486">"Zvans ir pabeigts"</string>
+    <string name="card_title_on_hold" msgid="5633854828341577689">"Aizturēts"</string>
+    <string name="card_title_hanging_up" msgid="3402022578391538671">"Notiek klausules nolikšana"</string>
+    <string name="card_title_in_call" msgid="5029165346952099302">"Notiek zvans"</string>
+    <string name="card_title_my_phone_number" msgid="3749572971322520177">"Mans tālruņa numurs: <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="card_title_video_call_connecting" msgid="9171270899902894036">"Notiek video savienojuma izveide"</string>
+    <string name="card_title_video_call" msgid="6519406270853889302">"Videozvans"</string>
+    <string name="card_title_video_call_requesting" msgid="1611293204379882739">"Notiek video pieprasīšana"</string>
+    <string name="card_title_video_call_error" msgid="8488074823425848193">"Nevar veikt videozvanu"</string>
+    <string name="card_title_video_call_rejected" msgid="2885215432045215465">"Video pieprasījums noraidīts"</string>
+    <string name="card_title_callback_number" msgid="7646082782307705748">"Jūsu atzvana numurs\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <string name="card_title_callback_number_emergency" msgid="8916355112472826080">"Jūsu ārkārtas atzvana numurs\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <string name="notification_dialing" msgid="8080968169444117163">"Notiek numura sastādīšana"</string>
+<!--
+    <string name="notification_missedCallTitle" msgid="2774630248151712215">"Neatbildēts zvans"</string>
+    <string name="notification_missedCallsTitle" msgid="263275811089605859">"Neatbildēti zvani"</string>
+    <string name="notification_missedCallsMsg" msgid="69408330370667429">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> neatbildēti zvani"</string>
+-->
+    <string name="notification_missedCallTicker" msgid="1599269453813734699">"Neatbildēts zvans no: <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call" msgid="8633734299234807397">"Notiekošs zvans"</string>
+    <string name="notification_ongoing_work_call" msgid="3465083293325006579">"Notiekošs darba zvans"</string>
+    <string name="notification_ongoing_call_wifi" msgid="4140639349603930166">"Notiekošs Wi-Fi zvans"</string>
+    <string name="notification_ongoing_work_call_wifi" msgid="8469582753279163976">"Notiekošs darba Wi-Fi zvans"</string>
+    <string name="notification_on_hold" msgid="3151343576023182586">"Aizturēts"</string>
+    <string name="notification_incoming_call" msgid="5904745644632328863">"Ienākošs zvans"</string>
+    <string name="notification_incoming_work_call" msgid="281305845895342925">"Ienākošs darba zvans"</string>
+    <string name="notification_incoming_call_wifi" msgid="8337740714221114955">"Ienākošs Wi-Fi zvans"</string>
+    <string name="notification_incoming_work_call_wifi" msgid="3248418394186803763">"Ienākošs darba Wi-Fi zvans"</string>
+    <string name="notification_incoming_video_call" msgid="7814873581838165772">"Ienākošs videozvans"</string>
+    <string name="notification_requesting_video_call" msgid="4844596091477863245">"Ienākošs video pieprasījums"</string>
+    <string name="notification_new_voicemail_title" msgid="7595628197933709144">"Jauns balss pasta ziņojums"</string>
+    <string name="notification_voicemail_title_count" msgid="1241573926817248239">"Jauns balss pasts (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string name="notification_voicemail_text_format" msgid="6496440879085042069">"Sastādiet šādu numuru: <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number" msgid="5433652017869242375">"Balss pasta numurs nav zināms."</string>
+    <string name="notification_network_selection_title" msgid="6785177943238085441">"Nav pakalpojuma"</string>
+    <string name="notification_network_selection_text" msgid="9097902390701009591">"Atlasītais tīkls (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) nav pieejams."</string>
+    <string name="notification_action_answer" msgid="8418990052527593953">"Atbildēt"</string>
+    <string name="notification_action_ignore">Ignoruoti</string>
+    <string name="notification_action_end_call" msgid="2152010639043225860">"Beigt zvanu"</string>
+    <string name="notification_action_answer_video" msgid="2400233093494856655">"Video"</string>
+    <string name="notification_action_answer_voice" msgid="3206168292649273866">"Balss"</string>
+    <string name="notification_action_accept" msgid="8595047032790476122">"Pieņemt"</string>
+    <string name="notification_action_dismiss" msgid="1998811618480434300">"Noraidīt"</string>
+<!--
+    <string name="notification_missedCall_call_back" msgid="7855043480614703539">"Atzvanīt"</string>
+    <string name="notification_missedCall_message" msgid="2407410183079324393">"Sūtīt īsziņu"</string>
+-->
+    <string name="notification_external_call" msgid="5611236780302924816">"Notiekošs zvans citā ierīcē"</string>
+    <string name="notification_transfer_call" msgid="687009078741947505">"Pāradresēt zvanu"</string>
+    <string name="incall_error_power_off" msgid="3626117639377110403">"Lai veiktu zvanu, vispirms izslēdziet lidojuma režīmu."</string>
+    <string name="incall_error_emergency_only" msgid="8704761887752183855">"Nav reģistrēts tīklā."</string>
+    <string name="incall_error_out_of_service" msgid="1830319376612608339">"Mobilais tīkls nav pieejams."</string>
+    <string name="incall_error_no_phone_number_supplied" msgid="3042963797202928322">"Lai veiktu zvanu, ievadiet derīgu numuru."</string>
+    <string name="incall_error_call_failed" msgid="2213413937257570551">"Nevar veikt zvanu."</string>
+    <string name="incall_status_dialed_mmi" msgid="8864341962086874751">"Notiek MMI secības startēšana…"</string>
+    <string name="incall_error_supp_service_unknown" msgid="3390926762577861268">"Pakalpojums netiek atbalstīts."</string>
+    <string name="incall_error_supp_service_switch" msgid="4893764463854753730">"Nevar pārslēgt zvanus."</string>
+    <string name="incall_error_supp_service_separate" msgid="5469628699581380277">"Nevar nošķirt zvanu."</string>
+    <string name="incall_error_supp_service_transfer" msgid="3220469890457973326">"Nevar pārsūtīt."</string>
+    <string name="incall_error_supp_service_conference" msgid="3100373998543200356">"Nevar veikt konferences zvanu."</string>
+    <string name="incall_error_supp_service_reject" msgid="4543915892409365831">"Nevar noraidīt zvanu."</string>
+    <string name="incall_error_supp_service_hangup" msgid="101167589969625637">"Nevar pārtraukt zvanu(-us)."</string>
+    <string name="incall_call_type_label_sip" msgid="1327822795765282192">"SIP zvans"</string>
+    <string name="emergency_enable_radio_dialog_title" msgid="7882321703828314787">"Ārkārtas izsaukums"</string>
+    <string name="emergency_enable_radio_dialog_message" msgid="4382752053654184327">"Notiek radio ieslēgšana…"</string>
+    <string name="emergency_enable_radio_dialog_retry" msgid="1672288458940152814">"Nav pakalpojuma. Notiek atkārtots mēģinājums…"</string>
+    <string name="dial_emergency_error" msgid="582305854626092376">"Nevar veikt zvanu. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> nav ārkārtas numurs."</string>
+    <string name="dial_emergency_empty_error" msgid="199888628163390267">"Nevar veikt zvanu. Zvaniet ārkārtas numuram."</string>
+    <string name="dialerKeyboardHintText" msgid="8533449463925408141">"Izmantojiet tastatūru, lai sastādītu numuru"</string>
+    <string name="onscreenHoldText_unselected" msgid="4509232821220492533">"Aizturēt zvanu"</string>
+    <string name="onscreenHoldText_selected" msgid="2988100347384733032">"Atsākt zvanu"</string>
+    <string name="onscreenEndCallText" msgid="1416981593311001074">"Beigt zvanu"</string>
+    <string name="onscreenShowDialpadText_unselected" msgid="8253784035944284938">"Rādīt numura sastādīšanas tastatūru"</string>
+    <string name="onscreenShowDialpadText_selected" msgid="7368390784890311449">"Slēpt numura sastādīšanas tastatūru"</string>
+    <string name="onscreenMuteText_unselected" msgid="4130269060091842798">"Izslēgt skaņu"</string>
+    <string name="onscreenMuteText_selected" msgid="7074763815284369548">"Ieslēgt skaņu"</string>
+    <string name="onscreenAddCallText" msgid="5577548650466595598">"Pievienot zvanu"</string>
+    <string name="onscreenMergeCallsText" msgid="4946687067221459357">"Apvienot zvanus"</string>
+    <string name="onscreenSwapCallsText" msgid="8272036175646846198">"Mainīt"</string>
+    <string name="onscreenManageCallsText" msgid="5491297234697209677">"Pārvaldīt zvanus"</string>
+    <string name="onscreenManageConferenceText" msgid="7043499154946980355">"Pārvaldīt konferences zvanu"</string>
+    <string name="onscreenConferenceText" msgid="171855677185793827">"Konferences zvans"</string>
+    <string name="onscreenManageText" msgid="7625850560625708322">"Pārvaldīt"</string>
+    <string name="onscreenAudioText" msgid="8963459818052898299">"Audio"</string>
+    <string name="onscreenVideoCallText" msgid="1578940167445068369">"Videozvans"</string>
+    <string name="onscreenChangeToVoiceText" msgid="6249580619992009182">"Mainīt uz balss zvanu"</string>
+    <string name="onscreenSwitchCameraText" msgid="7141261218152736690">"Pārslēgt kameru"</string>
+    <string name="onscreenTurnOnCameraText" msgid="915019986687927588">"Ieslēgt kameru"</string>
+    <string name="onscreenTurnOffCameraText" msgid="6225377831394679126">"Izslēgt kameru"</string>
+    <string name="onscreenOverflowText" msgid="7932741239724473887">"Citas iespējas"</string>
+    <string name="player_started" msgid="3478865572468310331">"Atskaņošana sākta"</string>
+    <string name="player_stopped" msgid="1278611664986561535">"Atskaņošana apturēta"</string>
+    <string name="camera_not_ready" msgid="6614469280264241251">"Kamera nav gatava"</string>
+    <string name="camera_ready" msgid="2614541247814590887">"Kamera ir gatava"</string>
+    <string name="unknown_call_session_event" msgid="2947023743819984299">"Nezināms zvana sesijas notikums"</string>
+    <string name="voicemail_provider" msgid="2878119321474918370">"Pakalpojums"</string>
+    <string name="voicemail_settings" msgid="7548868784816068975">"Iestatīšana"</string>
+    <string name="voicemail_number_not_set" msgid="2690477999015436138">"&lt;Nav iestatīts&gt;"</string>
+    <string name="other_call_settings" msgid="6699076019841942826">"Citi zvanu iestatījumi"</string>
+    <string name="calling_via_template" msgid="3539373093109976255">"Zvans, ko nodrošina <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string name="incoming_via_template" msgid="6281138766370092800">"Ienākošie zvani, ko nodrošina <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string name="contactPhoto" msgid="6028825355597675193">"kontaktpersonas fotoattēls"</string>
+    <string name="goPrivate" msgid="3554069451018659483">"pārslēgt uz privāto režīmu"</string>
+    <string name="selectContact" msgid="92191462970821951">"atlasīt kontaktpersonu"</string>
+    <string name="respond_via_sms_custom_message" msgid="8210393177674619127">"Rakstīt savu…"</string>
+    <string name="custom_message_cancel" msgid="5920059627508662163">"Atcelt"</string>
+    <string name="custom_message_send" msgid="3798076337006735995">"Sūtīt"</string>
+    <string name="description_target_answer" msgid="1111945818996518320">"Atbildēt"</string>
+    <string name="description_target_send_sms" msgid="3652217769615310018">"Sūtīt īsziņu"</string>
+    <string name="description_target_decline" msgid="7108154434759234035">"Noraidīt"</string>
+    <string name="description_target_answer_video_call" msgid="4655616461181308405">"Atbildēt videozvanā"</string>
+    <string name="description_target_answer_audio_call" msgid="3234714934649708854">"Atbildēt audiozvanā"</string>
+    <string name="description_target_accept_upgrade_to_video_request" msgid="384894008955682630">"Apstiprināt video pieprasījumu"</string>
+    <string name="description_target_decline_upgrade_to_video_request" msgid="7342968876159189300">"Noraidīt video pieprasījumu"</string>
+    <string name="description_target_accept_upgrade_to_video_transmit_request" msgid="4586773853073826378">"Apstiprināt video pārsūtīšanas pieprasījumu"</string>
+    <string name="description_target_decline_upgrade_to_video_transmit_request" msgid="1191166008711514234">"Noraidīt video pārsūtīšanas pieprasījumu"</string>
+    <string name="description_target_accept_upgrade_to_video_receive_request" msgid="2224978927364021080">"Apstiprināt video saņemšanas pieprasījumu"</string>
+    <string name="description_target_decline_upgrade_to_video_receive_request" msgid="3151115394424918077">"Noraidīt video saņemšanas pieprasījumu"</string>
+    <string name="description_direction_up" msgid="1735018141439291766">"Velciet uz augšu, lai veiktu šādu darbību: <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>."</string>
+    <string name="description_direction_left" msgid="6811598791620851239">"Velciet pa kreisi, lai veiktu šādu darbību: <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>."</string>
+    <string name="description_direction_right" msgid="5461971399586296023">"Velciet pa labi, lai veiktu šādu darbību: <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>."</string>
+    <string name="description_direction_down" msgid="3331715227997561639">"Velciet uz leju, lai veiktu šādu darbību: <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>."</string>
+    <string name="voicemail_notification_vibrate_when_title" msgid="4595145399183729630">"Vibrācija"</string>
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="2390729279972461242">"Vibrācija"</string>
+    <string name="voicemail_notification_ringtone_title" msgid="1996920553949534944">"Signāls"</string>
+    <string name="default_notification_description" msgid="4950807644546509965">"Noklusējuma signāls (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+<!--
+    <string name="ringtone_title" msgid="835582004693335905">"Tālruņa zvana signāls"</string>
+    <string name="vibrate_on_ring_title" msgid="5019791043398986665">"Vibrācija zvana laikā"</string>
+-->
+    <string name="preference_category_ringtone" msgid="6246687516643676729">"Zvana signāls un vibrācija"</string>
+    <string name="manageConferenceLabel" msgid="7237614418556336108">"Konferences zvana pārvaldība"</string>
+    <string name="emergency_call_dialog_number_for_display" msgid="7244995877625769187">"Ārkārtas numurs"</string>
+    <plurals name="duration_seconds" formatted="false" msgid="2544699588744957418">
+        <item quantity="zero"><xliff:g id="COUNT">%d</xliff:g> sekunžu</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> sekunde</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> sekundes</item>
+    </plurals>
+    <plurals name="duration_minutes" formatted="false" msgid="8379077285441507101">
+        <item quantity="zero"><xliff:g id="COUNT">%d</xliff:g> minūšu</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> minūte</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minūtes</item>
+    </plurals>
+    <plurals name="duration_hours" formatted="false" msgid="7420759096931824344">
+        <item quantity="zero"><xliff:g id="COUNT">%d</xliff:g> stundu</item>
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> stunda</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> stundas</item>
+    </plurals>
+    <string name="profile_photo_description" msgid="7958198110870319358">"Profila fotoattēls"</string>
+    <string name="camera_off_description" msgid="4220023868645225790">"Kamera ir izslēgta"</string>
+    <string name="child_number" msgid="4469090994612105532">"no numura <xliff:g id="CHILD_NUMBER">%s</xliff:g>"</string>
+    <string name="note_sent" msgid="7623014827902758398">"Piezīme nosūtīta"</string>
+    <string name="person_contact_context_title" msgid="8490058088809090979">"Pēdējie ziņojumi"</string>
+    <string name="business_contact_context_title" msgid="8448362898576496764">"Informācija par uzņēmumu"</string>
+    <string name="distance_imperial_away" msgid="2083362798225798740">"<xliff:g id="DISTANCE">%.1f</xliff:g> jūdzes(-džu) attālumā"</string>
+    <string name="distance_metric_away" msgid="9021396592464955256">"<xliff:g id="DISTANCE">%.1f</xliff:g> km attālumā"</string>
+    <string name="display_address" msgid="444235484565491291">"<xliff:g id="STREET_ADDRESS">%1$s</xliff:g>, <xliff:g id="LOCALITY">%2$s</xliff:g>"</string>
+    <string name="open_time_span" msgid="2762952234657271236">"<xliff:g id="OPEN_TIME">%1$s</xliff:g>–<xliff:g id="CLOSE_TIME">%2$s</xliff:g>"</string>
+    <string name="opening_hours" msgid="7803506319518398380">"<xliff:g id="EARLIER_TIMES">%1$s</xliff:g>, <xliff:g id="LATER_TIME">%2$s</xliff:g>"</string>
+    <string name="opens_tomorrow_at" msgid="3567511490448488788">"Tiks atvērts rīt plkst. <xliff:g id="OPEN_TIME">%s</xliff:g>"</string>
+    <string name="opens_today_at" msgid="6281212768937222891">"Tiks atvērts šodien plkst. <xliff:g id="OPEN_TIME">%s</xliff:g>"</string>
+    <string name="closes_today_at" msgid="4822369201263491509">"Tiks slēgts plkst. <xliff:g id="CLOSE_TIME">%s</xliff:g>"</string>
+    <string name="closed_today_at" msgid="4060072663433467233">"Tika slēgts šodien plkst. <xliff:g id="CLOSE_TIME">%s</xliff:g>"</string>
+    <string name="open_now" msgid="4615706338669555999">"Atvērts"</string>
+    <string name="closed_now" msgid="2635314668145282080">"Slēgts"</string>
+
+
+
+
+
+    <!--
+    ****
+    ****
+
+
+    AGContacts
+
+    Resources String
+
+    Main
+
+
+    ****
+    ****
+    -->
+
     <string-array name="buttons_labels">
         <item>AĀBCČ*#</item>
         <item>DEĒF*#</item>

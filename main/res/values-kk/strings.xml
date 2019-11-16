@@ -1,5 +1,838 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <!--
+    ****
+    ****
+
+
+    Contacts 7.1 (AOSP)
+
+    Resources String
+
+    Main Sources
+
+
+    ****
+    ****
+    -->
+
+    <string name="quickContactActivityLabel" msgid="7985456650689347268">"Контактіні көру"</string>
+    <string name="editContactActivityLabel" msgid="1129944572070802839">"Контактіні өңдеу"</string>
+    <string name="contactsList" msgid="8661624236494819731">"Контактілер"</string>
+    <string name="shortcutContact" msgid="749243779392912958">"Контакт"</string>
+    <string name="shortcutDialContact" msgid="746622101599186779">"Тікелей теру"</string>
+    <string name="shortcutMessageContact" msgid="2460337253595976198">"Тікелей хабар"</string>
+    <string name="shortcutActivityTitle" msgid="6642877210643565436">"Контакт төте пернесін таңдау"</string>
+    <string name="callShortcutActivityTitle" msgid="6065749861423648991">"Қоңырау шалатын нөмірді таңдау"</string>
+    <string name="messageShortcutActivityTitle" msgid="3084542316620335911">"Хабар жіберетін нөмірді таңдау"</string>
+    <string name="contactInsertOrEditActivityTitle" msgid="6527505405325862674">"Контактілерге қосу"</string>
+    <string name="contactPickerActivityTitle" msgid="4301062192337417640">"Контакт таңдау"</string>
+    <string name="header_entry_contact_list_adapter_header_title" msgid="2436981165830115659">"Жаңа контакт жасау"</string>
+    <string name="starredList" msgid="4817256136413959463">"Жұлдызшалы"</string>
+    <string name="frequentList" msgid="7154768136473953056">"Жиі"</string>
+    <string name="strequentList" msgid="5640192862059373511">"Сүйіктілер"</string>
+    <string name="viewContactTitle" msgid="7989394521836644384">"Контакт егжей-тегжейі"</string>
+    <string name="editContactDescription" msgid="2947202828256214947">"Контактіні жөндеу"</string>
+    <string name="insertContactDescription" msgid="4709878105452681987">"Контакт жасақтау"</string>
+    <string name="editGroupDescription" msgid="6321161304201540561">"Топты жөндеу"</string>
+    <string name="insertGroupDescription" msgid="5658512271662210139">"Топ жасақтау"</string>
+    <string name="contactDetailAbout" msgid="5430408883907061400">"Туралы"</string>
+    <string name="contactDetailUpdates" msgid="3780588624763446941">"Жаңартулар"</string>
+    <string name="searchHint" msgid="8482945356247760701">"Контактілерді іздеу"</string>
+    <string name="menu_viewContact" msgid="2795575601596468581">"Контактіні көру"</string>
+    <string name="menu_addStar" msgid="2908478235715404876">"Таңдаулыларға қосу"</string>
+    <string name="menu_removeStar" msgid="5844227078364227030">"Таңдаулылардан өшіру"</string>
+    <string name="description_action_menu_remove_star" msgid="4699640108012265178">"Таңдаулылардан жойылды"</string>
+    <string name="description_action_menu_add_star" msgid="3327186327234177456">"Таңдаулыларға қосылды"</string>
+    <string name="menu_editContact" msgid="9042415603857662633">"Жөндеу"</string>
+    <string name="menu_deleteContact" msgid="6788644058868189393">"Жою"</string>
+    <string name="menu_change_photo" msgid="7769177631511496210">"Фотосуретті өзгерту"</string>
+    <string name="menu_create_contact_shortcut" msgid="1217971915748509640">"Негізгі экранға орналастыру"</string>
+    <string name="menu_call" msgid="3992595586042260618">"Контактіге қоңырау шалу"</string>
+    <string name="menu_sendSMS" msgid="5535886767547006515">"Контактіге мәтін-хабар жіберу"</string>
+    <string name="menu_splitAggregate" msgid="2627252205317945563">"Ажырату"</string>
+    <string name="menu_editGroup" msgid="5062005185370983720">"Жөндеу"</string>
+    <string name="menu_deleteGroup" msgid="3486380004411482874">"Жою"</string>
+    <string name="menu_new_contact_action_bar" msgid="7263362129442119188">"Контакт қосу"</string>
+    <string name="menu_new_group_action_bar" msgid="3520232877587377175">"Топ қосу"</string>
+    <string name="splitConfirmation" msgid="7342030840130187290">"Осы контакт байланысын жойып, бірнеше контактіге бөлу керек пе?"</string>
+    <string name="splitConfirmation_positive_button" msgid="9129409098807939699">"Байланысты жою"</string>
+    <string name="splitConfirmationWithPendingChanges" msgid="7719062163511895696">"Енгізіп қойған өзгертулерді сақтау және осы контакт байланысын жойып, бірнеше контактіге бөлу керек пе?"</string>
+    <string name="splitConfirmationWithPendingChanges_positive_button" msgid="9073444264887244032">"Сақтау және байланысты жою"</string>
+    <string name="joinConfirmation" msgid="8262614843581924365">"Енгізіп қойған өзгертулерді сақтау және таңдалған контактімен байланыстыру керек пе?"</string>
+    <string name="joinConfirmation_positive_button" msgid="4573092849769149516">"Сақтау және байланыстыру"</string>
+    <string name="menu_joinAggregate" msgid="3599512127797513606">"Байланыстыру"</string>
+    <string name="menu_save" msgid="1727844363591825909">"Сақтау"</string>
+    <string name="titleJoinContactDataWith" msgid="6825255752748313944">"Контактілерді байланыстыру"</string>
+    <string name="blurbJoinContactDataWith" msgid="5864256698061641841">"<xliff:g id="NAME">%s</xliff:g> өзара байланысатын контактіні таңдаңыз:"</string>
+    <string name="showAllContactsJoinItem" msgid="2189695051430392383">"Барлық контактілерді көрсету"</string>
+    <string name="separatorJoinAggregateSuggestions" msgid="2831414448851313345">"Ұсынылған контактілер"</string>
+    <string name="separatorJoinAggregateAll" msgid="7939932265026181043">"Барлық контактілер"</string>
+    <string name="contactsJoinedMessage" msgid="3343535986195643136">"Контактілер байланыстырылды"</string>
+    <plurals name="contacts_deleted_toast" formatted="false" msgid="1477708624197262295">
+        <item quantity="other">Контактілер жойылды</item>
+        <item quantity="one">Контакт жойылды</item>
+    </plurals>
+    <string name="menu_set_ring_tone" msgid="8728345772068064946">"Рингтонды орнату"</string>
+    <string name="menu_redirect_calls_to_vm" msgid="4181789196416396656">"Тек дауыс поштасы"</string>
+    <string name="readOnlyContactWarning" msgid="5526727661978307833">"Тек оқуға арналған есептік жазбалардағы контактілерді жою мүмкін емес, бірақ оларды жасыруға болады."</string>
+    <string name="readOnlyContactWarning_positive_button" msgid="6541862607313811926">"Жасыру"</string>
+    <string name="readOnlyContactDeleteConfirmation" msgid="8782086424739664753">"Жойылатын контактіде бірнеше есептік жазбадан алынған мәліметтер бар. Тек оқуға арналған есептік жазбалардан алынған мәліметтер жойылмайды, жасырылады."</string>
+    <string name="batch_link_single_contact_warning" msgid="1346058571502058767">"Байланыстыру үшін кемінде екі контактіні таңдау керек."</string>
+    <string name="batch_link_confirmation" msgid="5845237114309114908">"Таңдалған контактілерді байланыстыру керек пе?"</string>
+    <string name="batch_link_confirmation_positive_button" msgid="5018899675473363525">"Байланыстыру"</string>
+    <string name="single_delete_confirmation" msgid="3106905986948679720">"Осы контактіні жою керек пе?"</string>
+    <string name="batch_delete_confirmation" msgid="3984346060324014108">"Таңдалған контактілерді жою керек пе?"</string>
+    <string name="batch_delete_read_only_contact_confirmation" msgid="8411117621035639964">"Тек оқуға арналған есептік жазбалардағы контактілерді жою мүмкін емес, бірақ оларды жасыруға болады."</string>
+    <string name="batch_delete_multiple_accounts_confirmation" msgid="8207205649127030030">"Жойылатын контактілерде бірнеше есептік жазбадан алынған мәліметтер бар. Тек оқуға арналған есептік жазбалардан алынған мәліметтер жойылмайды, жасырылады."</string>
+    <string name="multipleContactDeleteConfirmation" msgid="5235324124905653550">"Бұл контактіні жою бірнеше есептік жазбадан мәліметтерді жояды."</string>
+    <string name="deleteConfirmation" msgid="3512271779086656043">"Осы контактіні жою керек пе?"</string>
+    <string name="deleteConfirmation_positive_button" msgid="7857888845028586365">"Жою"</string>
+    <string name="menu_discard" msgid="6854657936970228164">"Өзгертулерден бас тарту"</string>
+    <string name="invalidContactMessage" msgid="8215051456181842274">"Мұндай контакт жоқ."</string>
+    <string name="createContactShortcutSuccessful_NoName" msgid="8831303345367275472">"Контакт негізгі экранға қосылды."</string>
+    <string name="createContactShortcutSuccessful" msgid="953651153238790069">"<xliff:g id="NAME">%s</xliff:g> негізгі экранға қосылды."</string>
+    <string name="pickerNewContactHeader" msgid="7750705279843568147">"Жаңа контакт құру"</string>
+    <string name="pickerNewContactText" msgid="6166997164401048211">"Жаңа контакт құру"</string>
+    <string-array name="otherLabels">
+        <item msgid="8287841928119937597">"Ұйым"</item>
+        <item msgid="7196592230748086755">"Ескерту"</item>
+    </string-array>
+    <string name="photoPickerNotFoundText" msgid="431331662154342581">"Телефонда ешқандай фотосуреттер жоқ."</string>
+    <string name="attach_photo_dialog_title" msgid="5599827035558557169">"Контакт фотосуреті"</string>
+    <string name="customLabelPickerTitle" msgid="1081475101983255212">"Реттелмелі белгі атауы"</string>
+    <string name="send_to_voicemail_checkbox" msgid="9001686764070676353">"Қоңырауларды тікелей дауыс хабарына жіберу"</string>
+    <string name="removePhoto" msgid="4898105274130284565">"Фотосуретті алу"</string>
+    <string name="noContacts" msgid="4955659076981974652">"Контактілер жоқ"</string>
+    <string name="noGroups" msgid="8614664663561385253">"Топтар жоқ."</string>
+    <string name="noAccounts" msgid="7768267764545265909">"Топтар жасақтау үшін есептік жазба қажет."</string>
+    <string name="emptyGroup" msgid="7502116218697177370">"Бұл топта адамдар жоқ."</string>
+    <string name="addPeopleToGroup" msgid="7879585947222263516">"Кейбіреулерін қосу үшін, топты жөндеңіз."</string>
+    <string name="savingContact" msgid="4075751076741924939">"Контактіні сақтауда…"</string>
+    <string name="contactSavedToast" msgid="9171862279493213075">"Контакт сақталды"</string>
+    <string name="contactUnlinkedToast" msgid="7122823195786012553">"Контактілердің байланысы жойылды"</string>
+    <string name="contactSavedErrorToast" msgid="3207250533172944892">"Контакт өзгерістерін сақтай алмады."</string>
+    <string name="contactUnlinkErrorToast" msgid="2758070702785994171">"Контакт байланысын жою мүмкін болмады."</string>
+    <string name="contactJoinErrorToast" msgid="3977932531264809035">"Контактіні байланыстыру мүмкін болмады."</string>
+    <string name="contactGenericErrorToast" msgid="7774911165341591714">"Контактіні сақтау кезіндегі қате."</string>
+    <string name="contactPhotoSavedErrorToast" msgid="4079032272022979114">"Жаңа контакт фотосуреті сақталмады."</string>
+    <string name="groupSavedToast" msgid="1168756874239833756">"Топ сақталды."</string>
+    <string name="groupSavedErrorToast" msgid="7984466936615304740">"Топ өзгерістерін сақтау мүмкін болмады."</string>
+    <plurals name="listTotalPhoneContacts" formatted="false" msgid="3692277679143308755">
+        <item quantity="other">Телефон нөмірі бар <xliff:g id="COUNT">%d</xliff:g> контакт</item>
+        <item quantity="one">Телефон нөмірі бар 1 контакт</item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero" msgid="6968813857632984319">"Телефон нөмірлері бар контактілер жоқ"</string>
+    <plurals name="listFoundAllContacts" formatted="false" msgid="4872115339963093220">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> табылды</item>
+        <item quantity="one">1 табылды</item>
+    </plurals>
+    <string name="listFoundAllContactsZero" msgid="922980883593159444">"Контактілер жоқ"</string>
+    <plurals name="searchFoundContacts" formatted="false" msgid="7223023725334884618">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> табылды</item>
+        <item quantity="one">1 табылды</item>
+    </plurals>
+    <string name="all_contacts_tab_label" msgid="5948889261993124839">"Барлығы"</string>
+    <string name="favorites_tab_label" msgid="1524869648904016414">"Таңдаулылар"</string>
+    <string name="callBack" msgid="5498224409038809224">"Кері қоңырау шалу"</string>
+    <string name="callAgain" msgid="3197312117049874778">"Қайта қоңырау шалу"</string>
+    <string name="returnCall" msgid="8171961914203617813">"Қоңырауды қайтару"</string>
+    <string name="add_contact_dlg_message_fmt" msgid="7986472669444326576">"\"<xliff:g id="EMAIL">%s</xliff:g>\" контактілерге қосылсын ба?"</string>
+    <string name="description_contact_photo" msgid="3387458082667894062">"контакт фотосуреті"</string>
+    <string name="description_plus_button" msgid="515164827856229880">"қосу"</string>
+    <string name="exporting_contact_list_progress" msgid="560522409559101193">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g>, барлық <xliff:g id="TOTAL_NUMBER">%s</xliff:g> контактілерден"</string>
+    <string name="search_settings_description" msgid="2675223022992445813">"Контактілеріңіздің аттары"</string>
+    <string name="quickcontact_missing_app" msgid="358168575340921552">"Бұл әрекетті орындайтын ешқандай қолданба табылмады."</string>
+    <string name="quickcontact_transparent_view_description" msgid="987959416759562455">"Алдыңғы экранға оралу үшін түртіңіз"</string>
+    <string name="quickcontact_add_phone_number" msgid="731665835910658965">"Телефон нөмірін қосу"</string>
+    <string name="quickcontact_add_email" msgid="739298028384348482">"Электрондық пошта қосу"</string>
+    <string name="missing_app" msgid="1466111003546611387">"Бұл әрекетті орындайтын қолданба табылмады."</string>
+    <string name="menu_share" msgid="943789700636542260">"Бөлісу"</string>
+    <string name="menu_add_contact" msgid="3198704337220892684">"Контактілерге қосу"</string>
+    <string name="share_via" msgid="563121028023030093">"Контактімен бөлісу"</string>
+    <string name="dialog_new_group_account" msgid="2318032089273496830">"Есептік жазба арқылы топ құру"</string>
+    <string name="audio_chat" msgid="2535716629358298691">"Дауыс чаты"</string>
+    <string name="video_chat" msgid="1872255818640336072">"Видео чат"</string>
+    <string name="connections" msgid="8098440723172028350">"Байланыстар"</string>
+    <string name="add_connection_button" msgid="4861308615789601727">"Байланыс қосу"</string>
+    <string name="recent" msgid="2659189233141493004">"Жуықта қолданылған"</string>
+    <string name="recent_updates" msgid="4267258535615860710">"Соңғы жаңартулар"</string>
+    <string name="account_type_format" msgid="718948015590343010">"<xliff:g id="SOURCE">%1$s</xliff:g> контакт"</string>
+    <string name="google_account_type_format" msgid="5283997303922067997">"<xliff:g id="SOURCE">%1$s</xliff:g> есептік жазбасы"</string>
+    <!-- no translation found for from_account_format (4469138575127580203) -->
+    <skip />
+    <string name="contact_read_only" msgid="7421346527289472273">"Бұл қолданба арқылы жөнделмейді."</string>
+    <string name="group_read_only" msgid="1061762906115697637">"Бұл құрылғыда жөндеу мүмкін емеc."</string>
+    <string name="take_photo" msgid="7496128293167402354">"Фотосурет түсіру"</string>
+    <string name="take_new_photo" msgid="7341354729436576304">"Жаңа фотосурет түсіру"</string>
+    <string name="pick_photo" msgid="2129509985223564942">"Фотосуретті таңдау"</string>
+    <string name="pick_new_photo" msgid="9122450996263688237">"Жаңа фотоурет таңдау"</string>
+    <string name="upgrade_in_progress" msgid="474511436863451061">"Контакт тізімі жаңартылуда."</string>
+    <string name="search_results_searching" msgid="3984833028938569930">"Іздеуде…"</string>
+    <string name="menu_display_selected" msgid="6470001164297969034">"Таңдалғанды көрсету"</string>
+    <string name="menu_display_all" msgid="8887488642609786198">"Барлығын көрсету"</string>
+    <string name="menu_select_all" msgid="621719255150713545">"Барлығын таңдау"</string>
+    <string name="menu_select_none" msgid="7093222469852132345">"Барлығының таңдау белгісін алу"</string>
+    <string name="add_new_entry_for_section" msgid="5223080690667565044">"Жаңа қосу"</string>
+    <string name="add_organization" msgid="7311893231158291197">"Ұйым қосу"</string>
+    <string name="event_edit_field_hint_text" msgid="5794424930242630477">"Күні"</string>
+    <string name="group_edit_field_hint_text" msgid="3966441850870457808">"Топ атауы"</string>
+    <string name="change_photo" msgid="8530597935483526383">"Өзгерту"</string>
+    <string name="primary_photo" msgid="8517942231868516999">"Негізгі фотосурет"</string>
+    <string name="description_star" msgid="2605854427360036550">"сүйікті"</string>
+    <string name="edit_contact" msgid="7529281274005689512">"Контактіні жөндеу"</string>
+    <string name="aggregation_suggestion_join_dialog_message" msgid="6786192560870357912">"Ағымдағы контактіні таңдалған контактімен байланыстыру керек пе?"</string>
+    <string name="aggregation_suggestion_edit_dialog_message" msgid="6549585283910518095">"Таңдалған контактіні жөндеуге ауысуды қалайсыз ба? Осы уақытқа дейін сіз енгізген ақпараттың көшірмесі жасалады."</string>
+    <string name="menu_copyContact" msgid="1573960845106822639">"Менің контактілеріме көшіру"</string>
+    <string name="add_to_my_contacts" msgid="1068274916793627723">"Менің контактілерім тізіміне қосу"</string>
+    <string name="contact_directory_description" msgid="683398073603909119">"<xliff:g id="TYPE">%1$s</xliff:g> анықтамалық кітапшасы"</string>
+    <string name="list_filter_custom" msgid="8910173055702057002">"Реттелетін"</string>
+    <string name="activity_title_settings" msgid="5464130076132770781">"Параметрлер"</string>
+    <string name="menu_settings" msgid="377929915873428211">"Параметрлер"</string>
+    <string name="menu_help" msgid="1680178646764069976">"Анықтама және пікір"</string>
+    <string name="preference_displayOptions" msgid="1341720270148252393">"Көрсету опциялары"</string>
+    <string name="organization_company_and_title" msgid="6718207751363732025">"<xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g>"</string>
+    <string name="non_phone_caption" msgid="1541655052330027380">"Телефон нөмірі"</string>
+    <string name="non_phone_add_to_contacts" msgid="6590985286250471169">"Контактілерге қосу"</string>
+    <string name="activity_title_confirm_add_detail" msgid="4065089866210730616">"Контактілерге қосу"</string>
+    <string name="non_phone_close" msgid="7608506439725515667">"Жабу"</string>
+    <string name="widget_name_and_phonetic" msgid="8739586586600099979">"<xliff:g id="DISPLAY_NAME">%1$s</xliff:g> (<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)"</string>
+    <string name="date_year_toggle" msgid="7122002148518724139">"Жылды қосу"</string>
+    <string name="social_widget_label" msgid="6378905543028924592">"Контакт"</string>
+    <string name="social_widget_loading" msgid="5327336597364074608">"Жүктеуде…"</string>
+    <string name="contacts_unavailable_create_contact" msgid="7014525713871959208">"Жаңа контакт құру"</string>
+    <string name="contacts_unavailable_add_account" msgid="4347232421410561500">"Есептік жазба қосу"</string>
+    <string name="contacts_unavailable_import_contacts" msgid="4957393255392437529">"Контактілерді импорттау"</string>
+    <string name="create_group_dialog_title" msgid="6874527142828424475">"Жаңа топ жасақтау"</string>
+    <string name="create_group_item_label" msgid="4411981763169654825">"Жаңа топ жасақтау"</string>
+    <plurals name="num_groups_in_account" formatted="false" msgid="6189297639209663469">
+        <item quantity="other"><xliff:g id="COUNT">%0$d</xliff:g> топ</item>
+        <item quantity="one">1 топ</item>
+    </plurals>
+    <string name="delete_group_dialog_message" msgid="7586856514337560529">"\"<xliff:g id="GROUP_LABEL">%1$s</xliff:g>\" тобы жойылсын ба? (Контактілер жойылмайды.)"</string>
+    <plurals name="num_contacts_in_group" formatted="false" msgid="5520734553286350341">
+        <item quantity="other"><xliff:g id="ACCOUNT_TYPE_3">%2$s</xliff:g> ішінен <xliff:g id="COUNT_2">%1$d</xliff:g> адам</item>
+        <item quantity="one"><xliff:g id="ACCOUNT_TYPE_1">%2$s</xliff:g> ішінен <xliff:g id="COUNT_0">%1$d</xliff:g> адам</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group" formatted="false" msgid="8240460423614369023">
+        <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> адам</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> адам</item>
+    </plurals>
+    <string name="toast_join_with_empty_contact" msgid="1215465657839085613">"Басқа контактімен байланыстыру алдында контактінің атын теріңіз."</string>
+    <string name="copy_text" msgid="3257145021583508761">"Аралық сақтағышқа көшіру"</string>
+    <string name="set_default" msgid="4417505153468300351">"Бастапқы ретінде орнату"</string>
+    <string name="clear_default" msgid="7193185801596678067">"Бастапқыны өшіру"</string>
+    <string name="toast_text_copied" msgid="5143776250008541719">"Мәтін көшірмесі жасалды"</string>
+    <string name="cancel_confirmation_dialog_message" msgid="5058226498605989285">"Өзгертулерді алып тастап, өңдеуден шығу керек пе?"</string>
+    <string name="cancel_confirmation_dialog_cancel_editing_button" msgid="3057023972074640671">"Алып тастау"</string>
+    <string name="cancel_confirmation_dialog_keep_editing_button" msgid="7737724111972855348">"Өңдеуді жалғастыру"</string>
+    <string name="call_type_and_date" msgid="747163730039311423">"<xliff:g id="CALL_TYPE">%1$s</xliff:g> <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g>"</string>
+    <string name="profile_display_name" msgid="4127389543625918771">"Менің профилімді реттеу"</string>
+    <string name="enter_contact_name" msgid="1738391320566349924">"Адамның атын теру"</string>
+    <string name="group_name_hint" msgid="238359485263401293">"Топтың атауы"</string>
+    <string name="local_profile_title" msgid="2021416826991393684">"Менің жергілікті профайлым"</string>
+    <string name="external_profile_title" msgid="8034998767621359438">"Менің <xliff:g id="EXTERNAL_SOURCE">%1$s</xliff:g> профайлым"</string>
+    <string name="toast_displaying_all_contacts" msgid="2737388783898593875">"Барлық контактілер көрсетілуде"</string>
+    <string name="generic_no_account_prompt" msgid="7218827704367325460">"Телефоныңыз жоғалған жағдайда контактілеріңізді сақтап қалыңыз: желі қызметімен синхрондаңыз."</string>
+    <string name="generic_no_account_prompt_title" msgid="753783911899054860">"Есептік жазба қосу"</string>
+    <string name="contact_editor_prompt_zero_accounts" msgid="1785345895691886499">"Жаңа контактінің сақтық көшірмесі жасалмайды. Контактілердің желі арқылы көшірмесін жасайтын есептік жазба қосуды қалайсыз ба?"</string>
+    <string name="contact_editor_prompt_one_account" msgid="3087691056345099310">"Жаңа контактілер <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g> есептік жазбасында сақталады."</string>
+    <string name="contact_editor_prompt_multiple_accounts" msgid="8565761674283473549">"Жаңа контактілерге арналған әдепкі есептік жазбаны таңдаңыз:"</string>
+    <string name="contact_editor_title_new_contact" msgid="7192223018128934940">"Жаңа контакт қосу"</string>
+    <string name="contact_editor_title_existing_contact" msgid="4898475703683187798">"Контактіні өңдеу"</string>
+    <string name="keep_local" msgid="1258761699192993322">"Жергілікті сақтау"</string>
+    <string name="add_account" msgid="8201790677994503186">"Ес. жазба қосу"</string>
+    <string name="add_new_account" msgid="5748627740680940264">"Жаңа есептік жазба қосу"</string>
+    <string name="menu_export_database" msgid="2659719297530170820">"Дерекқор файлдарын экспорттау"</string>
+    <string name="action_menu_add_new_contact_button" msgid="3180222523336380017">"жаңа контакт қосу"</string>
+    <string name="expanding_entry_card_view_see_more" msgid="3779194067124758079">"Көбірек көру"</string>
+    <string name="expanding_entry_card_view_see_less" msgid="5344160551629714168">"Азырақ көру"</string>
+    <string name="expanding_entry_card_view_see_all" msgid="3845258737661412627">"Барлығын көру"</string>
+    <string name="recent_card_title" msgid="8982782042698001695">"Жақындағы"</string>
+    <string name="about_card_title" msgid="2920942314212825637">"Туралы"</string>
+    <string name="send_message" msgid="8938418965550543196">"Хабарды жіберу"</string>
+    <string name="toast_making_personal_copy" msgid="6137651078366797938">"Жеке көшірмені жасау…"</string>
+    <string name="yesterday" msgid="6840858548955018569">"Кеше"</string>
+    <string name="tomorrow" msgid="6241969467795308581">"Ертең"</string>
+    <string name="today" msgid="8041090779381781781">"Бүгін"</string>
+    <string name="today_at_time_fmt" msgid="605665249491030460">"Бүгін, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt" msgid="4856497969617819421">"Ертең, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt" msgid="5053178726906863812">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="untitled_event" msgid="3484859385405939366">"(Атаусыз оқиға)"</string>
+    <string name="date_time_set" msgid="4761419824439606690">"Орнату"</string>
+    <string name="header_im_entry" msgid="3581720979640225615">"IM"</string>
+    <string name="header_organization_entry" msgid="8515394955666265406">"Ұйым"</string>
+    <string name="header_nickname_entry" msgid="6743561883967451485">"Бүркеншік ат"</string>
+    <string name="header_note_entry" msgid="4320190426480612344">"Ескертпе"</string>
+    <string name="header_website_entry" msgid="1411467850000824745">"Веб-сайт"</string>
+    <string name="header_event_entry" msgid="6738250422744401460">"Оқиға"</string>
+    <string name="header_relation_entry" msgid="1520292958088146460">"Қатынас"</string>
+    <string name="header_account_entry" msgid="2684318506427891827">"Есептік жазба"</string>
+    <string name="header_name_entry" msgid="1592791008096288306">"Аты"</string>
+    <string name="header_email_entry" msgid="8666093061171624478">"Электрондық пошта"</string>
+    <string name="header_phone_entry" msgid="8450980572274173570">"Телефон"</string>
+    <string name="header_photo_entry" msgid="4438023151411853238">"Фотосурет"</string>
+    <string name="content_description_expand_editor" msgid="1111381475901897470">"Контактілер өңдегішті кеңейту үшін басыңыз."</string>
+    <string name="content_description_collapse_editor" msgid="7598061318022977825">"Контактілер өңдегішті тасалау үшін басыңыз."</string>
+    <string name="content_description_directions" msgid="2686791825798189335">"орынға бағыттар"</string>
+    <string name="content_description_recent_sms" msgid="1666389577263317445">"жақындағы sms. <xliff:g id="MESSAGE_BODY">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. жауап беру үшін басыңыз"</string>
+    <string name="content_description_recent_call_type_incoming" msgid="5210739096863511410">"кіріс"</string>
+    <string name="content_description_recent_call_type_outgoing" msgid="5156553338985232744">"шығыс"</string>
+    <string name="content_description_recent_call_type_missed" msgid="7371810920196048204">"өткізіп алған"</string>
+    <string name="content_description_recent_call" msgid="5183800406316723676">"жақындағы қоңырау. <xliff:g id="CALL_TYPE">%s</xliff:g>. <xliff:g id="PHONE_NUMBER">%s</xliff:g>. <xliff:g id="DATE">%s</xliff:g>. кері қоңырау шалу үшін басыңыз"</string>
+    <string name="message_from_you_prefix" msgid="7180706529908434482">"Сіз: <xliff:g id="SMS_BODY">%s</xliff:g>"</string>
+    <string name="contact_editor_hangouts_im_alert" msgid="114855385615225735">"Hangouts қолданбасы электрондық пошта өрісіне немесе телефон өрісіне адамның Hangouts идентификаторын енгізгенде жақсырақ жұмыс істейді."</string>
+    <string name="compact_editor_more_fields" msgid="5987638193568699600">"Қалған өрістер"</string>
+    <string name="compact_editor_change_photo_content_description" msgid="5495487714301211540">"Фотосуретті өзгерту"</string>
+    <string name="compact_editor_failed_to_load" msgid="4557094426388044958">"Өңдегішті ашу сәтсіз аяқталды."</string>
+    <string name="compact_editor_account_selector_title" msgid="5119592614151786601">"Келесіге сақтау"</string>
+    <string name="compact_editor_account_selector_description" msgid="2127184829759350507">"Қазіргі уақытта <xliff:g id="ACCOUNT_NAME">%s</xliff:g> есептік жазбасына сақталуда. Басқа есептік жазбаны таңдау үшін екі рет түртіңіз."</string>
+    <plurals name="compact_editor_linked_contacts_selector_title" formatted="false" msgid="9156207930915878316">
+        <item quantity="other">Байланыстырылған контактілер (<xliff:g id="COUNT">%d</xliff:g>)</item>
+        <item quantity="one">Байланыстырылған контакт</item>
+    </plurals>
+    <string name="quickcontact_contacts_number" msgid="6036916944287597682">"<xliff:g id="COUNT">%d</xliff:g> байланыстырылған контакт"</string>
+    <string name="quick_contact_display_name_with_phonetic" msgid="3692038078718876610">"<xliff:g id="DISPLAY_NAME">%s</xliff:g> (<xliff:g id="PHONETIC_NAME">%s</xliff:g>)"</string>
+    <string name="quickcontact_suggestion_link_button" msgid="3244619714781727946">"КОНТАКТІЛЕРДІ БАЙЛАНЫСТЫРУ"</string>
+    <string name="quickcontact_suggestion_cancel_button" msgid="8236954313106630862">"БАС ТАРТУ"</string>
+    <plurals name="quickcontact_suggestion_card_title" formatted="false" msgid="2660005966628746406">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ықтимал көшірме</item>
+        <item quantity="one">1 ықтимал көшірме</item>
+    </plurals>
+    <plurals name="quickcontact_suggestions_number" formatted="false" msgid="495992931510695330">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> байланыстырылған контакт</item>
+        <item quantity="one">1 байланыстырылған контакт</item>
+    </plurals>
+    <plurals name="quickcontact_suggestion_account_type_number" formatted="false" msgid="3001681298924002373">
+        <item quantity="other">(<xliff:g id="COUNT">%d</xliff:g>)</item>
+        <item quantity="one"></item>
+    </plurals>
+    <string name="quickcontact_suggestion_account_type" msgid="5878263654735376962">"<xliff:g id="ACCOUNT_TYPE_0">%s</xliff:g><xliff:g id="ACCOUNT_TYPE_NUMBER">%s</xliff:g>"</string>
+    <string name="suggestion_card_this_contact_title" msgid="3039457405374454914">"Осы контакт"</string>
+    <string name="suggestion_card_duplicates_title" msgid="9107788743178980902">"Ықтимал көшірмелер"</string>
+    <string name="suggestion_card_help_message" msgid="4474061044387181093">"Бұл контактілер бір адам болуы мүмкін. Оларды бір контактіге біріктіруге болады."</string>
+    <string name="compact_editor_linked_contacts_title" msgid="4417919183651782674">"Байланыстырылған контактілер"</string>
+    <string name="from_your_accounts" msgid="1746293107836889912">"Есептік жазбаларыңыздан"</string>
+    <string name="take_a_photo_button" msgid="6268693854069113488">"Фотосурет түсіру"</string>
+    <string name="all_photos_button" msgid="1943122929420111351">"Барлық фотосуреттер"</string>
+    <string name="photo_picker_title" msgid="5272832995550042801">"Фотосуретті таңдау"</string>
+    <string name="contact_from_account_name" msgid="2078526819634079406">"Кімнен: <xliff:g id="ACCOUNT_NAME">%s</xliff:g>"</string>
+    <string name="editor_delete_view_description" msgid="8583095381562991959">"<xliff:g id="DATA_TYPE">%s </xliff:g><xliff:g id="DATA_KIND">%s</xliff:g> жою"</string>
+    <string name="editor_delete_view_description_short" msgid="7335518371270844912">"<xliff:g id="DATA_KIND">%s</xliff:g> жою"</string>
+    <string name="photo_view_description_not_checked" msgid="8876314195990885177">"<xliff:g id="ACCOUNT_TYPE">%s </xliff:g><xliff:g id="USER_NAME">%s </xliff:g> ішіндегі фотосуретке құсбелгі қойылмаған"</string>
+    <string name="photo_view_description_checked" msgid="3906597168607472795">"<xliff:g id="ACCOUNT_TYPE">%s </xliff:g><xliff:g id="USER_NAME">%s </xliff:g> ішіндегі фотосуретке құсбелгі қойылған"</string>
+    <string name="photo_view_description_not_checked_no_info" msgid="2749154927006406981">"Белгісіз есептік жазбадан алынған фотосуретке құсбелгі қойылмады"</string>
+    <string name="photo_view_description_checked_no_info" msgid="4974335987092590591">"Белгісіз есептік жазбадан алынған фотосуретке құсбелгі қойылды"</string>
+    <string name="locale_change_in_progress" msgid="1124266507671178413">"Контактілер тізімі тілдің өзгеруін көрсету үшін жаңартылуда.\n\nКүтіңіз..."</string>
+    <string name="menu_blocked_numbers" msgid="5272951629083025995">"Бөгелген нөмірлер"</string>
+
+
+
+
+    <!--
+    ****
+    ****
+
+
+    Dialer 7.1 (AOSP)
+
+    Resources String
+
+    Main Sources
+
+
+    ****
+    ****
+    -->
+
+
+    <string name="applicationLabel" msgid="7762561155467201526">"AGТелефон"</string>
+    <string name="launcherActivityLabel" msgid="1129729740601172692">"Телефон"</string>
+    <string name="launcherDialpadActivityLabel" msgid="3959809805046059167">"Телефон теру тақтасы"</string>
+    <string name="dialerIconLabel" msgid="6500826552823403796">"Телефон"</string>
+    <string name="callHistoryIconLabel" msgid="3734413397291301223">"Қоңыраулар тарихы"</string>
+    <string name="action_report_number" msgid="4635403959812186162">"Қате нөмір туралы есеп беру"</string>
+    <string name="action_copy_number_text" msgid="588249522108594155">"Нөмірді көшіру"</string>
+    <string name="copy_transcript_text" msgid="5652787482893879382">"Транскрипцияны көшіру"</string>
+    <string name="action_block_number" msgid="1482657602262262134">"Нөмірді бөгеу"</string>
+    <string name="snackbar_number_blocked" msgid="939830142765936021">"<xliff:g id="NUMBER">%1$s</xliff:g> бөгелген"</string>
+    <string name="action_unblock_number" msgid="3043777622269776127">"Нөмірге рұқсат беру"</string>
+    <string name="snackbar_number_unblocked" msgid="4854738171099045912">"<xliff:g id="NUMBER">%1$s</xliff:g> бөгеуден шығарылған"</string>
+    <string name="block_number_undo" msgid="591338370336724156">"КЕРІ ОРЫНДАУ"</string>
+    <string name="call_details_delete" msgid="1833359621896346955">"Жою"</string>
+    <string name="action_edit_number_before_call" msgid="3100221149873436485">"Қоңырау алдында нөмірді өзгерту"</string>
+    <string name="call_log_delete_all" msgid="4677609108288680411">"Қоңыраулар тарихын тазалау"</string>
+    <string name="call_log_trash_voicemail" msgid="1283948488625129019">"Дауыстық хабарды жою"</string>
+    <string name="call_log_archive_voicemail" msgid="9072936797223284265">"Дауыстық поштаны мұрағаттау"</string>
+    <string name="call_log_share_voicemail" msgid="7272635349055945546">"Дауыстық хабармен бөлісу"</string>
+    <string name="snackbar_voicemail_deleted" msgid="5098542835986188582">"Дауыстық хабар жойылды"</string>
+    <string name="snackbar_voicemail_archived" msgid="7442340403660554373">"Дауыстық пошта мұрағатталды"</string>
+    <string name="snackbar_voicemail_deleted_undo" msgid="3741811385891289167">"КЕРІ ҚАЙТАРУ"</string>
+    <string name="snackbar_voicemail_archived_goto" msgid="9186182602955185448">"МҰР-ҚА ӨТУ"</string>
+    <string name="clearCallLogConfirmation_title" msgid="801753155679372984">"Қоңыраулар тарихын тазалау керек пе?"</string>
+    <string name="clearCallLogConfirmation" msgid="7899552396101432827">"Тарихтағы барлық қоңыраулар жойылады"</string>
+    <string name="clearCallLogProgress_title" msgid="3372471156216306132">"Қоңыраулар тарихы тазалануда…"</string>
+    <string name="userCallActivityLabel" product="default" msgid="6652512551977445095">"Телефон"</string>
+    <string name="notification_missedCallTitle" msgid="2078223183024451723">"Өткізіп алған қоңырау"</string>
+    <string name="notification_missedWorkCallTitle" msgid="8418335304394771688">"Өткізіп алынған жұмыс қоңырауы"</string>
+    <string name="notification_missedCallsTitle" msgid="4948840634672742797">"Қабылданбаған қоңыраулар"</string>
+    <string name="notification_missedCallsMsg" msgid="158790423221579961">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> өткізіп алған қоңырау"</string>
+    <string name="notification_missedCall_call_back" msgid="1991552423738343203">"Кері қоңырау шалу"</string>
+    <string name="notification_missedCall_message" msgid="3042123733754151052">"Хабар"</string>
+    <plurals name="notification_voicemail_title" formatted="false" msgid="9088953961148324851">
+        <item quantity="other"> <xliff:g id="COUNT">%1$d</xliff:g> дауыстық хабар </item>
+        <item quantity="one">Дауыстық хабар</item>
+    </plurals>
+    <string name="notification_action_voicemail_play" msgid="6113133136977996863">"Ойнау"</string>
+    <string name="notification_voicemail_callers_list" msgid="1153954809339404149">"<xliff:g id="NEWER_CALLERS">%1$s</xliff:g>, <xliff:g id="OLDER_CALLER">%2$s</xliff:g>"</string>
+    <string name="notification_new_voicemail_ticker" msgid="895342132049452081">"<xliff:g id="CALLER">%1$s</xliff:g> жіберген жаңа дауыс-хабар"</string>
+    <string name="voicemail_playback_error" msgid="3356071912353297599">"Дауыстық хабарды ойнату мүмкін болмады"</string>
+    <string name="voicemail_fetching_content" msgid="1287895365599580842">"Дауыстық хабар жүктелуде…"</string>
+    <string name="voicemail_archiving_content" msgid="722322091690281157">"Дауыстық пошта мұрағатталуда…"</string>
+    <string name="voicemail_fetching_timout" msgid="3959428065511972176">"Дауыстық хабарды жүктеу мүмкін болмады"</string>
+    <string name="call_log_voicemail_header" msgid="3945407886667089173">"Дауыс хабары бар қоңыраулар ғана"</string>
+    <string name="call_log_incoming_header" msgid="2787722299753674684">"Келген қоңыраулар ғана"</string>
+    <string name="call_log_outgoing_header" msgid="761009180766735769">"Шығыс қоңыраулары ғана"</string>
+    <string name="call_log_missed_header" msgid="8017148056610855956">"Қабылданбаған қоңыраулар ғана"</string>
+    <string name="visual_voicemail_title" msgid="4574199312906348905">"Визуалды дауыстық хабар"</string>
+    <string name="visual_voicemail_text" msgid="164967285234132509">"Нөмірге қоңырау шалмастан, дауыстық поштаңызды қараңыз және тыңдаңыз. Деректер ақысы алынуы мүмкін."</string>
+    <string name="visual_voicemail_settings" msgid="8090338793118794741">"Параметрлер"</string>
+    <string name="voicemail_status_voicemail_not_available" msgid="5222480147701456390">"Дауыстық пошта жаңартулары қол жетімді емес"</string>
+    <string name="voicemail_status_messages_waiting" msgid="6329544650250068650">"Жаңа дауыстық хабар күтуде. Дәл қазір жүктеу мүмкін емес."</string>
+    <string name="voicemail_status_configure_voicemail" msgid="8300808991932816153">"Дауыс-хабарды реттеу"</string>
+    <string name="voicemail_status_audio_not_available" msgid="2449801102560158082">"Аудио қол жетімді емес"</string>
+    <string name="voicemail_status_action_configure" msgid="8671796489912239589">"Орнату"</string>
+    <string name="voicemail_status_action_call_server" msgid="1824816252288551794">"Дауыс-хабарға қоңырау шалу"</string>
+    <string name="call_log_item_count_and_date" msgid="7641933305703520787">"(<xliff:g id="COUNT">%1$d</xliff:g>) <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="sms_disambig_title" msgid="5846266399240630846">"Нөмірді таңдау"</string>
+    <string name="call_disambig_title" msgid="4392886850104795739">"Нөмірді таңдау"</string>
+    <string name="make_primary" msgid="5829291915305113983">"Бұл таңдау есте сақталсын."</string>
+    <string name="description_search_button" msgid="3660807558587384889">"іздеу"</string>
+    <string name="description_dial_button" msgid="1274091017188142646">"теру"</string>
+    <string name="description_digits_edittext" msgid="8760207516497016437">"теретін нөмір"</string>
+    <string name="description_playback_start_stop" msgid="5060732345522492292">"Ойнату немесе ойнатуды тоқтату"</string>
+    <string name="description_playback_speakerphone" msgid="6008323900245707504">"Спикерфонды қосу немесе өшіру"</string>
+    <string name="description_playback_seek" msgid="4509404274968530055">"Ойнату орнын іздеу"</string>
+    <string name="description_rate_decrease" msgid="3161652589401708284">"Ойнату жылдамдығын азайту"</string>
+    <string name="description_rate_increase" msgid="6324606574127052385">"Ойнату жылдамдығын арттыру"</string>
+    <string name="action_menu_call_history_description" msgid="9018442816219748968">"Қоңырау тарихы"</string>
+    <string name="action_menu_overflow_description" msgid="2303272250613084574">"Басқа опциялар"</string>
+    <string name="action_menu_dialpad_button" msgid="1425910318049008136">"теру тақтасы"</string>
+    <string name="menu_show_outgoing_only" msgid="1965570298133301970">"Шығыс қоңырауларды ғана көрсету"</string>
+    <string name="menu_show_incoming_only" msgid="7534206815238877417">"Келгендерді ғана көрсету"</string>
+    <string name="menu_show_missed_only" msgid="154473166059743996">"Қабылданбағандарды ғана көрсету"</string>
+    <string name="menu_show_voicemails_only" msgid="1898421289561435703">"Дауыс-хабарларын ғана көрсету"</string>
+    <string name="menu_show_all_calls" msgid="7560347482073345885">"Барлық қоңырауларды көрсету"</string>
+    <string name="add_2sec_pause" msgid="9214012315201040129">"2 сек үзіліс қосу"</string>
+    <string name="add_wait" msgid="3360818652790319634">"Күтуді қосу"</string>
+    <string name="dialer_settings_label" msgid="4305043242594150479">"Параметрлер"</string>
+    <string name="menu_newContact" msgid="1209922412763274638">"Жаңа контакт"</string>
+    <string name="menu_allContacts" msgid="6948308384034051670">"Барлық контактілер"</string>
+    <string name="callDetailTitle" msgid="5340227785196217938">"Қоңырау деректері"</string>
+    <string name="toast_call_detail_error" msgid="6947041258280380832">"Мәліметтер қол жетімді емес"</string>
+    <string name="dialer_useDtmfDialpad" msgid="1707548397435075040">"Сенсорлы әуенді пернетақта"</string>
+    <string name="dialer_returnToInCallScreen" msgid="3719386377550913067">"Қосылып тұрған қоңырауға оралу"</string>
+    <string name="dialer_addAnotherCall" msgid="4205688819890074468">"Қоңырау қосу"</string>
+    <string name="type_incoming" msgid="6502076603836088532">"Келген қоңырау"</string>
+    <string name="type_outgoing" msgid="343108709599392641">"Шығыс қоңырау"</string>
+    <string name="type_missed" msgid="2720502601640509542">"Қабылданбаған қоңырау"</string>
+    <string name="type_incoming_video" msgid="82323391702796181">"Кіріс бейне қоңырау"</string>
+    <string name="type_outgoing_video" msgid="2858140021680755266">"Шығыс бейне қоңырау"</string>
+    <string name="type_missed_video" msgid="954396897034220545">"Өткізіп алынған бейне қоңырау"</string>
+    <string name="type_voicemail" msgid="5153139450668549908">"Дауыстық пошта"</string>
+    <string name="type_rejected" msgid="7783201828312472691">"Қабылданбаған қоңырау"</string>
+    <string name="type_blocked" msgid="3521686227115330015">"Тыйым салынған қоңырау"</string>
+    <string name="actionIncomingCall" msgid="6028930669817038600">"Келген қоңыраулар"</string>
+    <string name="description_call_log_play_button" msgid="651182125650429846">"Дауыс-хабарды ойнату"</string>
+    <string name="description_view_contact" msgid="5205669345700598415">"<xliff:g id="NAME">%1$s</xliff:g> контактісін көру"</string>
+    <string name="description_call" msgid="3443678121983852666">"<xliff:g id="NAME">%1$s</xliff:g> нөміріне қоңырау шалу"</string>
+    <string name="description_contact_details" msgid="51229793651342809">"<xliff:g id="NAMEORNUMBER">%1$s</xliff:g> контакт деректері"</string>
+    <string name="description_num_calls" msgid="1601505153694540074">"<xliff:g id="NUMBEROFCALLS">%1$s</xliff:g> қоңыраулар."</string>
+    <string name="description_video_call" msgid="2933838090743214204">"Бейне қоңырау."</string>
+    <string name="description_send_text_message" msgid="3118485319691414221">"Мынаған SMS жіберу: <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call_log_unheard_voicemail" msgid="118101684236996786">"Естілмеген дауыс-хабар"</string>
+    <string name="description_start_voice_search" msgid="520539488194946012">"Дауыс іздеуді бастау"</string>
+    <string name="menu_callNumber" msgid="997146291983360266">"<xliff:g id="NUMBER">%s</xliff:g> нөміріне қоңырау шалу"</string>
+    <string name="unknown" msgid="740067747858270469">"Белгісіз"</string>
+    <string name="voicemail" msgid="3851469869202611441">"Дауыстық пошта"</string>
+    <string name="private_num" msgid="6374339738119166953">"Жеке нөмір"</string>
+    <string name="payphone" msgid="7726415831153618726">"Автомат-телефон"</string>
+    <string name="callDetailsShortDurationFormat" msgid="3988146235579303592">"<xliff:g id="SECONDS">%s</xliff:g> сек."</string>
+    <string name="callDetailsDurationFormat" msgid="6061406028764382234">"<xliff:g id="MINUTES">%s</xliff:g> мин <xliff:g id="SECONDS">%s</xliff:g> сек"</string>
+    <!-- no translation found for voicemailCallLogToday (682363079840402849) -->
+    <skip />
+    <string name="voicemailCallLogDateTimeFormat" msgid="4388070029056487713">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="voicemailDurationFormat" msgid="228211252076289564">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="voicemailCallLogDateTimeFormatWithDuration" msgid="5118563814451588397">"<xliff:g id="DATEANDTIME">%1$s</xliff:g> • <xliff:g id="DURATION">%2$s</xliff:g>"</string>
+    <string name="dialog_phone_call_prohibited_message" msgid="5730565540182492608">"Бұл нөмірге қоңырау шалу мүмкін емес"</string>
+    <string name="dialog_voicemail_not_ready_message" msgid="4384716252789515378">"Дауыс-хабарын жасақтау үшін Mәзір &gt; Параметрлер тармақтарына кіріңіз."</string>
+    <string name="dialog_voicemail_airplane_mode_message" msgid="530922773669546093">"Дауыс-хабарына қоңырау шалу үшін ұшақ режимін өшіру қажет."</string>
+    <string name="contact_list_loading" msgid="5488620820563977329">"Жүктелуде..."</string>
+    <string name="imei" msgid="3045126336951684285">"IMEI (Халықаралық мобильдік құрылғы анықтағышы)"</string>
+    <string name="meid" msgid="6210568493746275750">"MEID (ұялы жабдық анықтағыш)"</string>
+    <string name="simContacts_emptyLoading" msgid="6700035985448642408">"SIM картасынан жүктеу…"</string>
+    <string name="simContacts_title" msgid="27341688347689769">"SIM картасының контактілері"</string>
+    <string name="add_contact_not_available" msgid="5547311613368004859">"Контактілер қолданбасы қол жетімді емес"</string>
+    <string name="voice_search_not_available" msgid="2977719040254285301">"Дауыс арқылы іздеу қол жетімді емес"</string>
+    <string name="call_not_available" msgid="8941576511946492225">"Телефон қоңырауын шалу мүмкін емес, өйткені «Телефон» қолданбасы өшірілген."</string>
+    <string name="activity_not_available" msgid="2287665636817987623">"Бұл үшін осы құрылғыда қолданба жоқ"</string>
+    <string name="dialer_hint_find_contact" msgid="3574350254520035364">"Контактілерді іздеу"</string>
+    <string name="block_number_search_hint" msgid="5409571607043872758">"Нөмірді енгізіңіз немесе контактілерден іздеп табыңыз"</string>
+    <string name="call_log_all_empty" msgid="8357417710416340920">"Қоңыраулар тарихы бос"</string>
+    <string name="call_log_all_empty_action" msgid="9093210119068366147">"Қоңырау шалу"</string>
+    <string name="call_log_missed_empty" msgid="3927274175205520135">"Қабылданбаған қоңыраулар жоқ."</string>
+    <string name="call_log_voicemail_empty" msgid="8383585074222277550">"Дауыстық поштаның \"Кіріс\" қалтасы бос."</string>
+    <string name="voicemail_archive_empty" msgid="1087408796679056787">"Дауыстық пошта мұрағатыңыз бос."</string>
+    <string name="show_favorites_only" msgid="5520072531022614595">"Сүйіктілерді ғана көрсету"</string>
+    <string name="call_log_activity_title" msgid="7949633151371183580">"Қоңыраулар тарихы"</string>
+    <string name="voicemail_archive_activity_title" msgid="2638669189424535229">"Дауыстық пошта мұрағаты"</string>
+    <string name="call_log_all_title" msgid="3566738938889333307">"Барлық"</string>
+    <string name="call_log_missed_title" msgid="4541142293870638971">"Қабылданбаған"</string>
+    <string name="call_log_voicemail_title" msgid="940422274047025948">"Дауыстық хабар"</string>
+    <string name="migrate_blocked_numbers_dialog_title" msgid="2039363199438872626">"Жаңа, қарапайым бөгеу"</string>
+    <string name="migrate_blocked_numbers_dialog_message" msgid="5598530398682662860">"Қорғанысыңызды арттыру үшін телефон бөгеудің қолданылу жолын өзгертуі керек. Бөгелген нөмірлер енді қоңырауларды да, мәтіндік хабарларды да тоқтатып, басқа қолданбаларда көрсетілуі мүмкін."</string>
+    <string name="migrate_blocked_numbers_dialog_allow_button" msgid="3116140286537760629">"Рұқсат беру"</string>
+    <string name="block_number_confirmation_title" msgid="6862219558186931304">"<xliff:g id="NUMBER">%1$s</xliff:g> бөгеу керек пе?"</string>
+    <string name="block_number_confirmation_message_vvm" msgid="5655646611437082611">"Осы нөмірден болашақ қоңыраулар бөгеледі және дауыстық хабарлар автоматты түрде жойылады."</string>
+    <string name="block_number_confirmation_message_no_vvm" msgid="4511900601491718173">"Осы нөмірден қоңыраулар бөгеледі, бірақ қоңырау шалушы әлі де сізге дауыстық хабарлар қалдыра алуы мүмкін."</string>
+    <string name="block_number_confirmation_message_new_filtering" msgid="4524854769790960179">"Бұдан былай осы нөмірден қоңыраулар немесе мәтіндік хабарлар алмайсыз."</string>
+    <string name="block_number_ok" msgid="770551992296781873">"БӨГЕУ"</string>
+    <string name="unblock_number_confirmation_title" msgid="252824779504084354">"<xliff:g id="NUMBER">%1$s</xliff:g> бөгеуден шығару керек пе?"</string>
+    <string name="unblock_number_ok" msgid="6449899182699684786">"БӨГЕУДЕН ШЫҒАРУ"</string>
+    <string name="tab_speed_dial" msgid="7552166276545648893">"Жылдам теру"</string>
+    <string name="tab_history" msgid="2563144697322434940">"Қоңыраулар тарихы"</string>
+    <string name="tab_all_contacts" msgid="1410922767166533690">"Контактілер"</string>
+    <string name="tab_voicemail" msgid="155024725947496746">"Дауыстық хабар"</string>
+    <string name="favorite_hidden" msgid="5011234945140912047">"Сүйіктілерден алынған"</string>
+    <string name="favorite_hidden_undo" msgid="2508998611039406474">"Кері орындау"</string>
+    <string name="search_shortcut_call_number" msgid="7277194656832895870">"<xliff:g id="NUMBER">%s</xliff:g> нөміріне қоңырау шалу"</string>
+    <string name="search_shortcut_create_new_contact" msgid="1679917465521554093">"Жаңа контакт жасау"</string>
+    <string name="search_shortcut_add_to_contact" msgid="4327842393369915751">"Контактіге қосу"</string>
+    <string name="search_shortcut_send_sms_message" msgid="2569304043345025525">"SMS жіберу"</string>
+    <string name="search_shortcut_make_video_call" msgid="1265971685034465166">"Бейне қоңырау шалу"</string>
+    <string name="search_shortcut_block_number" msgid="4787156645163436072">"Нөмірді бөгеу"</string>
+    <string name="num_missed_calls" msgid="8081736535604293886">"<xliff:g id="NUMBER">%s</xliff:g> жаңа қабылданбаған қоңыраулар"</string>
+    <string name="speed_dial_empty" msgid="8838921693673366129">"Жылдам теруде әлі ешкім жоқ"</string>
+    <string name="speed_dial_empty_add_favorite_action" msgid="7944893641496695770">"Таңдаулыны қосу"</string>
+    <string name="all_contacts_empty" msgid="471370638298229686">"Әлі ешқандай контактілер жоқ"</string>
+    <string name="all_contacts_empty_add_contact_action" msgid="1515782853819374618">"Контакт қосу"</string>
+    <string name="contact_tooltip" msgid="2019777545923635266">"Барлық нөмірлерді көру үшін түртіңіз немесе ретін өзгерту үшін түртіп, ұстап тұрыңыз"</string>
+    <string name="remove_contact" msgid="1080555335283662961">"Алып тастау"</string>
+    <string name="call_log_action_video_call" msgid="7724301709041128296">"Бейне қоңырау"</string>
+    <string name="call_log_action_send_message" msgid="5679719296905285131">"Хабар жіберу"</string>
+    <string name="call_log_action_details" msgid="701345508704970622">"Қоңырау мәліметтері"</string>
+    <string name="call_log_action_call" msgid="463690849042459842">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> нөміріне қоңырау шалу"</string>
+    <string name="description_incoming_missed_call" msgid="2381085098795943627">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> қоңырауы өткізіп алынды, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_incoming_answered_call" msgid="7117665748428816544">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> қоңырауына жауап берілді, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_unread_voicemail" msgid="5826351827625665597">"Оқылмаған дауыстық хабар: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_read_voicemail" msgid="133974208364152610">"Дауыстық хабар: <xliff:g id="NAMEORNUMBER">^1</xliff:g>, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_outgoing_call" msgid="6386364390619734734">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> нөміріне қоңырау шалу, <xliff:g id="TYPEORLOCATION">^2</xliff:g>, <xliff:g id="TIMEOFCALL">^3</xliff:g>, <xliff:g id="PHONEACCOUNT">^4</xliff:g>."</string>
+    <string name="description_phone_account" msgid="1767072759541443861">"<xliff:g id="PHONEACCOUNT">^1</xliff:g> ішінде"</string>
+    <string name="description_via_number" msgid="3503311803959108316">"Нөмірі: <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string name="call_log_via_number" msgid="8373282986443543296">"Нөмірі: <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
+    <string name="description_via_number_phone_account" msgid="5426866894799626474">"<xliff:g id="PHONEACCOUNT">%1$s</xliff:g>. Нөмірі: <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="call_log_via_number_phone_account" msgid="4394943791173578941">"<xliff:g id="PHONEACCOUNT">%1$s</xliff:g>. Нөмірі: <xliff:g id="NUMBER">%2$s</xliff:g>"</string>
+    <string name="description_call_log_call_action" msgid="3682561657090693134">"Қоңырау шалу"</string>
+    <string name="description_call_action" msgid="4000549004089776147">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> нөміріне қоңырау шалу"</string>
+    <string name="description_video_call_action" msgid="7386922428155062213">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> бейне қоңырау шалу."</string>
+    <string name="description_voicemail_action" msgid="8054891873788903063">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> дауыстық хабарын тыңдау"</string>
+    <string name="description_voicemail_play" msgid="2689369874037785439">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> дауыстық хабары ойнатылады"</string>
+    <string name="description_voicemail_pause" msgid="3905259748756919693">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> дауыстық хабары кідіртіледі"</string>
+    <string name="description_voicemail_delete" msgid="2025472770630153436">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> жіберген дауыстық хабар жойылады"</string>
+    <plurals name="description_voicemail_unread" formatted="false" msgid="8708346053055570332">
+        <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> жаңа дауыс поштасы</item>
+        <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> жаңа дауыс поштасы</item>
+    </plurals>
+    <string name="description_create_new_contact_action" msgid="818755978791008167">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> үшін контакт жасау"</string>
+    <string name="description_add_to_existing_contact_action" msgid="6081200053494414351">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> бар контактіге қосу"</string>
+    <string name="description_details_action" msgid="2433827152749491785">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> үшін қоңырау мәліметтері"</string>
+    <string name="toast_entry_removed" msgid="8010830299576311534">"Қоңыраулар тарихынан жойылды"</string>
+    <string name="call_log_header_today" msgid="3225248682434212981">"Бүгін"</string>
+    <string name="call_log_header_yesterday" msgid="9139172458834033092">"Кеше"</string>
+    <string name="call_log_header_other" msgid="5769921959940709084">"Ескілеу"</string>
+    <string name="call_detail_list_header" msgid="3752717059699600861">"Қоңыраулар тізімі"</string>
+    <string name="voicemail_speaker_on" msgid="209154030283487068">"Динамикті қосу."</string>
+    <string name="voicemail_speaker_off" msgid="7390530056413093958">"Динамикті өшіру."</string>
+    <string name="voicemail_play_faster" msgid="3444751008615323006">"Тезірек ойнату."</string>
+    <string name="voicemail_play_slower" msgid="4544796503902818832">"Баяуырақ ойнату."</string>
+    <string name="voicemail_play_start_pause" msgid="3687447935787768983">"Ойнатуды бастау немесе кідірту."</string>
+    <string name="list_delimeter" msgid="4571593167738725100">", "</string>
+    <string name="display_options_title" msgid="7812852361055667468">"Көрсету опциялары"</string>
+    <string name="sounds_and_vibration_title" msgid="1692290115642160845">"Дыбыстар мен діріл"</string>
+    <string name="accessibility_settings_title" msgid="6068141142874046249">"Арнайы мүмкіндіктер"</string>
+    <string name="ringtone_title" msgid="760362035635084653">"Телефон қоңырау әуені"</string>
+    <string name="vibrate_on_ring_title" msgid="3362916460327555241">"Қоңырау кезінде дірілдету"</string>
+    <string name="dtmf_tone_enable_title" msgid="6571449695997521615">"Теру тақтасының үндері"</string>
+    <string name="dtmf_tone_length_title" msgid="8581125689808919460">"Теру тақтасы дыбысының ұзындығы"</string>
+    <string-array name="dtmf_tone_length_entries">
+        <item msgid="1036113889050195575">"Қалыпты"</item>
+        <item msgid="6177579030803486015">"Ұзақ"</item>
+    </string-array>
+    <string name="respond_via_sms_setting_title" msgid="1318281521087951580">"Жылдам жауаптар"</string>
+    <string name="call_settings_label" msgid="313434211353070209">"Қоңыраулар"</string>
+    <string name="manage_blocked_numbers_label" msgid="5959801428936629196">"Қоңырауларға тыйым салу"</string>
+    <string name="blocked_numbers_disabled_emergency_header_label" msgid="7870947220238070418">"Қоңырауларға тыйым салу уақытша өшірулі"</string>
+    <string name="blocked_numbers_disabled_emergency_desc" msgid="7755803249073401381">"Қоңырауларға тыйым салу өшірілді, өйткені сіз соңғы 48 сағат ішінде осы телефоннан төтенше қызметтерге хабарластыңыз. Ол 48 сағаттық кезең өткеннен кейін автоматты түрде қайта қосылады."</string>
+    <string name="import_send_to_voicemail_numbers_label" msgid="1606601823746799926">"Нөмірлерді импорттау"</string>
+    <string name="blocked_call_settings_import_description" msgid="8640906226815125906">"Сіз бұрын кейбір қоңырау шалушыларды басқа қолданбалар арқылы дауыс поштасына автоматты түрде жіберу үшін белгілеген."</string>
+    <string name="blocked_call_settings_view_numbers_button" msgid="6698986720875955935">"Нөмірлерді көру"</string>
+    <string name="blocked_call_settings_import_button" msgid="178821255125295473">"Импорттау"</string>
+    <string name="send_to_voicemail_import_failed" msgid="5547202002133560069">"Импорттау сәтсіз аяқталды"</string>
+    <string name="voicemail_archive_failed" msgid="6263467962738772223">"Дауыстық пошта мұрағатталған жоқ."</string>
+    <string name="description_blocked_number_list_delete" msgid="3240093199107796792">"Нөмірді бөгеуден шығару"</string>
+    <string name="addBlockedNumber" msgid="6064812257482886526">"Нөмір қосу"</string>
+    <string name="block_number_footer_message_vvm" msgid="5387302253765439712">"Осы нөмірлерден қоңыраулар бөгеледі және дауыстық хабарлар автоматты түрде жойылады."</string>
+    <string name="block_number_footer_message_no_vvm" msgid="223238617533822381">"Осы нөмірлерден қоңыраулар бөгеледі, бірақ олар әлі де сізге дауыстық хабарлар қалдыра алуы мүмкін."</string>
+    <string name="block_list" msgid="7760188925338078011">"Бөгелген нөмірлер"</string>
+    <string name="invalidNumber" msgid="619058581062192851">"<xliff:g id="NUMBER">%1$s</xliff:g> жарамсыз."</string>
+    <string name="alreadyBlocked" msgid="282340105563646876">"<xliff:g id="NUMBER">%1$s</xliff:g> бөгеліп қойылған."</string>
+    <string name="call_blocking_disabled_notification_title" msgid="8185193413377920194">"Қоңырауларға тыйым салу 48 сағат бойы өшірілген"</string>
+    <string name="call_blocking_disabled_notification_text" msgid="5330772013626378526">"Өшірілген, өйткені төтенше қоңырау соғылған."</string>
+    <string name="phone_account_settings_label" msgid="5864322009841175294">"Қоңырау шалу есептік жазбалары"</string>
+    <string name="permission_single_turn_on" msgid="1543391076065465464">"Қосу"</string>
+    <string name="permission_multiple_turn_on" msgid="2426278457455950554">"Рұқсаттар орнату"</string>
+    <string name="permission_no_speeddial" msgid="6882563445996184051">"Жылдам теруді қосу үшін \"Контактілер\" рұқсатын қосыңыз."</string>
+    <string name="permission_no_calllog" msgid="555711464287041043">"Қоңыраулар журналы көру үшін \"Телефон\" рұқсатын қосыңыз."</string>
+    <string name="permission_no_contacts" msgid="6237980143178936279">"Контактілерді көру үшін \"Контактілер\" рұқсатын қосыңыз."</string>
+    <string name="permission_no_voicemail" msgid="8306280257799917574">"Дауыс поштасына қатынасу үшін \"Телефон\" рұқсатын қосыңыз."</string>
+    <string name="permission_no_search" msgid="84152933267902056">"Контактілерді іздеу үшін \"Контактілер\" рұқсаттарын қосыңыз."</string>
+    <string name="permission_place_call" msgid="2101287782615887547">"Қоңырауды шалу үшін \"Телефон\" рұқсатын қосыңыз."</string>
+    <string name="toast_cannot_write_system_settings" msgid="5614246168296606709">"Телефон қолданбасында жүйелік параметрлерге жазуға рұқсат жоқ."</string>
+    <string name="blocked_number_call_log_label" msgid="8912042441473014712">"Бөгелген"</string>
+    <string name="accessibility_call_is_active" msgid="2297282583928508760">"<xliff:g id="NAMEORNUMBER">^1</xliff:g> белсенді"</string>
+
+
+
+
+
+    <!--
+    ****
+    ****
+
+
+    Dialer 7.1 (AOSP)
+
+    Resources String
+
+    InCallUI
+
+
+    ****
+    ****
+    -->
+
+
+    <string name="phoneAppLabel" product="default" msgid="4753450867264774000">"Телефон"</string>
+    <string name="onHold" msgid="527593602772521700">"Күтуде"</string>
+<!--
+    <string name="unknown" msgid="3646075119047488748">"Белгісіз"</string>
+    <string name="private_num" msgid="6081418498487514686">"Жеке нөмір"</string>
+    <string name="payphone" msgid="5743050584468748607">"Автомат-телефон"</string>
+-->
+    <string name="confCall" msgid="3181961445236675173">"Конференциялық қоңырау"</string>
+    <string name="call_lost" msgid="8208184291640961172">"Қоңырау үзілді"</string>
+    <string name="audio_mode_speaker" msgid="6160127758732918123">"Динамик"</string>
+    <string name="audio_mode_earpiece" msgid="3138677187223932893">"Телефон құлаққабы"</string>
+    <string name="audio_mode_wired_headset" msgid="583080366967943196">"Сымды құлақаспап жинағы"</string>
+    <string name="audio_mode_bluetooth" msgid="3188504589946495676">"Bluetooth"</string>
+    <string name="wait_prompt_str" msgid="3784275777844586675">"Келесі әуендер жіберілсін бе?\n"</string>
+    <string name="pause_prompt_str" msgid="4507496811727697620">"Жіберу әуендері\n"</string>
+    <string name="send_button" msgid="4054398309483035794">"Жіберу"</string>
+    <string name="pause_prompt_yes" msgid="6738588490007499118">"Иә"</string>
+    <string name="pause_prompt_no" msgid="417286529736964178">"Жоқ"</string>
+    <string name="wild_prompt_str" msgid="8178750766679617355">"Қойылмалы таңбаны келесі таңбамен алмастыру"</string>
+    <string name="caller_manage_header" msgid="4036790479287738218">"<xliff:g id="CONF_CALL_TIME">%s</xliff:g> конференциялық қоңырауы"</string>
+    <string name="voicemail_settings_number_label" msgid="2951965862286532957">"Дауыстық пошта нөмірі"</string>
+    <string name="card_title_dialing" msgid="5046026076417718916">"Терілуде"</string>
+    <string name="card_title_redialing" msgid="8072468059192027844">"Қайта терілуде"</string>
+    <string name="card_title_conf_call" msgid="1747835072739982104">"Конференциялық қоңырау"</string>
+    <string name="card_title_incoming_call" msgid="4138485434087223132">"Кіріс қоңырау"</string>
+    <string name="card_title_incoming_work_call" msgid="7000583925426981712">"Кіріс жұмыс қоңырауы"</string>
+    <string name="card_title_call_ended" msgid="5249815286629136486">"Қоңырау аяқталды"</string>
+    <string name="card_title_on_hold" msgid="5633854828341577689">"Күтуде"</string>
+    <string name="card_title_hanging_up" msgid="3402022578391538671">"Қоңырау аяқталуда"</string>
+    <string name="card_title_in_call" msgid="5029165346952099302">"Қоңырауда"</string>
+    <string name="card_title_my_phone_number" msgid="3749572971322520177">"Mенің нөмірім — <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="card_title_video_call_connecting" msgid="9171270899902894036">"Бейне қосылуда"</string>
+    <string name="card_title_video_call" msgid="6519406270853889302">"Бейне қоңырау"</string>
+    <string name="card_title_video_call_requesting" msgid="1611293204379882739">"Бейне сұралуда"</string>
+    <string name="card_title_video_call_error" msgid="8488074823425848193">"Бейне қоңырауға қосылу мүмкін емес"</string>
+    <string name="card_title_video_call_rejected" msgid="2885215432045215465">"Бейне сұрауы қабылданбады"</string>
+    <string name="card_title_callback_number" msgid="7646082782307705748">"Кері қоңырау шалу нөміріңіз\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <string name="card_title_callback_number_emergency" msgid="8916355112472826080">"Төтенше кері қоңырау шалу нөміріңіз\n <xliff:g id="DARK_NUMBER">%1$s</xliff:g>"</string>
+    <string name="notification_dialing" msgid="8080968169444117163">"Терілуде"</string>
+<!--
+    <string name="notification_missedCallTitle" msgid="2774630248151712215">"Өткізіп алған қоңырау"</string>
+    <string name="notification_missedCallsTitle" msgid="263275811089605859">"Өткізіп алған қоңыраулар"</string>
+    <string name="notification_missedCallsMsg" msgid="69408330370667429">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> өткізіп алған қоңырау"</string>
+-->
+    <string name="notification_missedCallTicker" msgid="1599269453813734699">"<xliff:g id="MISSED_CALL_FROM">%s</xliff:g> қоңырауы өткізіп алынған"</string>
+    <string name="notification_ongoing_call" msgid="8633734299234807397">"Ағымдағы қоңырау"</string>
+    <string name="notification_ongoing_work_call" msgid="3465083293325006579">"Ағымдағы жұмыс қоңырауы"</string>
+    <string name="notification_ongoing_call_wifi" msgid="4140639349603930166">"Ағымдағы Wi-Fi қоңырауы"</string>
+    <string name="notification_ongoing_work_call_wifi" msgid="8469582753279163976">"Ағымдағы Wi-Fi жұмыс қоңырауы"</string>
+    <string name="notification_on_hold" msgid="3151343576023182586">"Күтуде"</string>
+    <string name="notification_incoming_call" msgid="5904745644632328863">"Кіріс қоңырау"</string>
+    <string name="notification_incoming_work_call" msgid="281305845895342925">"Кіріс жұмыс қоңырауы"</string>
+    <string name="notification_incoming_call_wifi" msgid="8337740714221114955">"Кіріс Wi-Fi қоңырауы"</string>
+    <string name="notification_incoming_work_call_wifi" msgid="3248418394186803763">"Кіріс Wi-Fi жұмыс қоңырауы"</string>
+    <string name="notification_incoming_video_call" msgid="7814873581838165772">"Кіріс бейне қоңырау"</string>
+    <string name="notification_requesting_video_call" msgid="4844596091477863245">"Кіріс бейне сұрау"</string>
+    <string name="notification_new_voicemail_title" msgid="7595628197933709144">"Жаңа дауыстық хабар"</string>
+    <string name="notification_voicemail_title_count" msgid="1241573926817248239">"Жаңа дауыстық хабар (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string name="notification_voicemail_text_format" msgid="6496440879085042069">"<xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g> нөмірін теру"</string>
+    <string name="notification_voicemail_no_vm_number" msgid="5433652017869242375">"Дауыстық пошта нөмірі белгісіз"</string>
+    <string name="notification_network_selection_title" msgid="6785177943238085441">"Қызмет жоқ"</string>
+    <string name="notification_network_selection_text" msgid="9097902390701009591">"Таңдалған (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) желісі қол жетімді емес"</string>
+    <string name="notification_action_answer" msgid="8418990052527593953">"Жауап"</string>
+    <string name="notification_action_ignore">Елемеу</string>
+    <string name="notification_action_end_call" msgid="2152010639043225860">"Қоңырауды аяқтау"</string>
+    <string name="notification_action_answer_video" msgid="2400233093494856655">"Бейне"</string>
+    <string name="notification_action_answer_voice" msgid="3206168292649273866">"Дауыс"</string>
+    <string name="notification_action_accept" msgid="8595047032790476122">"Қабылдау"</string>
+    <string name="notification_action_dismiss" msgid="1998811618480434300">"Қабылдамау"</string>
+<!--
+    <string name="notification_missedCall_call_back" msgid="7855043480614703539">"Кері қоңырау шалу"</string>
+    <string name="notification_missedCall_message" msgid="2407410183079324393">"Хабар"</string>
+-->
+    <string name="notification_external_call" msgid="5611236780302924816">"Қоңырау басқа құрылғыдан шалынуда"</string>
+    <string name="notification_transfer_call" msgid="687009078741947505">"Қоңырауды басқа құрылғыға бағыттау"</string>
+    <string name="incall_error_power_off" msgid="3626117639377110403">"Қоңырау шалу үшін алдымен ұшақ режимін өшіріңіз."</string>
+    <string name="incall_error_emergency_only" msgid="8704761887752183855">"Желіде тіркелмеген."</string>
+    <string name="incall_error_out_of_service" msgid="1830319376612608339">"Ұялы желі қол жетімді емес."</string>
+    <string name="incall_error_no_phone_number_supplied" msgid="3042963797202928322">"Қоңырау шалу үшін жарамды нөмірді енгізіңіз."</string>
+    <string name="incall_error_call_failed" msgid="2213413937257570551">"Қоңырау шалу мүмкін емес."</string>
+    <string name="incall_status_dialed_mmi" msgid="8864341962086874751">"MMI қатарын бастау…"</string>
+    <string name="incall_error_supp_service_unknown" msgid="3390926762577861268">"Қызметке қолдау көрсетілмейді."</string>
+    <string name="incall_error_supp_service_switch" msgid="4893764463854753730">"Қоңырауларды ауыстыру мүмкін емес."</string>
+    <string name="incall_error_supp_service_separate" msgid="5469628699581380277">"Қоңырауды бөлу мүмкін емес."</string>
+    <string name="incall_error_supp_service_transfer" msgid="3220469890457973326">"Тасымалдау мүмкін емес."</string>
+    <string name="incall_error_supp_service_conference" msgid="3100373998543200356">"Конференция мүмкін емес."</string>
+    <string name="incall_error_supp_service_reject" msgid="4543915892409365831">"Қоңырауды қабылдамау мүмкін емес."</string>
+    <string name="incall_error_supp_service_hangup" msgid="101167589969625637">"Қоңырау(лар)ды босату мүмкін емес."</string>
+    <string name="incall_call_type_label_sip" msgid="1327822795765282192">"SIP қоңырауы"</string>
+    <string name="emergency_enable_radio_dialog_title" msgid="7882321703828314787">"Төтенше қоңырау"</string>
+    <string name="emergency_enable_radio_dialog_message" msgid="4382752053654184327">"Радио қосылуда…"</string>
+    <string name="emergency_enable_radio_dialog_retry" msgid="1672288458940152814">"Қызмет жоқ. Әрекет қайталануда…"</string>
+    <string name="dial_emergency_error" msgid="582305854626092376">"Қоңырау шалу мүмкін емес. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> төтенше нөмір емес."</string>
+    <string name="dial_emergency_empty_error" msgid="199888628163390267">"Қоңырау шалу мүмкін емес. Төтенше нөмірді теріңіз."</string>
+    <string name="dialerKeyboardHintText" msgid="8533449463925408141">"Теру үшін пернетақтаны пайдалану"</string>
+    <string name="onscreenHoldText_unselected" msgid="4509232821220492533">"Қоңырауды ұстап тұру"</string>
+    <string name="onscreenHoldText_selected" msgid="2988100347384733032">"Қоңырауды жалғастыру"</string>
+    <string name="onscreenEndCallText" msgid="1416981593311001074">"Қоңырауды аяқтау"</string>
+    <string name="onscreenShowDialpadText_unselected" msgid="8253784035944284938">"Теру тақтасын көрсету"</string>
+    <string name="onscreenShowDialpadText_selected" msgid="7368390784890311449">"Теру тақтасын жасыру"</string>
+    <string name="onscreenMuteText_unselected" msgid="4130269060091842798">"Дыбысты өшіру"</string>
+    <string name="onscreenMuteText_selected" msgid="7074763815284369548">"Дыбысын қосу"</string>
+    <string name="onscreenAddCallText" msgid="5577548650466595598">"Қоңырау қосу"</string>
+    <string name="onscreenMergeCallsText" msgid="4946687067221459357">"Қоңырауларды біріктіру"</string>
+    <string name="onscreenSwapCallsText" msgid="8272036175646846198">"Алмастыру"</string>
+    <string name="onscreenManageCallsText" msgid="5491297234697209677">"Қоңырауларды басқару"</string>
+    <string name="onscreenManageConferenceText" msgid="7043499154946980355">"Конференциялық қоңырауды басқару"</string>
+    <string name="onscreenConferenceText" msgid="171855677185793827">"Конференциялық қоңырау"</string>
+    <string name="onscreenManageText" msgid="7625850560625708322">"Басқару"</string>
+    <string name="onscreenAudioText" msgid="8963459818052898299">"Aудио"</string>
+    <string name="onscreenVideoCallText" msgid="1578940167445068369">"Бейне қоңырау"</string>
+    <string name="onscreenChangeToVoiceText" msgid="6249580619992009182">"Дауыстық қоңырауға өзгерту"</string>
+    <string name="onscreenSwitchCameraText" msgid="7141261218152736690">"Камераны ауыстыру"</string>
+    <string name="onscreenTurnOnCameraText" msgid="915019986687927588">"Камераны қосу"</string>
+    <string name="onscreenTurnOffCameraText" msgid="6225377831394679126">"Камераны өшіру"</string>
+    <string name="onscreenOverflowText" msgid="7932741239724473887">"Қосымша опциялар"</string>
+    <string name="player_started" msgid="3478865572468310331">"Ойнатқыш іске қосылды"</string>
+    <string name="player_stopped" msgid="1278611664986561535">"Ойнатқыш тоқтатылды"</string>
+    <string name="camera_not_ready" msgid="6614469280264241251">"Камера дайын емес"</string>
+    <string name="camera_ready" msgid="2614541247814590887">"Камера дайын"</string>
+    <string name="unknown_call_session_event" msgid="2947023743819984299">"Белгісіз қоңырау сеансы оқиғасы"</string>
+    <string name="voicemail_provider" msgid="2878119321474918370">"Қызмет"</string>
+    <string name="voicemail_settings" msgid="7548868784816068975">"Реттеу"</string>
+    <string name="voicemail_number_not_set" msgid="2690477999015436138">"&lt;Орнатылмаған&gt;"</string>
+    <string name="other_call_settings" msgid="6699076019841942826">"Басқа қоңырау параметрлері"</string>
+    <string name="calling_via_template" msgid="3539373093109976255">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> арқылы қоңырау шалу"</string>
+    <string name="incoming_via_template" msgid="6281138766370092800">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> арқылы кіріс"</string>
+    <string name="contactPhoto" msgid="6028825355597675193">"контакт фотосуреті"</string>
+    <string name="goPrivate" msgid="3554069451018659483">"жеке қоңырауға ауысу"</string>
+    <string name="selectContact" msgid="92191462970821951">"контакт таңдау"</string>
+    <string name="respond_via_sms_custom_message" msgid="8210393177674619127">"Өзіңіздікін жазыңыз..."</string>
+    <string name="custom_message_cancel" msgid="5920059627508662163">"Бас тарту"</string>
+    <string name="custom_message_send" msgid="3798076337006735995">"Жіберу"</string>
+    <string name="description_target_answer" msgid="1111945818996518320">"Жауап"</string>
+    <string name="description_target_send_sms" msgid="3652217769615310018">"SMS жіберу"</string>
+    <string name="description_target_decline" msgid="7108154434759234035">"Қабылдамау"</string>
+    <string name="description_target_answer_video_call" msgid="4655616461181308405">"Бейне қоңырауға жауап беру"</string>
+    <string name="description_target_answer_audio_call" msgid="3234714934649708854">"Аудио қоңырауға жауап беру"</string>
+    <string name="description_target_accept_upgrade_to_video_request" msgid="384894008955682630">"Бейне сұрауды қабылдау"</string>
+    <string name="description_target_decline_upgrade_to_video_request" msgid="7342968876159189300">"Бейне сұрауды қабылдамау"</string>
+    <string name="description_target_accept_upgrade_to_video_transmit_request" msgid="4586773853073826378">"Бейне тасымалдау сұрауын қабылдау"</string>
+    <string name="description_target_decline_upgrade_to_video_transmit_request" msgid="1191166008711514234">"Бейне тасымалдау сұрауын қабылдамау"</string>
+    <string name="description_target_accept_upgrade_to_video_receive_request" msgid="2224978927364021080">"Бейне алу сұрауын қабылдау"</string>
+    <string name="description_target_decline_upgrade_to_video_receive_request" msgid="3151115394424918077">"Бейне алу сұрауын қабылдамау"</string>
+    <string name="description_direction_up" msgid="1735018141439291766">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> үшін жоғары сырғытыңыз."</string>
+    <string name="description_direction_left" msgid="6811598791620851239">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> үшін сол жаққа сырғытыңыз."</string>
+    <string name="description_direction_right" msgid="5461971399586296023">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> үшін оң жаққа сырғытыңыз."</string>
+    <string name="description_direction_down" msgid="3331715227997561639">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> үшін төмен сырғытыңыз."</string>
+    <string name="voicemail_notification_vibrate_when_title" msgid="4595145399183729630">"Діріл"</string>
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="2390729279972461242">"Діріл"</string>
+    <string name="voicemail_notification_ringtone_title" msgid="1996920553949534944">"Дыбыс"</string>
+    <string name="default_notification_description" msgid="4950807644546509965">"Әдепкі дыбыс (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+<!--
+    <string name="ringtone_title" msgid="835582004693335905">"Телефонның қоңырау әуені"</string>
+    <string name="vibrate_on_ring_title" msgid="5019791043398986665">"Шылдырлағанда дірілдеу"</string>
+-->
+    <string name="preference_category_ringtone" msgid="6246687516643676729">"Қоңырау әуені және діріл"</string>
+    <string name="manageConferenceLabel" msgid="7237614418556336108">"Конференциялық қоңырауды басқару"</string>
+    <string name="emergency_call_dialog_number_for_display" msgid="7244995877625769187">"Төтенше нөмір"</string>
+    <plurals name="duration_seconds" formatted="false" msgid="2544699588744957418">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> секунд</item>
+        <item quantity="one">1 секунд</item>
+    </plurals>
+    <plurals name="duration_minutes" formatted="false" msgid="8379077285441507101">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> минут</item>
+        <item quantity="one">1 минут</item>
+    </plurals>
+    <plurals name="duration_hours" formatted="false" msgid="7420759096931824344">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> сағат</item>
+        <item quantity="one">1 сағат</item>
+    </plurals>
+    <string name="profile_photo_description" msgid="7958198110870319358">"Профиль фотосуреті"</string>
+    <string name="camera_off_description" msgid="4220023868645225790">"Камераны өшіру"</string>
+    <string name="child_number" msgid="4469090994612105532">"<xliff:g id="CHILD_NUMBER">%s</xliff:g> арқылы"</string>
+    <string name="note_sent" msgid="7623014827902758398">"Ескертпе жіберілді"</string>
+    <string name="person_contact_context_title" msgid="8490058088809090979">"Жақындағы хабарлар"</string>
+    <string name="business_contact_context_title" msgid="8448362898576496764">"Іскери ақпарат"</string>
+    <string name="distance_imperial_away" msgid="2083362798225798740">"<xliff:g id="DISTANCE">%.1f</xliff:g> миля қашықтықта"</string>
+    <string name="distance_metric_away" msgid="9021396592464955256">"<xliff:g id="DISTANCE">%.1f</xliff:g> км қашықтықта"</string>
+    <string name="display_address" msgid="444235484565491291">"<xliff:g id="STREET_ADDRESS">%1$s</xliff:g>, <xliff:g id="LOCALITY">%2$s</xliff:g>"</string>
+    <string name="open_time_span" msgid="2762952234657271236">"<xliff:g id="OPEN_TIME">%1$s</xliff:g> - <xliff:g id="CLOSE_TIME">%2$s</xliff:g>"</string>
+    <string name="opening_hours" msgid="7803506319518398380">"<xliff:g id="EARLIER_TIMES">%1$s</xliff:g>, <xliff:g id="LATER_TIME">%2$s</xliff:g>"</string>
+    <string name="opens_tomorrow_at" msgid="3567511490448488788">"Ертең <xliff:g id="OPEN_TIME">%s</xliff:g> уақытында ашылады"</string>
+    <string name="opens_today_at" msgid="6281212768937222891">"Бүгін <xliff:g id="OPEN_TIME">%s</xliff:g> уақытында ашылады"</string>
+    <string name="closes_today_at" msgid="4822369201263491509">"<xliff:g id="CLOSE_TIME">%s</xliff:g> уақытында жабылады"</string>
+    <string name="closed_today_at" msgid="4060072663433467233">"Бүгін <xliff:g id="CLOSE_TIME">%s</xliff:g> уақытында жабық"</string>
+    <string name="open_now" msgid="4615706338669555999">"Қазір ашық"</string>
+    <string name="closed_now" msgid="2635314668145282080">"Қазір жабық"</string>
+
+
+
+
+
+    <!--
+    ****
+    ****
+
+
+    AGContacts
+
+    Resources String
+
+    Main
+
+
+    ****
+    ****
+    -->
+
     <string-array name="buttons_labels">
         <item>АӘБВГҒ*abc#</item>
         <item>ДЕЖЗ*def#</item>

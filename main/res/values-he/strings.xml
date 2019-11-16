@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <!--
+    ****
+    ****
+
+
+    Contacts 7.1 (AOSP)
+
+    Resources String
+
+    Main Sources
+
+
+    ****
+    ****
+    -->
+
+
+
+
+
+    <!--
+    ****
+    ****
+
+
+    Dialer 7.1 (AOSP)
+
+    Resources String
+
+    Main Sources
+
+
+    ****
+    ****
+    -->
+
+
+
+
+
+
+
+    <!--
+    ****
+    ****
+
+
+    Dialer 7.1 (AOSP)
+
+    Resources String
+
+    InCallUI
+
+
+    ****
+    ****
+    -->
+
+
+
+
+
+
+
+    <!--
+    ****
+    ****
+
+
+    AGContacts
+
+    Resources String
+
+    Main
+
+
+    ****
+    ****
+    -->
+
     <string-array name="buttons_labels">
         <item>דהו*abc#</item>
         <item>אבג*def#</item>
